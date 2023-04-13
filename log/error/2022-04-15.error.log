@@ -1,0 +1,26 @@
+undefined | 2022-04-15 00:04:51 error: executeProcedure failed : RequestError: Could not find stored procedure 'SP_COUNTRY'.
+undefined | 2022-04-15 00:04:51 error: callProcedureSync failed
+undefined | 2022-04-15 00:16:40 error: executeProcedure failed : RequestError: Could not find stored procedure 'SP_COUNTRY'.
+undefined | 2022-04-15 00:16:40 error: callProcedureSync failed
+undefined | 2022-04-15 08:09:46 error: executeProcedure failed : RequestError: Could not find stored procedure 'SP_COUNTRY'.
+undefined | 2022-04-15 08:09:46 error: callProcedureSync failed
+undefined | 2022-04-15 16:45:44 error: executeProcedure failed : RequestError: Procedure or function 'SP_MY_WITHDRAW_AMOUNT' expects parameter '@D_TYPE', which was not supplied.
+undefined | 2022-04-15 16:45:44 error: callProcedureSync failed
+undefined | 2022-04-15 16:45:45 error: executeProcedure failed : RequestError: Procedure or function 'SP_MY_WITHDRAW_AMOUNT' expects parameter '@D_TYPE', which was not supplied.
+undefined | 2022-04-15 16:45:45 error: callProcedureSync failed
+undefined | 2022-04-15 16:45:51 error: executeProcedure failed : RequestError: Procedure or function 'SP_MY_WITHDRAW_AMOUNT' expects parameter '@D_TYPE', which was not supplied.
+undefined | 2022-04-15 16:45:51 error: callProcedureSync failed
+undefined | 2022-04-15 16:45:52 error: executeProcedure failed : RequestError: Procedure or function 'SP_MY_WITHDRAW_AMOUNT' expects parameter '@D_TYPE', which was not supplied.
+undefined | 2022-04-15 16:45:52 error: callProcedureSync failed
+undefined | 2022-04-15 16:45:59 error: executeProcedure failed : RequestError: Procedure or function 'SP_MY_WITHDRAW_AMOUNT' expects parameter '@D_TYPE', which was not supplied.
+undefined | 2022-04-15 16:45:59 error: callProcedureSync failed
+undefined | 2022-04-15 16:46:00 error: executeProcedure failed : RequestError: Procedure or function 'SP_MY_WITHDRAW_AMOUNT' expects parameter '@D_TYPE', which was not supplied.
+undefined | 2022-04-15 16:46:00 error: callProcedureSync failed
+undefined | 2022-04-15 16:46:01 error: executeProcedure failed : RequestError: Procedure or function 'SP_MY_WITHDRAW_AMOUNT' expects parameter '@D_TYPE', which was not supplied.
+undefined | 2022-04-15 16:46:01 error: callProcedureSync failed
+undefined | 2022-04-15 16:46:01 error: executeProcedure failed : RequestError: Procedure or function 'SP_MY_WITHDRAW_AMOUNT' expects parameter '@D_TYPE', which was not supplied.
+undefined | 2022-04-15 16:46:01 error: callProcedureSync failed
+undefined | 2022-04-15 22:16:44 error: executeProcedure failed : RequestError: Procedure or function 'SP_MY_WITHDRAW_AMOUNT' expects parameter '@D_TYPE', which was not supplied.
+undefined | 2022-04-15 22:16:44 error: callProcedureSync failed
+undefined | 2022-04-15 22:20:35 error: executeProcedure failed : RequestError: Procedure or function 'SP_MY_WITHDRAW_AMOUNT' expects parameter '@D_TYPE', which was not supplied.
+undefined | 2022-04-15 22:20:35 error: callProcedureSync failed

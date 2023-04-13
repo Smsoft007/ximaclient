@@ -1,0 +1,254 @@
+.box {
+  padding:0.2em 1em;
+  margin:0em;
+  border:1px solid #454545;
+  background:#ffffff;
+  font-size:11px;
+  color:black;
+}
+
+
+.box_a {
+  padding:0.1em 1em;
+  margin:0em;
+  border:1px solid black;
+  background:#A4D5D8;
+  font-size:11px;
+  color:black;
+}
+
+
+/*첫번째 직급*/
+box_b {
+  padding:0.1em 1em;
+  margin:0em;
+  border:1px solid black;
+  background:#D8D7A4;
+  font-size:11px;
+  color:black;
+}
+
+
+/*첫번째 직급*/
+box_c {
+  padding:0.1em 1em;
+  margin:0em;
+  border:1px solid black;
+  background:#A4D5D8;
+  font-size:11px;
+  color:black;
+}
+
+
+
+/*첫번째 직급*/
+box_d {
+  padding:0.1em 1em;
+  margin:0em;
+  border:1px solid black;
+  background:#ffffe6;
+  font-size:11px;
+  color:black;
+}
+
+
+box_e {
+  padding:0.1em 1em;
+  margin:0em;
+  border:1px solid black;
+  background:#C1C5C7;
+  font-size:11px;
+  color:black;
+}
+
+
+box_f {
+  padding:0.1em 1em;
+  margin:0em;
+  border:1px solid black;
+  background:#EAD4D5;
+  font-size:11px;
+  color:black;
+}
+
+
+box_g {
+  padding:0.1em 1em;
+  margin:0em;
+  border:1px solid black;
+  background:#ABCC60;
+  font-size:11px;
+  color:black;
+}
+/*일반일때*/
+.boxb {
+  padding:0.1em 1em;
+  margin:0em;
+  border-top:1px solid black;
+  border-right:1px solid black;
+  border-left:1px solid black;
+  background:#ffffe6;  
+  color:black;
+}
+
+/*센타장일때*/
+.boxb_a {
+  padding:0.1em 1em;
+  margin:0em;
+  border-top:1px solid black;
+  border-right:1px solid black;
+  border-left:1px solid black;
+  background:#949427;  
+  color:black;
+}
+
+
+.boxc {
+  padding:0em 0.3em;
+  text-align:center;
+}
+.boxc TABLE {
+  margin:auto;
+}
+.lineright {
+  border-right:1px solid black;
+  font-size:50%;
+  height:10px;
+}
+.leftabove {
+  border-right:1px solid black;
+  border-top:1px solid black;
+  font-size:50%;
+  height:10px;
+}
+.rightabove {
+  border-top:1px solid black;
+  font-size:50%;
+  height:10px;
+}
+.nolines {
+  font-size:50%;
+  height:10px;
+}
+
+#form1 {
+	margin-top:20px;
+}
+.full_box {
+	position:relative;
+}
+
+.full_box .flag {
+	position:absolute;
+	right:0;
+	bottom:100%;
+	display:inline-block;
+}
+
+
+.color-bg1 {
+	background:#d83d3d;
+	color:#ffffff;
+}
+.color-bg2 {
+	background:#f79431;
+}
+.color-bg3 {
+	background:#f8ed5b;
+}
+.color-bg4 {
+	background:#7bd83f;
+}
+.color-bg5 {
+	background:#3087d6;
+}
+.color-bg6 {
+	background:#2940b2;
+}
+
+
+
+
+
+
+
+
+
+/***************************************btn-box***********************************/
+.btn-box {
+	position:absolute;
+	top:-5px;
+	right:-100%;
+	z-index:10;
+	display:none;
+	padding:5px 0;
+	padding-left:20px;
+}
+.btn-box ul {
+	margin:0;
+	padding:0;
+	background:#252d2f;
+}
+.btn-box ul li {
+	list-style:none;
+	padding:4px 0px;
+}
+.btn-box ul li a {
+	font-size:12px;
+	padding:4px 10px;
+	color:#f5f5f5;
+	border-left: 2px solid #252d2f;
+}
+.btn-box ul li a:hover, .btn-box ul li a:focus {
+	border-left: 2px solid #0ead8d;
+	background:#1f2427;
+}
+.full_box {
+	cursor:pointer;
+}
+.pop-table {
+	position:fixed;
+	top:0;
+	right:0;
+	display: none;
+	width: 100%;
+	height: 100%;
+	z-index: 99;
+}
+.pop-box {
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,0.8);
+	vertical-align:middle;
+	display: table-cell;
+}
+.pop-box .pop {
+	width:70%;
+	max-height:700px;
+	background:#ffffff;
+	margin-left:15%;
+	position:relative;
+	overflow:auto;
+}
+.pop-box .pop-close {
+	width:35px;
+	height:35px;
+	position:absolute;
+	top:10px;
+	right:10px;
+	cursor:pointer;
+}
+.pop-box .pop-close p {
+	margin:0;
+	font-size:28px;
+	color:#ffffff;
+	text-align:center;
+}
+.pop-box .pop .pop-cont {
+	display:none;
+	padding:15px;
+}
+
+
+
+/*------------------------------------------------------------------------------------------------------------*/

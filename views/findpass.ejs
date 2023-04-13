@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ko">
+
+  <%include ./include/head%>
+
+<body>
+
+<div class="signwrap">
+  <div class="contents">
+    <div class="signbox">
+      <div class="signcard">
+        <div class="logobox mb-20 pt-20 pb-20">
+          <h2 class="tx-c tx-bold">Find Password</h2>
+        </div>
+        <div class="inputbox">
+          <input type="text" class="input" name="" value="" placeholder="ID">
+        </div>
+        <div class="inputbox phoneinputbox">
+          <div class="row">
+            <div class="w20p left">
+              <select class="select" name="">
+                <option value="">국가</option>
+                <option value="">한국(+82)</option>
+                <option value="">中国(+86)</option>
+                <option value="">日本(+81)</option>
+                <option value="">UNITED STATES(+1)</option>
+              </select>
+            </div>
+            <div class="w80p left">
+              <div class="inputbtnbox">
+                <input type="number" class="input" name="" value="" placeholder="phone number">
+                <a href="#" class="btn btn-primary"><%=LANG['LANG42']%></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="inputbox">
+          <div class="inputbtnbox">
+            <input type="text" class="input" name="" value="" placeholder="Authentication number">
+            <p class="tx-red tx-bold">5:00</p>
+          </div>
+        </div>
+        <a href="" class="btn btn-white btn-block btn-radius mb-10"><%=LANG['LANG41']%></a>
+        <div class="inputbox">
+          <input type="password" class="input" name="" value="" placeholder="Password">
+          <p class="tx-guide"><%=LANG['LANG10']%></p>
+        </div>
+        <div class="inputbox">
+          <input type="password" class="input" name="" value="" placeholder="Confirm Password">
+          <p class="tx-error"><%=LANG['LANG11']%></p>
+        </div>
+        <a href="" class="btn btn-block btn-primary btn-radius mb-10"><%=LANG['LANG40']%></a>
+        <a href="singin" class="btn btn-grey btn-block btn-radius"><%=LANG['LANG14']%></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+
+
+</html>
+
+
+<script src="include/js/cur.js"></script>

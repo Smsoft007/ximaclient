@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ko">
+<%include ./include/head%>
+<style>
+.button {
+  /* display: inline-block; */
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #081108;
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+  
+}
+.rbutton {
+  /* display: inline-block; */
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #c59195;
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+}
+.button:hover {
+  background-color: #3e8e41;
+}
+
+.rbutton:hover {
+  background-color: #5a142c;
+}
+.rbutton  {
+  width: 15.5rem;
+  /* height: 3s0rem; */
+}
+
+.button  {
+  width: 15.5rem;
+  /* height: 3s0rem; */
+}
+
+</style>
+
+  <body>
+    <div class="wrap">
+      <%include ./include/leftbox%>
+        <div class="rightbox">
+          <%include ./include/header%>
+            <div class="content">
+              <div class="card imgbackcard bg1">
+                <div class="mainprofile tx-w">
+                  <p><span> 관리자 ID :</span><b id="D_UID"></b>(<b id="D_NAME"></b> )님 접속중입니다.</p>
+                  <p><span> 전체보상수량 :</span> <b id="top_TOTALREWARD_TEXT"></b></p>
+                  <p><span> 회사전체 출금량 생각해보자 다른부분등등등... </span> <b id="D_RATE_TEXT"></b></p>
+                  
+                </div>
+              </div>
+             <!-- content1 start -->
+        
+             <h2 style="text-align:center;font-weight:bold;">PLANT STATUS</h2>
+
+            
+              <div class="row mrow miangcard">
+                
+                <div class="w20p left">
+                  <button class="button">HAVAH TOTAL</button>
+                  <div class="card gradientbg4">
+                    <p>HAVAH TOTAL</p>
+                    <h3 class="tx-r mt-20" id="HAVAH_TOTAAL"><span></span></h3>
+                  </div>
+                </div>
+                <div class="w20p left">
+                  <button class="button">XIMA MANAGEMENT</button>
+                  <div class="card gradientbg4">
+                    
+                    <p>XIMA MANAGEMENT</p>
+                    <h3 class="tx-r mt-20" id="top_TOTALREWARD_TEXT"><span></span></h3>
+                  </div>
+                </div>
+                <div class="w20p left">
+                  <button class="button">Status</button>
+                  <div class="card gradientbg4">
+                    
+                    <p>Status</p>
+                    <h3 class="tx-r mt-20" id="STATUS_TEXT"><span></span></h3>
+                  </div>
+                </div>
+                <div class="w20p left">
+                  <button class="rbutton">플래닛상태재설정</button>
+                  <div class="card gradientbg4">
+                    <p>Failed</p>
+                    <h3 class="tx-r mt-20" id="FAILED_TEXT">
+                      <span></span>
+                    </h3>
+                  </div>
+                </div>
+                
+                  
+                
+                <div class="w20p left">
+                  <button class="rbutton">서버관리</button>
+                  <div class="card gradientbg4">
+                    <div class="card-header">Failed Server</div>
+                    <h3 class="tx-r mt-20" id="FAILED_SERVER_TEXT">
+                      <span>pl-1-5 4404</span>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+
+              <h2 style="text-align:center;font-weight:bold;">Member Status</h2>
+              <!-- content2 start -->
+              <div class="row mrow miangcard">
+                
+              <div class="w20p left">
+                <button class="button">총계약회원</button>
+                <div class="card gradientbg4">
+                  <p>총계약회원</p>
+                  <h3 class="tx-r mt-20" id="TOTAL_DISTRIBU_TEXT"><span></span></h3>
+                </div>
+              </div>
+              <div class="w20p left">
+                <button class="button">일반회원</button>
+                <div class="card gradientbg4">
+                  <p>일반회원</p>
+                  <h3 class="tx-r mt-20" id="DIS_COMMON_TEXT"><span></span></h3>
+                </div>
+              </div>
+              <div class="w20p left">
+                <button class="button">매니저 회원</button>
+                <div class="card gradientbg4">
+                  
+                  <p>매니저 회원</p>
+                  <h3 class="tx-r mt-20" id="DIS_MANAGER_TEXT"><span></span></h3>
+                </div>
+              </div>
+              <div class="w20p left">
+                <button class="button">해지 회원</button>
+                <div class="card gradientbg4">
+                  
+                  <p>해지 회원</p>
+                  <h3 class="tx-r mt-20" id="DIS_DEL_TEXT">
+                    <span></span>
+                  </h3>
+                </div>
+              </div>
+              <div class="w20p left">
+                <button class="rbutton">승인관리</button>
+                <div class="card gradientbg4">
+                  <p>승인 대기 회원</p>
+                  <h3 class="tx-r mt-20" id="DIS_STANBY_TEXT">
+                    <span></span>
+                  </h3>
+                </div>
+              </div>
+            </div>
+
+            <h2 style="text-align:center;font-weight:bold;">Total Reward Status</h2>
+            <!-- content3 start -->
+            <div class="row mrow miangcard">
+              
+              <div class="w20p left">
+                <button class="button">총누적 보상</button>
+                <div class="card gradientbg4">
+                  <p>총누적 보상</p>
+                  <h3 class="tx-r mt-20" id="TOTALREWARD_TEXT"><span></span></h3>
+                </div>
+              </div>
+              <div class="w20p left">
+                <button class="button">현청구 가능보상</button>
+                <div class="card gradientbg4">
+                  <p>현청구 가능보상</p>
+                  <h3 class="tx-r mt-20" id="TOTAL_WORK_REWARD_TEXT"><span></span></h3>
+                </div>
+              </div>
+              <div class="w20p left">
+                <button class="button">총출금 보상</button>
+                <div class="card gradientbg4">
+                  <p>총출금 보상</p>
+                  <h3 class="tx-r mt-20" id="WITHDRAWAL_TEXT"><span></span></h3>
+                </div>
+              </div>
+              <div class="w20p left">
+                <button class="button">충운영비</button>
+                <div class="card gradientbg4">
+                  <p>총운영비</p>
+                  <h3 class="tx-r mt-20" id="TOTAL_COST_TEXT">
+                    <span></span>
+                  </h3>
+                </div>
+              </div>
+              
+              <div class="w20p left">
+                <P>IMPORT 버튼 과부하시간대 체크해보잔</P>
+                <button class="rbutton">IMPORT</button>
+                <div class="card gradientbg4">
+                  <p>총가스비</p>
+                  <h3 class="tx-r mt-20" id="TOTAL_FEE_TEXT">
+                    <span></span>
+                  </h3>
+                </div>
+              </div>
+            </div>
+
+              <%include ./include/footer%>
+            </div>
+            <!-- content end -->
+        </div>
+        <!-- rightbox end -->
+    </div>
+  </body>
+
+</html>
+
+<script src="include/js/cur.js"></script>
+<script>
+  let nowPages = 1;
+  let pageRange = 5;
+  let currentPage = 1;
+  let pageLevel = 0;
+  let totalPage = 0;
+
+  const D_UID = '<%=D_UID%>';
+  $(document).ready(function () {
+    init();
+  });
+
+  async function init() {
+
+    const r = await api.commonApi('/getMyDash');
+    console.log(r.data);
+    commonLib.bindValue(r.data);
+    $('#D_UID').html(D_UID);
+    $('#D_NAME').html(D_NAME);
+    
+    $('#HAVAH_TOTAL_TEXT').prepend(commonLib.comma(r.data.HAVAH_TOTAL));
+     $('#XIMA_MANAGEMENT_TEXT').prepend(r.data.XIMA_MANAGEMENT); 
+     $('#STATUS_TEXT').prepend(commonLib.comma(r.data.STATUS)); //  status
+     $('#FAILED_TEXT').prepend(commonLib.comma(r.data.FAILED)); //실패상황
+     $('#FAILED_SERVER_TEXT').prepend(commonLib.comma(r.data.FAILED_SERVER));//실패리스트 
+
+     $('#TOTAL_DISTRIBU_TEXT').prepend(commonLib.comma(r.data.TOTAL_DISTRIBU));
+     $('#DIS_COMMON_TEXT').prepend(commonLib.comma(r.data.DIS_COMMON));
+     $('#DIS_MANAGER_TEXT').prepend(commonLib.comma(r.data.DIS_MANAGER));
+     $('#DIS_DEL_TEXT').prepend(commonLib.comma(r.data.DIS_DEL));
+     $('#DIS_STANBY_TEXT').prepend(commonLib.comma(r.data.DIS_STANBY));
+     $('#TOTALREWARD_TEXT').prepend(r.data.TOTAL_REWARD);
+     $('#TOTAL_WORK_REWARD_TEXT').prepend(r.data.TOTAL_WORK_REWARD);
+     $('#WITHDRAWAL_TEXT').prepend(r.data.WITHDRAWAL_REWARD);
+     $('#TOTAL_COST_TEXT').prepend(r.data.TOTAL_COST);
+     $('#TOTAL_FEE_TEXT').prepend(r.data.TOTAL_FEE);
+     $('#top_TOTALREWARD_TEXT').prepend(r.data.TOTAL_REWARD);
+  }
+
+
+
+</script>

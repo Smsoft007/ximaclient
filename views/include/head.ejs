@@ -1,0 +1,84 @@
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport"
+    content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+
+  <title>##Welcome XiMA Plant##</title>
+
+  <meta name="_csrf" content="<%= csrfToken %>" />
+  <meta name="_publicKey" content="<%= publicKey %>" />
+  <!-- robots(검색) 명령어에 noindex를 사용하면 해당 페이지는 검색 결과에서 제외되며, nofollow를 사용하면 검색로봇이 해당 페이지 내의 링크를 수집하지 않도록 설정할 수 있습니다. -->
+  <meta name="robots" content="index,follow" />
+  <!-- 키워드 -->
+  <meta name="Keywords" content=" Xima PLANET" />
+  <!-- 작성자 -->
+  <meta name="author" content=" Xima PLANET" />
+  <!-- 설명 -->
+  <meta name="description" content="Welcome Xima PLANET" />
+  <!-- 웹,모바일 url -->
+  <!-- 모바일 -->
+  <link rel="alternate" href="" />
+  <!-- 웹 -->
+  <link rel="canonical" href="" />
+  <!-- 타이틀 -->
+  <meta property="og:title" content="Xima PLANET " />
+  <!-- 설명 -->
+  <meta property="og:description" content="Welcome Xima PLANET" />
+  <!-- 링크 -->
+  <meta property="og:url" content="" />
+  <!-- 타입 -->
+  <meta property="og:type" content="website" />
+  <!-- 미리보기이미지 -->
+  <meta property="og:image" content="/views/images/bitcoin.jpg" />
+
+  <!-- 트위터 -->
+  <!-- summary는 웹페이지에 대한 요약정보를 보여주는 카드로 우측에 썸네일을 보여주고 그 옆에 페이지의 제목과 요약 내용을 보여준다.
+photo는 이미지를 전체적으로 보여주고 player는 오디오나 비디오를 보여주는 카드이다. -->
+  <meta name="twitter:card" content="summary" />
+  <!-- 트위터 카드를 사용하는 URL -->
+  <meta name="twitter:url" content="" />
+  <!-- 카드에 나타날 제목 -->
+  <meta name="twitter:title" content="KPOP Saturday" />
+  <!-- 카드에 나타날 요약 설명 -->
+  <meta name="twitter:description" content="Welcome Saturday" />
+  <!-- 카드에 보여줄 이미지 -->
+  <meta name="twitter:image" content="/views/images/bitcoin.jpg" />
+
+  <!-- 바로가기 아이콘 -->
+  <!-- <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" /> -->
+
+  <meta name="msapplication-TileColor" content="#ffffff" />
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+  <meta name="theme-color" content="#ffffff" />
+
+  <link rel="stylesheet" href="include/font-awesome/all.min.css" />
+  <link rel="stylesheet" href="include/notosanskr/notosanskr.css" />
+
+  <link rel="stylesheet" href="include/css/style.css" />
+  <link rel="stylesheet" href="include/css/cur.css" />
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.4.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.4.0/firebase-auth-compat.js"></script>
+  <script src="include/js/jquery.min.js"></script>
+  <script src="include/js/jquery-ui.min.js"></script>
+  <script src="scripts/api.js"></script>
+  <script src="scripts/commonLib.js"></script>
+</head>
+<script>
+  const LANG = JSON.parse('<%-JSON.stringify(LANG)%>');
+</script>

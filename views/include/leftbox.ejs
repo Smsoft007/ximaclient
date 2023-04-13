@@ -1,0 +1,108 @@
+<div class="leftbox">
+  <div class="logobox">
+    <a href="main"> <img src="img/logo.png" alt="" /> </a>
+    <a href="#" class="close"><i class="fas fa-times"></i></a>
+  </div>
+  <div class="menubox">
+    <ul id="leftUl">
+      <li>
+        <a href="main"><i class="fas fa-home"></i> 메인화면</a>
+      </li>
+      <p>
+        기본정보 관리
+      </p>
+      <li>
+        <a href="basicinofor"><i class="fas fa-user"></i>
+          기본정보 설정
+        </a>
+      </li>
+      <li>
+        <a href="#"><i class="fas fa-key"></i>
+          서버/ 플래닛관리
+        </a>
+      </li>
+      <li>
+        <a href="#"><i class="fas fa-gift"></i> 싸이트기본셋팅</a>
+      </li>
+      
+      <li>
+        <a href="#"><i class="fas fa-american-sign-language-interpreting"></i> 회사등록관리</a>
+      </li>
+      
+      </li>
+      <p>
+        출금관리
+      </p>
+      <li>
+        <a href="#"><i class="fas fa-sitemap"></i>
+          출금관리
+        </a>
+      </li>
+      <li>
+        
+        <a href="#"><i class="fas fa-credit-card"></i>
+          출금작업
+        </a>
+      </li>
+      <li>
+        <a href="#"><i class="fas fa-receipt"></i>
+          회차별 출금 상세 내역
+        </a>
+      </li>
+      <li>
+        <a href="#"><i class="fas fa-money-check-alt"></i>
+          개별 출금상세 리스트 
+        </a>
+      </li>
+
+      <p>
+      게시물관리
+      </p>
+      <li>
+        <a href="#"><i class="fas fa-file-invoice-dollar"></i> 공지사항관리</a>
+      </li>
+      <li>
+        <a href="#"><i class="fas fa-file-invoice-dollar"></i> 1:1 문의관리</a>
+      </li>
+      <li>
+        <a href="#"><i class="fas fa-file-invoice-dollar"></i> 약관정보 관리</a>
+      </li>
+      <p>
+        보상관련메뉴
+      </p>
+      <li>
+        <a href="#"><i class="fas fa-file-invoice-dollar"></i>일일보상 리스트</a>
+      </li>
+      <p>
+        일일보상리스트
+      </p>
+      <li>
+        <a href="#"><i class="fas fa-file-invoice-dollar"></i>일일보상 리스트</a>
+      </li>
+
+      <p>
+        대출/상환관리
+      </p>
+      <li>
+        <a href="#"><i class="fas fa-file-invoice-dollar"></i>대출 리스트</a>
+      </li>
+      <li>
+        <a href="#"><i class="fas fa-file-invoice-dollar"></i>상환리스트</a>
+      </li>
+      
+      
+    </ul>
+  </div>
+</div>
+<script>
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+  const pathgName = window.location.pathname.replace('/', '');
+  $('#leftUl li').each(function (idx) {
+    const href = $(this).children('a').attr('href');
+    if (pathgName === href) {
+      $(this).addClass('active');
+      return;
+    }
+  });
+</script>

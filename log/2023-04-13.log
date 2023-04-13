@@ -1,0 +1,31 @@
+undefined | 2023-04-13 16:24:28 info: URL : /
+undefined | 2023-04-13 16:24:28 info: Create a key attempt : DngAklTlFsJEimLlatDBnmyf6EvGJubh
+undefined | 2023-04-13 16:24:30 info: URL : /api/user/signin
+undefined | 2023-04-13 16:24:30 info: start decryptAll..
+undefined | 2023-04-13 16:24:30 info: callProcedureSync start - SA_LOGIN_PROCESS
+undefined | 2023-04-13 16:24:30 info: NAME : D_UID, VALUE : admin
+undefined | 2023-04-13 16:24:30 info: NAME : D_PASS, VALUE : 1111
+undefined | 2023-04-13 16:24:30 info: NAME : D_IP, VALUE : ::1
+undefined | 2023-04-13 16:24:30 info: NAME : D_BROWSER, VALUE :  
+undefined | 2023-04-13 16:24:30 info: NAME : D_OS, VALUE :  
+undefined | 2023-04-13 16:24:30 info: NAME : D_COUNTRY, VALUE :  
+undefined | 2023-04-13 16:24:30 info: during time : 213
+undefined | 2023-04-13 16:24:30 info: SA_LOGIN_PROCESS callProcedureSync success
+undefined | 2023-04-13 16:24:30 info: URL : /main
+undefined | 2023-04-13 16:24:31 info: URL : /api/common/getMyDash
+undefined | 2023-04-13 16:24:31 info: start decryptAll..
+undefined | 2023-04-13 16:24:31 info: callProcedureSync start - SA_MY_DASHBOARD
+undefined | 2023-04-13 16:24:31 info: NAME : D_UID, VALUE : admin
+undefined | 2023-04-13 16:24:31 info: during time : 364
+undefined | 2023-04-13 16:24:31 info: SA_MY_DASHBOARD callProcedureSync success
+undefined | 2023-04-13 16:24:35 info: URL : /basicinofor
+undefined | 2023-04-13 16:24:35 info: URL : /api/list/getCountry
+undefined | 2023-04-13 16:24:35 info: start decryptAll..
+undefined | 2023-04-13 16:24:35 info: callProcedureSync start - SP_COUNTRY
+undefined | 2023-04-13 16:24:35 info: during time : 50
+undefined | 2023-04-13 16:24:35 info: SP_COUNTRY callProcedureSync success
+undefined | 2023-04-13 16:24:35 info: URL : /api/list/getBankList
+undefined | 2023-04-13 16:24:35 info: start decryptAll..
+undefined | 2023-04-13 16:24:35 info: callProcedureSync start - SP_BANK_LIST
+undefined | 2023-04-13 16:24:35 error: executeProcedure failed : RequestError: Could not find stored procedure 'SP_BANK_LIST'.
+undefined | 2023-04-13 16:24:35 error: callProcedureSync failed

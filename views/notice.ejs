@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ko">
+
+  <%include ./include/head%>
+
+<body>
+
+<div class="wrap">
+
+  <%include ./include/leftbox%>
+
+  <div class="rightbox">
+
+    <%include ./include/header%>
+
+    <div class="content">
+
+
+      <div class="card">
+        <div class="title">
+          <h5><%=LANG['LANG68']%></h5>
+        </div>
+        <div class="cont">
+          <div class="tablebox">
+            <div class="theadbox">
+              <div class="d-flex">
+                <div class="th w05p">No.</div>
+                <div class="th w70p"><%=LANG['LANG70']%></div>
+                <div class="th w25p"><%=LANG['LANG57']%></div>
+              </div>
+            </div>
+            <div class="tbodybox">
+              <a class="d-flex tr" href="notice-view.html">
+                <div class="td w05p"><span>No.</span><span>3</span></div>
+                <div class="td w70p"><span>제목</span><span>공지사항공지사항</span></div>
+                <div class="td w25p"><span>날짜</span><span>2021.12.12 12:12:12</span></div>
+              </a>
+              <a class="d-flex tr" href="notice-view.html">
+                <div class="td w05p"><span>No.</span><span>2</span></div>
+                <div class="td w70p"><span>제목</span><span>공지사항공지사항</span></div>
+                <div class="td w25p"><span>날짜</span><span>2021.12.12 12:12:12</span></div>
+              </a>
+              <a class="d-flex tr" href="notice-view.html">
+                <div class="td w05p"><span>No.</span><span>1</span></div>
+                <div class="td w70p"><span>제목</span><span>공지사항공지사항</span></div>
+                <div class="td w25p"><span>날짜</span><span>2021.12.12 12:12:12</span></div>
+              </a>
+            </div>
+          </div>
+          <div class="paging">
+            <ul>
+              <li><a><</a></li>
+              <li class="active"><a>1</a></li>
+              <li><a>2</a></li>
+              <li><a>3</a></li>
+              <li><a>4</a></li>
+              <li><a>5</a></li>
+              <li><a>></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <%include ./include/footer%>
+
+    </div><!-- content end -->
+
+  </div><!-- rightbox end -->
+
+  </div>
+
+
+  </body>
+
+
+  </html>
+
+
+  <script src="include/js/cur.js"></script>

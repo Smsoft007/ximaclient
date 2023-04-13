@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="ko">
+
+<%include ./include/head%>
+
+  <body>
+
+    <div class="wrap">
+      <%include ./include/leftbox%>
+
+        <div class="rightbox">
+          <%include ./include/header%>
+
+            <div class="content">
+
+
+              <div class="row mrow productbox" id="list">
+
+              </div>
+
+              <%include ./include/footer%>
+
+            </div><!-- content end -->
+
+        </div><!-- rightbox end -->
+
+        <div id="buy">
+          <div id="buybox">
+            <div id="buyinbox">
+              <div class="appmenutitle">
+                <h4 class="tx-c">
+                  <%=LANG['LANG73']%>
+                </h4>
+                <a class="close" onclick="closePop()"><i class="fas fa-times"></i></a>
+              </div>
+              <div class="contbox">
+                <div class="row buytr">
+                  <div>
+                    <%=LANG['LANG74']%>
+                  </div>
+                  <div id="P_NAME"></div>
+                </div>
+                <div class="row buytr">
+                  <div>
+                    <%=LANG['LANG75']%>
+                  </div>
+                  <div id="P_PV_TEXT">
+                    <%=LANG['LANG76']%>
+                  </div>
+                </div>
+
+                <div class="row buytr">
+                  <div>
+                    TRPOINT
+                  </div>
+                  <div id="P_R_TEXT">
+                    <%=LANG['LANG76']%>
+                  </div>
+                </div>
+                <div class="row buytr">
+                  <div>
+                    SALE TYPE
+                  </div>
+                  <div>
+                    <select class="select" id="isNo">
+                      <option value="1">CASH </option>
+                      <option value="2">POINT</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="row buytr">
+                  <div>
+                    <%=LANG['LANG77']%>
+                  </div>
+                  <div class="">
+                    <input type="number" class="input" id="QTY" onkeyup="amount()" placeholder="">
+                  </div>
+                </div>
+                <div class="row buytr">
+                  <div>
+                    <%=LANG['LANG78']%>
+                  </div>
+                  <div class="">
+                    <input type="text" pattern="([0-9]+.{0,1}[0-9]*,{0,1})*[0-9]" class="input" id="AMOUNT"
+                      placeholder="" readonly>
+                  </div>
+                </div>
+                <div class="row buytr">
+                  <div>
+                    <%=LANG['LANG79']%>
+                  </div>
+                  <div id="BANK_INFO"></div>
+                </div>
+                <div class="row buytr">
+                  <div>
+                    <%=LANG['LANG80']%>
+                  </div>
+                  <div class="">
+                    <input type="text" class="input" id="TXID" placeholder="">
+                    <p class="tx-guide">
+                      <%=LANG['LANG81']%>
+                    </p>
+                  </div>
+                </div>
+                <div class="row mrow mt-20">
+                  <div class="w50p left">
+                    <a class="btn btn-grey btn-block btn-radius" onclick="closePop()">
+                      <%=LANG['LANG82']%>
+                    </a>
+                  </div>
+                  <div class="w50p left">
+                    <a class="btn btn-block btn-primary btn-radius mb-10" onclick="saleAdd()">
+                      <%=LANG['LANG83']%>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </body>
+
+</html>
+
+
+<script src="include/js/cur.js"></script>
+<script>
+  let products;
+  let selectedProd;
+  let totalAmount = 0;
+  $(document).ready(function () {
+
+    getList();
+  });
+  function getList() {
+    const param = {}
+    api.listApi("/getProduct").then(r => {
+      products = r.data
+      for (let i = 0; i < r.data.length; i++) {
+        const product = r.data[i]
+        const random = commonLib.getRandomIntInclusive(1, 4)
+        let innerHtml = '';
+        innerHtml += '<div class="w33p left">';
+        innerHtml += '<div class="card">';
+        innerHtml += '<div class="productimg">';
+        innerHtml += '<img src="img/productimg' + random + '.jpg" alt="">';
+        innerHtml += '</div>';
+        innerHtml += '<div class="product$">';
+        innerHtml += '<div class="producttitle">';
+        innerHtml += '<h2>' + product.P_NAME + '</h2>';
+        innerHtml += '</div>';
+        innerHtml += '<h3 class="tx-c">' + commonLib.comma(product.P_PRICE) + '<span></span></h3>';
+        innerHtml += '</div>';
+        innerHtml += '<a class="btn btn-white btn-radius btn-block mt-30 btn-buy" onclick="selectProd(' + i + ')">' + LANG['LANG84'] + '</a>';
+        innerHtml += '</div>';
+        innerHtml += '</div>';
+        $("#list").append(innerHtml)
+      }
+
+    })
+  }
+  function amount() {
+    const isNo = $("#isNo").val();
+    if (selectedProd) {
+      if (isNo === '2') {
+        totalAmount = selectedProd.P_PRICE * $("#QTY").val()
+        let rpoint = selectedProd.R_PRICE
+        if (totalAmount > selectedProd.R_PRICE) {
+          $("#QTY").val(0)
+          $("#AMOUNT").val(0)
+          alert('TRPOINT 부족합니다.');
+          return;
+        }
+        $("#AMOUNT").val(commonLib.comma(totalAmount))
+      }
+    }
+  }
+  function selectProd(idx) {
+
+    $("#buy").before("<div class='overlayblack2' style='width:100%; height: 100vh; overflow:none; background: rgba(0,0,0,0.3); position: fixed; top:0; z-index:11;'></div>");
+    $("body").css("overflow", "hidden");
+    $("#buy").fadeIn(500);
+    selectedProd = products[idx]
+    $("#P_PV_TEXT").prepend(commonLib.comma(selectedProd.P_PRICE))
+    $("#P_R_TEXT").prepend(commonLib.comma(selectedProd.R_PRICE))
+    commonLib.bindValue(selectedProd)
+
+  }
+  function closePop() {
+    $(".overlayblack2").remove();
+    $("body").css("overflow", "auto");
+    $("#buy").fadeOut(500);
+    selectedProd = null
+    location.reload();
+  }
+
+  async function saleAdd() {
+    const param = {}
+    param['D_CODE'] = selectedProd.P_CODE
+    param['QTY'] = $("#QTY").val()
+    param['TXID'] = $("#TXID").val() || ' '
+    param['isNo'] = $("#isNo").val();
+    if (commonLib.nullCheck(param)) {
+      alert("<%=LANG['LANG05']%>")
+      return
+    }
+    const r = await api.commonApi("/addSale", param)
+    if (r.data.RESULT === 0) {
+      alert("<%=LANG['LANG85']%>")
+      closePop()
+      location.reload();
+
+    } else if (r.data.RESULT === 1) {
+      alert("<%=LANG['LANG86']%>")
+    } else if (r.data.RESULT === 2) {
+      alert("<%=LANG['LANG87']%>")
+    } else if (r.data.RESULT === 3) {
+      alert("TRPOINT 부족합니다.")
+    } else {
+      alert("<%=LANG['LANG30']%>")
+    }
+  }
+
+</script>

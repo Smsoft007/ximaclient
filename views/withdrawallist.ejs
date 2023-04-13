@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <%include ./include/head%>
+
+  <body>
+    <div class="wrap">
+      <%include ./include/leftbox%>
+      <div class="rightbox">
+        <%include ./include/header%>
+
+        <div class="content">
+          <div class="card">
+            <div class="title">
+              <h5>지갑입출금내역</h5>
+            </div>
+            <div class="cont">
+              <div class="tablebox">
+                <div class="theadbox">
+                  <div class="d-flex">
+                    <div class="th w05p">No.</div>
+                    <div class="th w20p"><%=LANG['LANG57']%></div>
+                    <div class="th w20p">입금금액($)</div>
+                    <div class="th w20p">출금금액($)</div>
+                    <div class="th w20p"><%=LANG['LANG109']%>($)</div>
+                    <div class="th w20p"><%=LANG['LANG110']%> ($)</div>
+                    <div class="th w15p">입출내용</div>
+                    <div class="th w15p">상태</div>
+                  </div>
+                </div>
+                <div class="tbodybox" id="list"></div>
+              </div>
+              <div class="paging">
+                <ul name="paging"></ul>
+              </div>
+            </div>
+          </div>
+
+          <%include ./include/footer%>
+        </div>
+        <!-- content end -->
+      </div>
+      <!-- rightbox end -->
+    </div>
+  </body>
+</html>
+
+<script src="include/js/cur.js"></script>
+<script>
+  let nowPages = 1;
+  let pageRange = 5;
+  let currentPage = 1;
+  let pageLevel = 0;
+  let totalPage = 0;
+
+  $(document).ready(function () {
+    getList();
+  });
+  function getList() {
+    const param = {};
+    param['CNT'] = 'true';
+    param['CUR_PAGING'] = currentPage + '';
+    param['PAGING_NO'] = '10';
+    param['MY_NOTICE'] = '0';
+    api.listApi('/$walletList', param).then(r => {
+      for (let i = 0; i < r.data.length; i++) {
+        const board = r.data[i];
+        let innerHtml = '';
+        innerHtml += '<div class="d-flex tr">';
+        innerHtml +=
+          '<div class="td w05p"><span>No.</span><span>' +
+          board.ROW_NOMBER +
+          '</span></div>';
+        innerHtml +=
+          '<div class="td w20p"><span>' +
+          LANG['LANG57'] +
+          '</span><span>' +
+          board.DATE +
+          '</span></div>';
+        innerHtml +=
+          '<div class="td w20p"><span>' +
+          LANG['LANG108'] +
+          '</span><span>' +
+          commonLib.comma(board.MS_AMT1) +
+          '</span></div>';
+
+        innerHtml +=
+          '<div class="td w20p"><span>' +
+          LANG['LANG108'] +
+          '</span><span>' +
+          commonLib.comma(board.MS_AMT2) +
+          '</span></div>';
+        innerHtml +=
+          '<div class="td w20p"><span>' +
+          LANG['LANG109'] +
+          '</span><span>' +
+          commonLib.comma(board.FEE) +
+          '</span></div>';
+        innerHtml +=
+          '<div class="td w20p"><span>' +
+          LANG['LANG110'] +
+          '</span><span>' +
+          commonLib.comma(board.ALL_AMT) +
+          '</span></div>';
+        innerHtml +=
+          '<div class="td w15p"><span>내용</span><span class="tx-primary">' +
+          board.TEXT +
+          '</span></div>';
+        if (board.GUBUN === '7') {
+          if (board.STATE === 'N') {
+            innerHtml +=
+              '<div class="td w15p"><span>상태</span><span class="tx-darkg">' +
+              LANG['LANG99'] +
+              '</span></div>';
+          } else if (board.STATE === 'W') {
+            innerHtml +=
+              '<div class="td w15p"><span>상태</span><span class="tx-red">' +
+              LANG['LANG111'] +
+              '</span></div>';
+          } else if (board.STATE === 'Y') {
+            innerHtml +=
+              '<div class="td w15p"><span>상태</span><span class="tx-primary">' +
+              LANG['LANG112'] +
+              '</span></div>';
+          }
+        } else {
+          innerHtml +=
+            '<div class="td w15p"><span>상태</span><span class="tx-red">수당입금' +
+            '</span></div>';
+        }
+
+        innerHtml += '</div>';
+        $('#list').append(innerHtml);
+      }
+      let innerHtml = '';
+      innerHtml += '<li onclick="btnPage(\'bef\')"><a><</a></li>';
+      $('ul[name=paging]').empty();
+      for (var i = 1; i <= nowPages; i++) {
+        if (currentPage == i) {
+          innerHtml +=
+            '<li onclick="movePage(' +
+            i +
+            ')"> <a class="active">' +
+            (pageLevel * 5 + i) +
+            '</a> </li>';
+        } else {
+          innerHtml +=
+            '<li onclick="movePage(' +
+            i +
+            ')"> <a>' +
+            (pageLevel * 5 + i) +
+            '</a> </li>';
+        }
+      }
+      innerHtml += ' <li onclick="btnPage(\'next\')"><a>></a></li>';
+      $('ul[name=paging]').append(innerHtml);
+    });
+  }
+
+  function movePage(page) {
+    currentPage = pageLevel * 5 + page;
+    getList();
+  }
+
+  function btnPage(pos) {
+    if (pos == 'bef' && currentPage > 1) {
+      currentPage--;
+    } else if (pos == 'next' && currentPage < totalPage) {
+      currentPage++;
+    }
+    getList();
+  }
+</script>

@@ -1,0 +1,146 @@
+undefined | 2023-02-04 15:11:05 info: URL : /
+undefined | 2023-02-04 15:11:05 info: Create a key attempt : goyEO8K8HX4RmTlvQ64j7TrlOLzVgwE_
+undefined | 2023-02-04 15:11:07 info: Create a key attempt : PExOGcDbsZHHKZuKQKs09K2WTPdmqFL7
+undefined | 2023-02-04 15:11:08 info: URL : /api/user/signin
+undefined | 2023-02-04 15:11:08 info: start decryptAll..
+undefined | 2023-02-04 15:11:08 info: callProcedureSync start - SP_MEMBER_LOGIN
+undefined | 2023-02-04 15:11:08 info: NAME : inUser_ID, VALUE : admin
+undefined | 2023-02-04 15:11:08 info: NAME : inUser_Pwd, VALUE : admin##!!!$@
+undefined | 2023-02-04 15:11:08 info: NAME : inUser_IP, VALUE : ::1
+undefined | 2023-02-04 15:11:08 info: NAME : sessionID, VALUE : goyEO8K8HX4RmTlvQ64j7TrlOLzVgwE_
+undefined | 2023-02-04 15:11:08 info: during time : 96
+undefined | 2023-02-04 15:11:08 info: SP_MEMBER_LOGIN callProcedureSync success
+undefined | 2023-02-04 15:11:08 info: URL : /main
+undefined | 2023-02-04 15:11:08 info: URL : /api/list/my_summry
+undefined | 2023-02-04 15:11:08 info: start decryptAll..
+undefined | 2023-02-04 15:11:08 info: callProcedureSync start - SP_MY_SUMMRY
+undefined | 2023-02-04 15:11:08 info: NAME : D_UID, VALUE : admin
+undefined | 2023-02-04 15:11:08 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-02-04 15:11:08 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-02-04 15:11:08 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-02-04 15:11:08 info: URL : /api/common/getMyDash
+undefined | 2023-02-04 15:11:08 info: start decryptAll..
+undefined | 2023-02-04 15:11:08 info: callProcedureSync start - SP_MY_DASHBOARD
+undefined | 2023-02-04 15:11:08 info: NAME : D_UID, VALUE : admin
+undefined | 2023-02-04 15:11:08 info: during time : 159
+undefined | 2023-02-04 15:11:08 info: SP_MY_SUMMRY callProcedureSync success
+undefined | 2023-02-04 15:11:08 info: callProcedureSync start - SP_MY_SUMMRY_CNT
+undefined | 2023-02-04 15:11:08 info: NAME : D_UID, VALUE : admin
+undefined | 2023-02-04 15:11:08 info: Create a key attempt : oxp24B1Oq5HUVre4X1uu3i3TbG5F8bBz
+undefined | 2023-02-04 15:11:08 info: during time : 51
+undefined | 2023-02-04 15:11:08 info: SP_MY_DASHBOARD callProcedureSync success
+undefined | 2023-02-04 15:11:08 info: during time : 75
+undefined | 2023-02-04 15:11:08 info: SP_MY_SUMMRY_CNT callProcedureSync success
+undefined | 2023-02-04 17:17:52 info: URL : /
+undefined | 2023-02-04 17:17:52 info: Create a key attempt : 8jj16azW54pWM75BSpD-UCQSZSuFlCrx
+undefined | 2023-02-04 17:17:53 info: Create a key attempt : 9WS2O4bNgOmx7dKbhij9_IQkY4p7nDT6
+undefined | 2023-02-04 17:17:55 info: URL : /api/user/signin
+undefined | 2023-02-04 17:17:55 info: start decryptAll..
+undefined | 2023-02-04 17:17:55 info: callProcedureSync start - SP_MEMBER_LOGIN
+undefined | 2023-02-04 17:17:55 info: NAME : inUser_ID, VALUE : admin
+undefined | 2023-02-04 17:17:55 info: NAME : inUser_Pwd, VALUE : admin##!!!$@
+undefined | 2023-02-04 17:17:55 info: NAME : inUser_IP, VALUE : ::1
+undefined | 2023-02-04 17:17:55 info: NAME : sessionID, VALUE : 8jj16azW54pWM75BSpD-UCQSZSuFlCrx
+undefined | 2023-02-04 17:17:55 info: during time : 109
+undefined | 2023-02-04 17:17:55 info: SP_MEMBER_LOGIN callProcedureSync success
+undefined | 2023-02-04 17:17:55 info: URL : /main
+undefined | 2023-02-04 17:17:55 info: URL : /api/list/my_summry
+undefined | 2023-02-04 17:17:55 info: start decryptAll..
+undefined | 2023-02-04 17:17:55 info: callProcedureSync start - SP_MY_SUMMRY
+undefined | 2023-02-04 17:17:55 info: NAME : D_UID, VALUE : admin
+undefined | 2023-02-04 17:17:55 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-02-04 17:17:55 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-02-04 17:17:55 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-02-04 17:17:55 info: URL : /api/common/getMyDash
+undefined | 2023-02-04 17:17:55 info: start decryptAll..
+undefined | 2023-02-04 17:17:55 info: callProcedureSync start - SP_MY_DASHBOARD
+undefined | 2023-02-04 17:17:55 info: NAME : D_UID, VALUE : admin
+undefined | 2023-02-04 17:17:55 info: during time : 25
+undefined | 2023-02-04 17:17:55 info: SP_MY_SUMMRY callProcedureSync success
+undefined | 2023-02-04 17:17:55 info: callProcedureSync start - SP_MY_SUMMRY_CNT
+undefined | 2023-02-04 17:17:55 info: NAME : D_UID, VALUE : admin
+undefined | 2023-02-04 17:17:55 info: during time : 53
+undefined | 2023-02-04 17:17:55 info: SP_MY_DASHBOARD callProcedureSync success
+undefined | 2023-02-04 17:17:55 info: during time : 76
+undefined | 2023-02-04 17:17:55 info: SP_MY_SUMMRY_CNT callProcedureSync success
+undefined | 2023-02-04 17:17:55 info: Create a key attempt : 4LO3xzJdTmNbyXZzRkK7hu5MxWaErF6M
+undefined | 2023-02-04 17:18:43 info: URL : /withdrawal
+undefined | 2023-02-04 17:18:44 info: URL : /api/common/getKRWBalance
+undefined | 2023-02-04 17:18:44 info: start decryptAll..
+undefined | 2023-02-04 17:18:44 info: callProcedureSync start - SP_KRW_BALANCE
+undefined | 2023-02-04 17:18:44 info: NAME : D_UID, VALUE : admin
+undefined | 2023-02-04 17:18:44 info: during time : 83
+undefined | 2023-02-04 17:18:44 info: SP_KRW_BALANCE callProcedureSync success
+undefined | 2023-02-04 17:18:44 info: Create a key attempt : pdpZZ8AwK_1fRLuc-sBTriPu2609CbZ6
+undefined | 2023-02-04 17:18:44 info: URL : /org
+undefined | 2023-02-04 17:18:45 info: Create a key attempt : MeckFCRgvZ-_23gsoA6puQzFKuMqqvTW
+undefined | 2023-02-04 17:18:48 info: URL : /getWebOrg/admin/1/5/0
+undefined | 2023-02-04 17:18:48 info: callProcedureSync start - WEB_ORG
+undefined | 2023-02-04 17:18:48 info: NAME : myuid, VALUE : admin
+undefined | 2023-02-04 17:18:48 info: NAME : gs_IP, VALUE :  
+undefined | 2023-02-04 17:18:48 info: NAME : gs_date1, VALUE :  
+undefined | 2023-02-04 17:18:48 info: NAME : gs_date2, VALUE :  
+undefined | 2023-02-04 17:18:48 info: NAME : gsuid, VALUE : admin
+undefined | 2023-02-04 17:18:48 info: NAME : gs_isSNo, VALUE : 1
+undefined | 2023-02-04 17:18:48 info: NAME : gnlevel, VALUE : 5
+undefined | 2023-02-04 17:18:48 info: during time : 93
+undefined | 2023-02-04 17:18:48 info: WEB_ORG callProcedureSync success
+undefined | 2023-02-04 17:18:59 info: URL : /getWebOrg/admin/2/5/0
+undefined | 2023-02-04 17:18:59 info: callProcedureSync start - WEB_ORG
+undefined | 2023-02-04 17:18:59 info: NAME : myuid, VALUE : admin
+undefined | 2023-02-04 17:18:59 info: NAME : gs_IP, VALUE :  
+undefined | 2023-02-04 17:18:59 info: NAME : gs_date1, VALUE :  
+undefined | 2023-02-04 17:18:59 info: NAME : gs_date2, VALUE :  
+undefined | 2023-02-04 17:18:59 info: NAME : gsuid, VALUE : admin
+undefined | 2023-02-04 17:18:59 info: NAME : gs_isSNo, VALUE : 2
+undefined | 2023-02-04 17:18:59 info: NAME : gnlevel, VALUE : 5
+undefined | 2023-02-04 17:18:59 info: during time : 91
+undefined | 2023-02-04 17:18:59 info: WEB_ORG callProcedureSync success
+undefined | 2023-02-04 17:19:46 info: URL : /org
+undefined | 2023-02-04 17:19:46 info: Create a key attempt : psC9wt5uxLMafwcVr1SH6uMFw1zL1ft7
+undefined | 2023-02-04 17:19:48 info: URL : /getWebOrg/admin/1/5/0
+undefined | 2023-02-04 17:19:48 info: callProcedureSync start - WEB_ORG
+undefined | 2023-02-04 17:19:48 info: NAME : myuid, VALUE : admin
+undefined | 2023-02-04 17:19:48 info: NAME : gs_IP, VALUE :  
+undefined | 2023-02-04 17:19:48 info: NAME : gs_date1, VALUE :  
+undefined | 2023-02-04 17:19:48 info: NAME : gs_date2, VALUE :  
+undefined | 2023-02-04 17:19:48 info: NAME : gsuid, VALUE : admin
+undefined | 2023-02-04 17:19:48 info: NAME : gs_isSNo, VALUE : 1
+undefined | 2023-02-04 17:19:48 info: NAME : gnlevel, VALUE : 5
+undefined | 2023-02-04 17:19:48 info: during time : 237
+undefined | 2023-02-04 17:19:48 info: WEB_ORG callProcedureSync success
+undefined | 2023-02-04 17:19:56 info: URL : /getWebOrg/admin/2/5/0
+undefined | 2023-02-04 17:19:56 info: callProcedureSync start - WEB_ORG
+undefined | 2023-02-04 17:19:56 info: NAME : myuid, VALUE : admin
+undefined | 2023-02-04 17:19:56 info: NAME : gs_IP, VALUE :  
+undefined | 2023-02-04 17:19:56 info: NAME : gs_date1, VALUE :  
+undefined | 2023-02-04 17:19:56 info: NAME : gs_date2, VALUE :  
+undefined | 2023-02-04 17:19:56 info: NAME : gsuid, VALUE : admin
+undefined | 2023-02-04 17:19:56 info: NAME : gs_isSNo, VALUE : 2
+undefined | 2023-02-04 17:19:56 info: NAME : gnlevel, VALUE : 5
+undefined | 2023-02-04 17:19:56 info: during time : 95
+undefined | 2023-02-04 17:19:56 info: WEB_ORG callProcedureSync success
+undefined | 2023-02-04 17:21:00 info: URL : /org
+undefined | 2023-02-04 17:21:01 info: Create a key attempt : 7fI2RrXY862hCAimsr3CnmCrGUCE7LHo
+undefined | 2023-02-04 17:21:37 info: URL : /org
+undefined | 2023-02-04 17:21:37 info: Create a key attempt : hJXtcTnVmyMjPxbYJE__d8ZnoNCQ0aKy
+undefined | 2023-02-04 19:18:05 info: URL : /krwlist
+undefined | 2023-02-04 19:18:06 info: URL : /api/common/getMyMainBS1
+undefined | 2023-02-04 19:18:06 info: start decryptAll..
+undefined | 2023-02-04 19:18:06 info: callProcedureSync start - SP_MY_MAIN_BS1
+undefined | 2023-02-04 19:18:06 info: NAME : D_UID, VALUE : admin
+undefined | 2023-02-04 19:18:06 info: URL : /api/list/myBS1
+undefined | 2023-02-04 19:18:06 info: start decryptAll..
+undefined | 2023-02-04 19:18:06 info: callProcedureSync start - SP_MY_BS1
+undefined | 2023-02-04 19:18:06 info: NAME : D_UID, VALUE : admin
+undefined | 2023-02-04 19:18:06 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-02-04 19:18:06 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-02-04 19:18:06 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-02-04 19:18:06 info: during time : 72
+undefined | 2023-02-04 19:18:06 info: SP_MY_MAIN_BS1 callProcedureSync success
+undefined | 2023-02-04 19:18:06 info: during time : 89
+undefined | 2023-02-04 19:18:06 info: SP_MY_BS1 callProcedureSync success
+undefined | 2023-02-04 19:18:06 info: callProcedureSync start - SP_MY_BS1_CNT
+undefined | 2023-02-04 19:18:06 info: NAME : D_UID, VALUE : admin
+undefined | 2023-02-04 19:18:06 info: during time : 27
+undefined | 2023-02-04 19:18:06 info: SP_MY_BS1_CNT callProcedureSync success

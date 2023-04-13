@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="ko">
+
+<%include ./include/head%>
+
+<body>
+
+<div class="wrap">
+
+  <%include ./include/leftbox%>
+  <div class="rightbox">
+
+    <%include ./include/header%>
+
+    <div class="content">
+
+
+      <div class="card">
+        <div class="title">
+          <h5><%=LANG['LANG71']%></h5>
+        </div>
+        <div class="cont">
+          <div class="orgtop">
+            <div class="inputbtnbox mr-5">
+              <input type="text" class="input" id="D_RID" value="" placeholder="ID" readonly>
+              <a href="#" class="btn btn-primary btn-memsearch"><%=LANG['LANG09']%> </a>
+            </div>
+            <div class="inputbox mr-5">
+              <select class="select" id="isNo">
+                <option value="1">Recommended  </option>
+                <option value="3">
+                  Support</option> 
+              </select>
+            </div>
+            <div class="inputbox mr-5">
+              <input type="text" class="input" id="sn" value="0" placeholder="No">
+            </div>
+            <div class="inputbtnbox mr-5">
+              <input type="text" class="input" id="level" value="5" placeholder="Level">
+              <a class="btn btn-primary" onclick="drow()">Draw</a>
+            </div>
+          </div>
+          <iframe id ="orgFrame" width="100%" height="500px"></iframe>
+          <!-- 조직도 넣어주세요. -->
+        </div>
+      </div>
+
+      <%include ./include/footer%>
+
+    </div><!-- content end -->
+
+  </div><!-- rightbox end -->
+  <div id="memsearch">
+    <div id="memsearchbox">
+      <div id="memsearchinbox">
+        <div class="appmenutitle">
+          <h4 class="tx-c"><%=LANG['LANG20']%> </h4>
+          <a class="close"><i class="fas fa-times"></i></a>
+        </div>
+        <div class="contbox">
+          <div class="inputbtnbox mb-30">
+            <input class="input" id="S_UID" value="" placeholder="<%=LANG['LANG21']%> " onkeyup="enterkey()">
+            <a class="btn btn-primary" onclick="getReconeds()"><%=LANG['LANG09']%> </a>
+          </div>
+  
+          <div class="tablebox">
+            <div class="theadbox">
+              <div class="d-flex">
+                <div class="th w33p"><%=LANG['LANG22']%> </div>
+                <div class="th w33p"><%=LANG['LANG23']%> </div>
+                <div class="th w33p"></div>
+              </div>
+            </div>
+            <div class="tbodybox" style="max-height: 300px; overflow: auto;" id="list">
+            </div>
+          </div>
+  
+  
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  </body>
+
+
+  </html>
+
+
+<script src="include/js/cur.js"></script>
+<script>
+  const D_UID = "<%=D_UID%>"
+  $(document).ready(function () {
+    $("#D_RID").val(D_UID)
+  });
+
+  async function drow() {
+    const id = $("#D_RID").val();
+    const isNo = $("#isNo").val();
+    const level = $("#level").val();
+    const sn = $("#sn").val();
+    if (!id || !isNo || !level || !sn) {
+      alert("<%=LANG['LANG05']%>")
+      return
+    }
+    $('#orgFrame').attr('src', '/getWebOrg/' + id + '/' + isNo + '/' + level + '/' + sn);
+  }
+
+  function enterkey() {
+    if (window.event.keyCode == 13) {
+      getReconeds()
+    }
+  }
+
+  function selectRid(val) {
+    $("#D_RID").val(val)
+    $(".overlayblack2").remove();
+    $("body").css("overflow", "auto");
+    $("#memsearch").fadeOut(500);
+  }
+  async function getReconeds() {
+    const SEARCH_ID = $("#S_UID").val()
+    if (SEARCH_ID) {
+      const searchP = await api.listApi("/search2", { P_UID: SEARCH_ID })
+      $("#list").empty()
+      searchP.data.forEach(el => {
+        let innerHtml = '';
+        innerHtml += '<div class="d-flex tr">';
+        innerHtml += '<div class="td w33p"><span>'+LANG['LANG22']+'</span><span>' + el.D_UID + '</span></div>';
+        innerHtml += '<div class="td w33p"><span>'+LANG['LANG23']+'</span><span>' + el.D_NAME_H + '</span></div>';
+        innerHtml += '<div class="td w33p"><a class="btn btn-s btn-primary btn-radius" onclick="selectRid(\'' + el.D_UID + '\')">'+LANG['LANG24']+'</a></div>';
+        innerHtml += '</div>';
+        $("#list").append(innerHtml)
+      })
+    }
+  }
+
+</script>

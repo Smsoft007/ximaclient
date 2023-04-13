@@ -1,0 +1,848 @@
+undefined | 2022-03-28 20:19:14 error: create connection pool failed.. : ConnectionError: Failed to connect to localhost:1433 - Could not connect (sequence)
+undefined | 2022-03-28 20:19:59 error: create connection pool failed.. : ConnectionError: Failed to connect to localhost:1430 - Could not connect (sequence)
+undefined | 2022-03-28 20:22:06 error: create connection pool failed.. : ConnectionError: 사용자 'KPOP_sa'이(가) 로그인하지 못했습니다.
+undefined | 2022-03-28 20:23:02 info: URL : /
+undefined | 2022-03-28 20:23:02 info: Create a key attempt : tCLgdWbNXVtGMSjKpJ05FROFKsguul2c
+undefined | 2022-03-28 20:23:05 info: URL : /signup
+undefined | 2022-03-28 20:23:05 info: URL : /api/list/getCountry
+undefined | 2022-03-28 20:23:05 info: start decryptAll..
+undefined | 2022-03-28 20:23:05 info: callProcedureSync start - SP_COUNTRY
+undefined | 2022-03-28 20:23:05 info: during time : 97
+undefined | 2022-03-28 20:23:05 info: SP_COUNTRY callProcedureSync success
+undefined | 2022-03-28 20:23:05 info: URL : /api/list/getCenterList
+undefined | 2022-03-28 20:23:05 info: start decryptAll..
+undefined | 2022-03-28 20:23:05 info: callProcedureSync start - SP_CENTER_LIST
+undefined | 2022-03-28 20:23:05 info: during time : 29
+undefined | 2022-03-28 20:23:05 info: SP_CENTER_LIST callProcedureSync success
+undefined | 2022-03-28 20:23:05 info: URL : /api/list/getBankList
+undefined | 2022-03-28 20:23:05 info: start decryptAll..
+undefined | 2022-03-28 20:23:05 info: callProcedureSync start - SP_BANK_LIST
+undefined | 2022-03-28 20:23:06 info: during time : 29
+undefined | 2022-03-28 20:23:06 info: SP_BANK_LIST callProcedureSync success
+undefined | 2022-03-28 20:23:59 info: URL : /api/list/searchP
+undefined | 2022-03-28 20:23:59 info: start decryptAll..
+undefined | 2022-03-28 20:23:59 info: callProcedureSync start - SP_ID_SEARCH_P
+undefined | 2022-03-28 20:23:59 info: NAME : SEARCH_ID, VALUE : test
+undefined | 2022-03-28 20:23:59 info: during time : 86
+undefined | 2022-03-28 20:23:59 info: SP_ID_SEARCH_P callProcedureSync success
+undefined | 2022-03-28 20:54:06 info: URL : /
+undefined | 2022-03-28 20:54:34 info: URL : /
+undefined | 2022-03-28 21:07:09 info: URL : /
+undefined | 2022-03-28 21:08:01 info: URL : /
+undefined | 2022-03-28 21:10:48 info: URL : /
+undefined | 2022-03-28 21:11:22 info: URL : /
+undefined | 2022-03-28 21:11:55 info: URL : /lang?num=1
+undefined | 2022-03-28 21:11:55 info: URL : /
+undefined | 2022-03-28 21:11:57 info: URL : /lang?num=0
+undefined | 2022-03-28 21:11:57 info: URL : /
+undefined | 2022-03-28 21:12:05 info: URL : /signup
+undefined | 2022-03-28 21:12:06 info: URL : /api/list/getCountry
+undefined | 2022-03-28 21:12:06 info: start decryptAll..
+undefined | 2022-03-28 21:12:06 info: callProcedureSync start - SP_COUNTRY
+undefined | 2022-03-28 21:12:06 info: during time : 125
+undefined | 2022-03-28 21:12:06 info: SP_COUNTRY callProcedureSync success
+undefined | 2022-03-28 21:12:06 info: URL : /api/list/getCenterList
+undefined | 2022-03-28 21:12:06 info: start decryptAll..
+undefined | 2022-03-28 21:12:06 info: callProcedureSync start - SP_CENTER_LIST
+undefined | 2022-03-28 21:12:06 info: during time : 27
+undefined | 2022-03-28 21:12:06 info: SP_CENTER_LIST callProcedureSync success
+undefined | 2022-03-28 21:12:06 info: URL : /api/list/getBankList
+undefined | 2022-03-28 21:12:06 info: start decryptAll..
+undefined | 2022-03-28 21:12:06 info: callProcedureSync start - SP_BANK_LIST
+undefined | 2022-03-28 21:12:06 info: during time : 26
+undefined | 2022-03-28 21:12:06 info: SP_BANK_LIST callProcedureSync success
+undefined | 2022-03-28 21:15:31 info: URL : /
+undefined | 2022-03-28 21:15:37 info: URL : /api/user/signin
+undefined | 2022-03-28 21:15:37 info: start decryptAll..
+undefined | 2022-03-28 21:15:37 info: callProcedureSync start - SP_MEMBER_LOGIN
+undefined | 2022-03-28 21:15:37 info: NAME : inUser_ID, VALUE : pgk5034
+undefined | 2022-03-28 21:15:37 info: NAME : inUser_Pwd, VALUE : pgk5034
+undefined | 2022-03-28 21:15:37 info: NAME : inUser_IP, VALUE : ::1
+undefined | 2022-03-28 21:15:37 info: NAME : sessionID, VALUE : tCLgdWbNXVtGMSjKpJ05FROFKsguul2c
+undefined | 2022-03-28 21:15:37 info: during time : 117
+undefined | 2022-03-28 21:15:37 info: SP_MEMBER_LOGIN callProcedureSync success
+undefined | 2022-03-28 21:16:17 info: URL : /api/user/signin
+undefined | 2022-03-28 21:16:17 info: start decryptAll..
+undefined | 2022-03-28 21:16:17 info: callProcedureSync start - SP_MEMBER_LOGIN
+undefined | 2022-03-28 21:16:17 info: NAME : inUser_ID, VALUE : pgk5034
+undefined | 2022-03-28 21:16:17 info: NAME : inUser_Pwd, VALUE : 000
+undefined | 2022-03-28 21:16:17 info: NAME : inUser_IP, VALUE : ::1
+undefined | 2022-03-28 21:16:17 info: NAME : sessionID, VALUE : tCLgdWbNXVtGMSjKpJ05FROFKsguul2c
+undefined | 2022-03-28 21:16:17 info: during time : 97
+undefined | 2022-03-28 21:16:17 info: SP_MEMBER_LOGIN callProcedureSync success
+undefined | 2022-03-28 21:16:48 info: URL : /api/user/signin
+undefined | 2022-03-28 21:16:48 info: start decryptAll..
+undefined | 2022-03-28 21:16:48 info: callProcedureSync start - SP_MEMBER_LOGIN
+undefined | 2022-03-28 21:16:48 info: NAME : inUser_ID, VALUE : pgk5034
+undefined | 2022-03-28 21:16:48 info: NAME : inUser_Pwd, VALUE : 000
+undefined | 2022-03-28 21:16:48 info: NAME : inUser_IP, VALUE : ::1
+undefined | 2022-03-28 21:16:48 info: NAME : sessionID, VALUE : tCLgdWbNXVtGMSjKpJ05FROFKsguul2c
+undefined | 2022-03-28 21:16:48 info: during time : 95
+undefined | 2022-03-28 21:16:48 info: SP_MEMBER_LOGIN callProcedureSync success
+undefined | 2022-03-28 21:17:11 info: URL : /signup
+undefined | 2022-03-28 21:17:11 info: URL : /api/list/getCountry
+undefined | 2022-03-28 21:17:11 info: start decryptAll..
+undefined | 2022-03-28 21:17:11 info: callProcedureSync start - SP_COUNTRY
+undefined | 2022-03-28 21:17:11 info: during time : 33
+undefined | 2022-03-28 21:17:11 info: SP_COUNTRY callProcedureSync success
+undefined | 2022-03-28 21:17:13 info: URL : /
+undefined | 2022-03-28 21:21:13 info: URL : /
+undefined | 2022-03-28 21:21:37 info: URL : /api/user/signin
+undefined | 2022-03-28 21:21:37 info: start decryptAll..
+undefined | 2022-03-28 21:21:37 info: callProcedureSync start - SP_MEMBER_LOGIN
+undefined | 2022-03-28 21:21:37 info: NAME : inUser_ID, VALUE : pgk5034
+undefined | 2022-03-28 21:21:37 info: NAME : inUser_Pwd, VALUE : 000
+undefined | 2022-03-28 21:21:37 info: NAME : inUser_IP, VALUE : ::1
+undefined | 2022-03-28 21:21:37 info: NAME : sessionID, VALUE : tCLgdWbNXVtGMSjKpJ05FROFKsguul2c
+undefined | 2022-03-28 21:21:37 info: during time : 92
+undefined | 2022-03-28 21:21:37 info: SP_MEMBER_LOGIN callProcedureSync success
+undefined | 2022-03-28 21:21:50 info: URL : /api/user/signin
+undefined | 2022-03-28 21:21:50 info: start decryptAll..
+undefined | 2022-03-28 21:21:50 info: callProcedureSync start - SP_MEMBER_LOGIN
+undefined | 2022-03-28 21:21:50 info: NAME : inUser_ID, VALUE : pgk5034
+undefined | 2022-03-28 21:21:50 info: NAME : inUser_Pwd, VALUE : 000
+undefined | 2022-03-28 21:21:50 info: NAME : inUser_IP, VALUE : ::1
+undefined | 2022-03-28 21:21:50 info: NAME : sessionID, VALUE : tCLgdWbNXVtGMSjKpJ05FROFKsguul2c
+undefined | 2022-03-28 21:21:50 info: during time : 39
+undefined | 2022-03-28 21:21:50 info: SP_MEMBER_LOGIN callProcedureSync success
+undefined | 2022-03-28 21:22:28 info: URL : /api/user/signin
+undefined | 2022-03-28 21:22:28 info: start decryptAll..
+undefined | 2022-03-28 21:22:28 info: callProcedureSync start - SP_MEMBER_LOGIN
+undefined | 2022-03-28 21:22:28 info: NAME : inUser_ID, VALUE : pgk5034
+undefined | 2022-03-28 21:22:28 info: NAME : inUser_Pwd, VALUE : 000
+undefined | 2022-03-28 21:22:28 info: NAME : inUser_IP, VALUE : ::1
+undefined | 2022-03-28 21:22:28 info: NAME : sessionID, VALUE : tCLgdWbNXVtGMSjKpJ05FROFKsguul2c
+undefined | 2022-03-28 21:22:28 info: during time : 101
+undefined | 2022-03-28 21:22:28 info: SP_MEMBER_LOGIN callProcedureSync success
+undefined | 2022-03-28 21:26:40 info: URL : /api/user/signin
+undefined | 2022-03-28 21:26:40 info: start decryptAll..
+undefined | 2022-03-28 21:26:40 info: callProcedureSync start - SP_MEMBER_LOGIN
+undefined | 2022-03-28 21:26:40 info: NAME : inUser_ID, VALUE : pgk5034
+undefined | 2022-03-28 21:26:40 info: NAME : inUser_Pwd, VALUE : 000
+undefined | 2022-03-28 21:26:40 info: NAME : inUser_IP, VALUE : ::1
+undefined | 2022-03-28 21:26:40 info: NAME : sessionID, VALUE : tCLgdWbNXVtGMSjKpJ05FROFKsguul2c
+undefined | 2022-03-28 21:26:40 info: during time : 96
+undefined | 2022-03-28 21:26:40 info: SP_MEMBER_LOGIN callProcedureSync success
+undefined | 2022-03-28 21:27:25 info: URL : /api/user/signin
+undefined | 2022-03-28 21:27:25 info: start decryptAll..
+undefined | 2022-03-28 21:27:25 info: callProcedureSync start - SP_MEMBER_LOGIN
+undefined | 2022-03-28 21:27:25 info: NAME : inUser_ID, VALUE : pgk5034
+undefined | 2022-03-28 21:27:25 info: NAME : inUser_Pwd, VALUE : 000
+undefined | 2022-03-28 21:27:25 info: NAME : inUser_IP, VALUE : ::1
+undefined | 2022-03-28 21:27:25 info: NAME : sessionID, VALUE : tCLgdWbNXVtGMSjKpJ05FROFKsguul2c
+undefined | 2022-03-28 21:27:25 info: during time : 88
+undefined | 2022-03-28 21:27:25 info: SP_MEMBER_LOGIN callProcedureSync success
+undefined | 2022-03-28 21:27:34 info: URL : /api/user/signin
+undefined | 2022-03-28 21:27:34 info: start decryptAll..
+undefined | 2022-03-28 21:27:34 info: callProcedureSync start - SP_MEMBER_LOGIN
+undefined | 2022-03-28 21:27:34 info: NAME : inUser_ID, VALUE : pgk5034
+undefined | 2022-03-28 21:27:34 info: NAME : inUser_Pwd, VALUE : 000
+undefined | 2022-03-28 21:27:34 info: NAME : inUser_IP, VALUE : ::1
+undefined | 2022-03-28 21:27:34 info: NAME : sessionID, VALUE : tCLgdWbNXVtGMSjKpJ05FROFKsguul2c
+undefined | 2022-03-28 21:27:34 info: during time : 35
+undefined | 2022-03-28 21:27:34 info: SP_MEMBER_LOGIN callProcedureSync success
+undefined | 2022-03-28 21:28:17 info: URL : /api/user/signin
+undefined | 2022-03-28 21:28:17 info: start decryptAll..
+undefined | 2022-03-28 21:28:17 info: callProcedureSync start - SP_MEMBER_LOGIN
+undefined | 2022-03-28 21:28:17 info: NAME : inUser_ID, VALUE : pgk5034
+undefined | 2022-03-28 21:28:17 info: NAME : inUser_Pwd, VALUE : 000
+undefined | 2022-03-28 21:28:17 info: NAME : inUser_IP, VALUE : ::1
+undefined | 2022-03-28 21:28:17 info: NAME : sessionID, VALUE : tCLgdWbNXVtGMSjKpJ05FROFKsguul2c
+undefined | 2022-03-28 21:28:17 info: during time : 92
+undefined | 2022-03-28 21:28:17 info: SP_MEMBER_LOGIN callProcedureSync success
+undefined | 2022-03-28 21:28:28 info: URL : /api/user/signin
+undefined | 2022-03-28 21:28:28 info: start decryptAll..
+undefined | 2022-03-28 21:28:28 info: callProcedureSync start - SP_MEMBER_LOGIN
+undefined | 2022-03-28 21:28:28 info: NAME : inUser_ID, VALUE : pgk5034
+undefined | 2022-03-28 21:28:28 info: NAME : inUser_Pwd, VALUE : 000
+undefined | 2022-03-28 21:28:28 info: NAME : inUser_IP, VALUE : ::1
+undefined | 2022-03-28 21:28:28 info: NAME : sessionID, VALUE : tCLgdWbNXVtGMSjKpJ05FROFKsguul2c
+undefined | 2022-03-28 21:28:28 info: during time : 35
+undefined | 2022-03-28 21:28:28 info: SP_MEMBER_LOGIN callProcedureSync success
+undefined | 2022-03-28 21:28:37 info: URL : /api/user/signin
+undefined | 2022-03-28 21:28:37 info: start decryptAll..
+undefined | 2022-03-28 21:28:37 info: callProcedureSync start - SP_MEMBER_LOGIN
+undefined | 2022-03-28 21:28:37 info: NAME : inUser_ID, VALUE : pgk5034
+undefined | 2022-03-28 21:28:37 info: NAME : inUser_Pwd, VALUE : 000
+undefined | 2022-03-28 21:28:37 info: NAME : inUser_IP, VALUE : ::1
+undefined | 2022-03-28 21:28:37 info: NAME : sessionID, VALUE : tCLgdWbNXVtGMSjKpJ05FROFKsguul2c
+undefined | 2022-03-28 21:28:37 info: during time : 34
+undefined | 2022-03-28 21:28:37 info: SP_MEMBER_LOGIN callProcedureSync success
+undefined | 2022-03-28 21:28:46 info: URL : /api/user/signin
+undefined | 2022-03-28 21:28:46 info: start decryptAll..
+undefined | 2022-03-28 21:28:46 info: callProcedureSync start - SP_MEMBER_LOGIN
+undefined | 2022-03-28 21:28:46 info: NAME : inUser_ID, VALUE : pgk5034
+undefined | 2022-03-28 21:28:46 info: NAME : inUser_Pwd, VALUE : 000
+undefined | 2022-03-28 21:28:46 info: NAME : inUser_IP, VALUE : ::1
+undefined | 2022-03-28 21:28:46 info: NAME : sessionID, VALUE : tCLgdWbNXVtGMSjKpJ05FROFKsguul2c
+undefined | 2022-03-28 21:28:46 info: during time : 34
+undefined | 2022-03-28 21:28:46 info: SP_MEMBER_LOGIN callProcedureSync success
+undefined | 2022-03-28 21:28:52 info: URL : /api/user/signin
+undefined | 2022-03-28 21:28:52 info: start decryptAll..
+undefined | 2022-03-28 21:28:52 info: callProcedureSync start - SP_MEMBER_LOGIN
+undefined | 2022-03-28 21:28:52 info: NAME : inUser_ID, VALUE : pgk5034
+undefined | 2022-03-28 21:28:52 info: NAME : inUser_Pwd, VALUE : 000
+undefined | 2022-03-28 21:28:52 info: NAME : inUser_IP, VALUE : ::1
+undefined | 2022-03-28 21:28:52 info: NAME : sessionID, VALUE : tCLgdWbNXVtGMSjKpJ05FROFKsguul2c
+undefined | 2022-03-28 21:28:52 info: during time : 36
+undefined | 2022-03-28 21:28:52 info: SP_MEMBER_LOGIN callProcedureSync success
+undefined | 2022-03-28 21:29:24 info: URL : /api/user/signin
+undefined | 2022-03-28 21:29:24 info: start decryptAll..
+undefined | 2022-03-28 21:29:24 info: callProcedureSync start - SP_MEMBER_LOGIN
+undefined | 2022-03-28 21:29:24 info: NAME : inUser_ID, VALUE : pgk5034
+undefined | 2022-03-28 21:29:24 info: NAME : inUser_Pwd, VALUE : 000
+undefined | 2022-03-28 21:29:24 info: NAME : inUser_IP, VALUE : ::1
+undefined | 2022-03-28 21:29:24 info: NAME : sessionID, VALUE : tCLgdWbNXVtGMSjKpJ05FROFKsguul2c
+undefined | 2022-03-28 21:29:24 info: during time : 95
+undefined | 2022-03-28 21:29:24 info: SP_MEMBER_LOGIN callProcedureSync success
+undefined | 2022-03-28 21:29:33 info: URL : /api/user/signin
+undefined | 2022-03-28 21:29:33 info: start decryptAll..
+undefined | 2022-03-28 21:29:33 info: callProcedureSync start - SP_MEMBER_LOGIN
+undefined | 2022-03-28 21:29:33 info: NAME : inUser_ID, VALUE : pgk5034
+undefined | 2022-03-28 21:29:33 info: NAME : inUser_Pwd, VALUE : 000
+undefined | 2022-03-28 21:29:33 info: NAME : inUser_IP, VALUE : ::1
+undefined | 2022-03-28 21:29:33 info: NAME : sessionID, VALUE : tCLgdWbNXVtGMSjKpJ05FROFKsguul2c
+undefined | 2022-03-28 21:29:33 info: during time : 33
+undefined | 2022-03-28 21:29:33 info: SP_MEMBER_LOGIN callProcedureSync success
+undefined | 2022-03-28 21:30:36 info: URL : /
+undefined | 2022-03-28 21:30:57 info: URL : /api/user/signin
+undefined | 2022-03-28 21:30:57 info: start decryptAll..
+undefined | 2022-03-28 21:30:57 info: callProcedureSync start - SP_MEMBER_LOGIN
+undefined | 2022-03-28 21:30:57 info: NAME : inUser_ID, VALUE : pgk5034
+undefined | 2022-03-28 21:30:57 info: NAME : inUser_Pwd, VALUE : 000
+undefined | 2022-03-28 21:30:57 info: NAME : inUser_IP, VALUE : ::1
+undefined | 2022-03-28 21:30:57 info: NAME : sessionID, VALUE : tCLgdWbNXVtGMSjKpJ05FROFKsguul2c
+undefined | 2022-03-28 21:30:57 info: during time : 99
+undefined | 2022-03-28 21:30:57 info: SP_MEMBER_LOGIN callProcedureSync success
+undefined | 2022-03-28 21:31:05 info: URL : /api/user/signin
+undefined | 2022-03-28 21:31:05 info: start decryptAll..
+undefined | 2022-03-28 21:31:05 info: callProcedureSync start - SP_MEMBER_LOGIN
+undefined | 2022-03-28 21:31:05 info: NAME : inUser_ID, VALUE : pgk5034
+undefined | 2022-03-28 21:31:05 info: NAME : inUser_Pwd, VALUE : 000
+undefined | 2022-03-28 21:31:05 info: NAME : inUser_IP, VALUE : ::1
+undefined | 2022-03-28 21:31:05 info: NAME : sessionID, VALUE : tCLgdWbNXVtGMSjKpJ05FROFKsguul2c
+undefined | 2022-03-28 21:31:05 info: during time : 34
+undefined | 2022-03-28 21:31:05 info: SP_MEMBER_LOGIN callProcedureSync success
+undefined | 2022-03-28 21:31:10 info: URL : /signup
+undefined | 2022-03-28 21:31:10 info: URL : /api/list/getCountry
+undefined | 2022-03-28 21:31:10 info: start decryptAll..
+undefined | 2022-03-28 21:31:10 info: callProcedureSync start - SP_COUNTRY
+undefined | 2022-03-28 21:31:10 info: during time : 32
+undefined | 2022-03-28 21:31:10 info: SP_COUNTRY callProcedureSync success
+undefined | 2022-03-28 21:31:10 info: URL : /api/list/getCenterList
+undefined | 2022-03-28 21:31:10 info: start decryptAll..
+undefined | 2022-03-28 21:31:10 info: callProcedureSync start - SP_CENTER_LIST
+undefined | 2022-03-28 21:31:10 info: during time : 26
+undefined | 2022-03-28 21:31:10 info: SP_CENTER_LIST callProcedureSync success
+undefined | 2022-03-28 21:31:10 info: URL : /api/list/getBankList
+undefined | 2022-03-28 21:31:10 info: start decryptAll..
+undefined | 2022-03-28 21:31:10 info: callProcedureSync start - SP_BANK_LIST
+undefined | 2022-03-28 21:31:10 info: during time : 27
+undefined | 2022-03-28 21:31:10 info: SP_BANK_LIST callProcedureSync success
+undefined | 2022-03-28 21:31:12 info: URL : /
+undefined | 2022-03-28 21:31:16 info: URL : /findpass
+undefined | 2022-03-28 21:31:19 info: URL : /findpass
+undefined | 2022-03-28 21:31:25 info: URL : /
+undefined | 2022-03-28 21:31:31 info: URL : /lang?num=0
+undefined | 2022-03-28 21:31:31 info: URL : /
+undefined | 2022-03-28 21:31:33 info: URL : /lang?num=0
+undefined | 2022-03-28 21:31:33 info: URL : /
+undefined | 2022-03-28 21:31:44 info: URL : /api/user/signin
+undefined | 2022-03-28 21:31:44 info: start decryptAll..
+undefined | 2022-03-28 21:31:44 info: callProcedureSync start - SP_MEMBER_LOGIN
+undefined | 2022-03-28 21:31:44 info: NAME : inUser_ID, VALUE : muindo12342341
+undefined | 2022-03-28 21:31:44 info: NAME : inUser_Pwd, VALUE : 111
+undefined | 2022-03-28 21:31:44 info: NAME : inUser_IP, VALUE : ::1
+undefined | 2022-03-28 21:31:44 info: NAME : sessionID, VALUE : tCLgdWbNXVtGMSjKpJ05FROFKsguul2c
+undefined | 2022-03-28 21:31:44 info: during time : 93
+undefined | 2022-03-28 21:31:44 info: SP_MEMBER_LOGIN callProcedureSync success
+undefined | 2022-03-28 21:32:19 info: URL : /api/user/signin
+undefined | 2022-03-28 21:32:19 info: start decryptAll..
+undefined | 2022-03-28 21:32:19 info: callProcedureSync start - SP_MEMBER_LOGIN
+undefined | 2022-03-28 21:32:19 info: NAME : inUser_ID, VALUE : muindo12342341
+undefined | 2022-03-28 21:32:19 info: NAME : inUser_Pwd, VALUE : 111
+undefined | 2022-03-28 21:32:19 info: NAME : inUser_IP, VALUE : ::1
+undefined | 2022-03-28 21:32:19 info: NAME : sessionID, VALUE : tCLgdWbNXVtGMSjKpJ05FROFKsguul2c
+undefined | 2022-03-28 21:32:19 info: during time : 103
+undefined | 2022-03-28 21:32:19 info: SP_MEMBER_LOGIN callProcedureSync success
+undefined | 2022-03-28 22:04:50 error: create connection pool failed.. : ConnectionError: Failed to connect to localhost:1433 - Could not connect (sequence)
+undefined | 2022-03-28 22:32:20 info: URL : /
+undefined | 2022-03-28 22:32:20 info: Create a key attempt : _XCXA5LLtE9flc6_jDxnn56BxVChNVKH
+undefined | 2022-03-28 22:33:42 info: URL : /
+undefined | 2022-03-28 22:33:42 info: Create a key attempt : yKIpilzgv8_S9hajr2_sK_chbEtmSY03
+undefined | 2022-03-28 22:33:45 info: URL : /lang?num=1
+undefined | 2022-03-28 22:33:45 info: URL : /
+undefined | 2022-03-28 22:34:08 info: URL : /api/user/signin
+undefined | 2022-03-28 22:34:08 info: start decryptAll..
+undefined | 2022-03-28 22:34:08 info: callProcedureSync start - SP_MEMBER_LOGIN
+undefined | 2022-03-28 22:34:08 info: NAME : inUser_ID, VALUE : pgk5034
+undefined | 2022-03-28 22:34:08 info: NAME : inUser_Pwd, VALUE : 000
+undefined | 2022-03-28 22:34:08 info: NAME : inUser_IP, VALUE : 122.46.244.22
+undefined | 2022-03-28 22:34:08 info: NAME : sessionID, VALUE : yKIpilzgv8_S9hajr2_sK_chbEtmSY03
+undefined | 2022-03-28 22:34:08 info: during time : 68
+undefined | 2022-03-28 22:34:08 info: SP_MEMBER_LOGIN callProcedureSync success
+undefined | 2022-03-28 22:34:08 info: URL : /main
+undefined | 2022-03-28 22:34:08 info: URL : /api/common/getMyDash
+undefined | 2022-03-28 22:34:08 info: start decryptAll..
+undefined | 2022-03-28 22:34:08 info: callProcedureSync start - SP_MY_DASHBOARD
+undefined | 2022-03-28 22:34:08 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:34:08 info: during time : 55
+undefined | 2022-03-28 22:34:08 info: SP_MY_DASHBOARD callProcedureSync success
+undefined | 2022-03-28 22:34:25 info: URL : /org
+undefined | 2022-03-28 22:34:29 info: URL : /org
+undefined | 2022-03-28 22:34:31 info: URL : /getWebOrg/pgk5034/1/5/0
+undefined | 2022-03-28 22:34:31 info: callProcedureSync start - WEB_ORG
+undefined | 2022-03-28 22:34:31 info: NAME : myuid, VALUE : pgk5034
+undefined | 2022-03-28 22:34:31 info: NAME : gs_IP, VALUE :  
+undefined | 2022-03-28 22:34:31 info: NAME : gs_date1, VALUE :  
+undefined | 2022-03-28 22:34:31 info: NAME : gs_date2, VALUE :  
+undefined | 2022-03-28 22:34:31 info: NAME : gsuid, VALUE : pgk5034
+undefined | 2022-03-28 22:34:31 info: NAME : gs_isSNo, VALUE : 1
+undefined | 2022-03-28 22:34:31 info: NAME : gnlevel, VALUE : 5
+undefined | 2022-03-28 22:34:31 info: during time : 161
+undefined | 2022-03-28 22:34:31 info: WEB_ORG callProcedureSync success
+undefined | 2022-03-28 22:34:50 info: URL : /krwlist
+undefined | 2022-03-28 22:34:50 info: URL : /api/list/myBS1
+undefined | 2022-03-28 22:34:50 info: start decryptAll..
+undefined | 2022-03-28 22:34:50 info: callProcedureSync start - SP_MY_BS1
+undefined | 2022-03-28 22:34:50 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:34:50 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2022-03-28 22:34:50 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2022-03-28 22:34:50 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2022-03-28 22:34:50 info: URL : /api/common/getMyMainBS1
+undefined | 2022-03-28 22:34:50 info: start decryptAll..
+undefined | 2022-03-28 22:34:50 info: callProcedureSync start - SP_MY_MAIN_BS1
+undefined | 2022-03-28 22:34:50 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:34:50 info: during time : 15
+undefined | 2022-03-28 22:34:50 info: SP_MY_BS1 callProcedureSync success
+undefined | 2022-03-28 22:34:50 info: callProcedureSync start - SP_MY_BS1_CNT
+undefined | 2022-03-28 22:34:50 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:34:50 info: during time : 4
+undefined | 2022-03-28 22:34:50 info: SP_MY_MAIN_BS1 callProcedureSync success
+undefined | 2022-03-28 22:34:50 info: during time : 8
+undefined | 2022-03-28 22:34:50 info: SP_MY_BS1_CNT callProcedureSync success
+undefined | 2022-03-28 22:34:53 info: URL : /ksplist
+undefined | 2022-03-28 22:34:53 info: URL : /api/list/myBS2
+undefined | 2022-03-28 22:34:53 info: start decryptAll..
+undefined | 2022-03-28 22:34:53 info: callProcedureSync start - SP_MY_BS2
+undefined | 2022-03-28 22:34:53 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:34:53 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2022-03-28 22:34:53 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2022-03-28 22:34:53 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2022-03-28 22:34:53 info: URL : /api/common/getMyMainBS2
+undefined | 2022-03-28 22:34:53 info: start decryptAll..
+undefined | 2022-03-28 22:34:53 info: callProcedureSync start - SP_MY_MAIN_BS2
+undefined | 2022-03-28 22:34:53 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:34:53 info: during time : 9
+undefined | 2022-03-28 22:34:53 info: SP_MY_MAIN_BS2 callProcedureSync success
+undefined | 2022-03-28 22:34:53 info: during time : 16
+undefined | 2022-03-28 22:34:53 info: SP_MY_BS2 callProcedureSync success
+undefined | 2022-03-28 22:34:53 info: callProcedureSync start - SP_MY_BS2_CNT
+undefined | 2022-03-28 22:34:53 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:34:53 info: during time : 11
+undefined | 2022-03-28 22:34:53 info: SP_MY_BS2_CNT callProcedureSync success
+undefined | 2022-03-28 22:34:55 info: URL : /stocklist
+undefined | 2022-03-28 22:34:55 info: URL : /api/list/myBS3
+undefined | 2022-03-28 22:34:55 info: start decryptAll..
+undefined | 2022-03-28 22:34:55 info: callProcedureSync start - SP_MY_BS3
+undefined | 2022-03-28 22:34:55 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:34:55 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2022-03-28 22:34:55 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2022-03-28 22:34:55 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2022-03-28 22:34:55 info: URL : /api/common/getMyMainBS3
+undefined | 2022-03-28 22:34:55 info: start decryptAll..
+undefined | 2022-03-28 22:34:55 info: callProcedureSync start - SP_MY_MAIN_BS3
+undefined | 2022-03-28 22:34:55 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:34:55 info: during time : 10
+undefined | 2022-03-28 22:34:55 info: SP_MY_MAIN_BS3 callProcedureSync success
+undefined | 2022-03-28 22:34:55 info: during time : 12
+undefined | 2022-03-28 22:34:55 info: SP_MY_BS3 callProcedureSync success
+undefined | 2022-03-28 22:34:55 info: callProcedureSync start - SP_MY_BS3_CNT
+undefined | 2022-03-28 22:34:55 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:34:55 info: during time : 8
+undefined | 2022-03-28 22:34:55 info: SP_MY_BS3_CNT callProcedureSync success
+undefined | 2022-03-28 22:34:57 info: URL : /org
+undefined | 2022-03-28 22:34:59 info: URL : /product
+undefined | 2022-03-28 22:34:59 info: URL : /api/list/getProduct
+undefined | 2022-03-28 22:34:59 info: start decryptAll..
+undefined | 2022-03-28 22:34:59 info: callProcedureSync start - SP_PRODUCT
+undefined | 2022-03-28 22:34:59 info: during time : 16
+undefined | 2022-03-28 22:34:59 info: SP_PRODUCT callProcedureSync success
+undefined | 2022-03-28 22:35:00 info: URL : /productlist
+undefined | 2022-03-28 22:35:00 info: URL : /api/list/myList
+undefined | 2022-03-28 22:35:00 info: start decryptAll..
+undefined | 2022-03-28 22:35:00 info: callProcedureSync start - SP_MY_SALE_LIST
+undefined | 2022-03-28 22:35:00 info: NAME : GS_ID, VALUE : pgk5034
+undefined | 2022-03-28 22:35:00 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2022-03-28 22:35:00 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2022-03-28 22:35:00 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2022-03-28 22:35:00 info: during time : 24
+undefined | 2022-03-28 22:35:00 info: SP_MY_SALE_LIST callProcedureSync success
+undefined | 2022-03-28 22:35:00 info: callProcedureSync start - SP_MY_SALE_LIST_CNT
+undefined | 2022-03-28 22:35:00 info: NAME : GS_ID, VALUE : pgk5034
+undefined | 2022-03-28 22:35:00 info: during time : 10
+undefined | 2022-03-28 22:35:00 info: SP_MY_SALE_LIST_CNT callProcedureSync success
+undefined | 2022-03-28 22:35:01 info: URL : /withdrawal
+undefined | 2022-03-28 22:35:01 info: URL : /api/common/getKRWBalance
+undefined | 2022-03-28 22:35:01 info: start decryptAll..
+undefined | 2022-03-28 22:35:01 info: callProcedureSync start - SP_KRW_BALANCE
+undefined | 2022-03-28 22:35:01 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:35:01 info: during time : 10
+undefined | 2022-03-28 22:35:01 info: SP_KRW_BALANCE callProcedureSync success
+undefined | 2022-03-28 22:35:04 info: URL : /withdrawallist
+undefined | 2022-03-28 22:35:04 info: URL : /api/list/krwwalletList
+undefined | 2022-03-28 22:35:04 info: start decryptAll..
+undefined | 2022-03-28 22:35:04 info: callProcedureSync start - SP_KRW_WALLET_LIST_LIST
+undefined | 2022-03-28 22:35:04 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:35:04 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2022-03-28 22:35:04 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2022-03-28 22:35:04 info: during time : 19
+undefined | 2022-03-28 22:35:04 info: SP_KRW_WALLET_LIST_LIST callProcedureSync success
+undefined | 2022-03-28 22:35:04 info: callProcedureSync start - SP_KRW_WALLET_LIST_LIST_CNT
+undefined | 2022-03-28 22:35:04 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:35:04 info: during time : 9
+undefined | 2022-03-28 22:35:04 info: SP_KRW_WALLET_LIST_LIST_CNT callProcedureSync success
+undefined | 2022-03-28 22:35:05 info: URL : /remittance
+undefined | 2022-03-28 22:35:05 info: URL : /api/common/getKSPBalance
+undefined | 2022-03-28 22:35:05 info: start decryptAll..
+undefined | 2022-03-28 22:35:05 info: callProcedureSync start - SP_KSP_BALANCE
+undefined | 2022-03-28 22:35:05 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:35:05 info: during time : 10
+undefined | 2022-03-28 22:35:05 info: SP_KSP_BALANCE callProcedureSync success
+undefined | 2022-03-28 22:35:06 info: URL : /notice
+undefined | 2022-03-28 22:35:14 info: URL : /remittance
+undefined | 2022-03-28 22:35:14 info: URL : /api/common/getKSPBalance
+undefined | 2022-03-28 22:35:14 info: start decryptAll..
+undefined | 2022-03-28 22:35:14 info: callProcedureSync start - SP_KSP_BALANCE
+undefined | 2022-03-28 22:35:14 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:35:14 info: during time : 8
+undefined | 2022-03-28 22:35:14 info: SP_KSP_BALANCE callProcedureSync success
+undefined | 2022-03-28 22:35:16 info: URL : /withdrawallist
+undefined | 2022-03-28 22:35:16 info: URL : /api/list/krwwalletList
+undefined | 2022-03-28 22:35:16 info: start decryptAll..
+undefined | 2022-03-28 22:35:16 info: callProcedureSync start - SP_KRW_WALLET_LIST_LIST
+undefined | 2022-03-28 22:35:16 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:35:16 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2022-03-28 22:35:16 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2022-03-28 22:35:16 info: during time : 5
+undefined | 2022-03-28 22:35:16 info: SP_KRW_WALLET_LIST_LIST callProcedureSync success
+undefined | 2022-03-28 22:35:16 info: callProcedureSync start - SP_KRW_WALLET_LIST_LIST_CNT
+undefined | 2022-03-28 22:35:16 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:35:16 info: during time : 5
+undefined | 2022-03-28 22:35:16 info: SP_KRW_WALLET_LIST_LIST_CNT callProcedureSync success
+undefined | 2022-03-28 22:35:17 info: URL : /withdrawal
+undefined | 2022-03-28 22:35:17 info: URL : /api/common/getKRWBalance
+undefined | 2022-03-28 22:35:17 info: start decryptAll..
+undefined | 2022-03-28 22:35:17 info: callProcedureSync start - SP_KRW_BALANCE
+undefined | 2022-03-28 22:35:17 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:35:17 info: during time : 8
+undefined | 2022-03-28 22:35:17 info: SP_KRW_BALANCE callProcedureSync success
+undefined | 2022-03-28 22:35:22 info: URL : /krwlist
+undefined | 2022-03-28 22:35:22 info: URL : /api/list/myBS1
+undefined | 2022-03-28 22:35:22 info: start decryptAll..
+undefined | 2022-03-28 22:35:22 info: callProcedureSync start - SP_MY_BS1
+undefined | 2022-03-28 22:35:22 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:35:22 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2022-03-28 22:35:22 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2022-03-28 22:35:22 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2022-03-28 22:35:22 info: URL : /api/common/getMyMainBS1
+undefined | 2022-03-28 22:35:22 info: start decryptAll..
+undefined | 2022-03-28 22:35:22 info: callProcedureSync start - SP_MY_MAIN_BS1
+undefined | 2022-03-28 22:35:22 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:35:22 info: during time : 5
+undefined | 2022-03-28 22:35:22 info: SP_MY_BS1 callProcedureSync success
+undefined | 2022-03-28 22:35:22 info: callProcedureSync start - SP_MY_BS1_CNT
+undefined | 2022-03-28 22:35:22 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:35:22 info: during time : 1
+undefined | 2022-03-28 22:35:22 info: SP_MY_MAIN_BS1 callProcedureSync success
+undefined | 2022-03-28 22:35:22 info: during time : 7
+undefined | 2022-03-28 22:35:22 info: SP_MY_BS1_CNT callProcedureSync success
+undefined | 2022-03-28 22:35:23 info: URL : /withpass
+undefined | 2022-03-28 22:35:24 info: URL : /info
+undefined | 2022-03-28 22:35:24 info: URL : /api/list/getCountry
+undefined | 2022-03-28 22:35:24 info: start decryptAll..
+undefined | 2022-03-28 22:35:24 info: callProcedureSync start - SP_COUNTRY
+undefined | 2022-03-28 22:35:24 info: during time : 7
+undefined | 2022-03-28 22:35:24 info: SP_COUNTRY callProcedureSync success
+undefined | 2022-03-28 22:35:24 info: URL : /api/list/getBankList
+undefined | 2022-03-28 22:35:24 info: start decryptAll..
+undefined | 2022-03-28 22:35:24 info: callProcedureSync start - SP_BANK_LIST
+undefined | 2022-03-28 22:35:24 info: during time : 6
+undefined | 2022-03-28 22:35:24 info: SP_BANK_LIST callProcedureSync success
+undefined | 2022-03-28 22:35:24 info: URL : /api/common/userinfo
+undefined | 2022-03-28 22:35:24 info: start decryptAll..
+undefined | 2022-03-28 22:35:24 info: callProcedureSync start - SP_MY_INFO
+undefined | 2022-03-28 22:35:24 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:35:24 info: during time : 16
+undefined | 2022-03-28 22:35:24 info: SP_MY_INFO callProcedureSync success
+undefined | 2022-03-28 22:35:24 info: URL : /api/common/getMyDash
+undefined | 2022-03-28 22:35:24 info: start decryptAll..
+undefined | 2022-03-28 22:35:24 info: callProcedureSync start - SP_MY_DASHBOARD
+undefined | 2022-03-28 22:35:24 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:35:24 info: during time : 8
+undefined | 2022-03-28 22:35:24 info: SP_MY_DASHBOARD callProcedureSync success
+undefined | 2022-03-28 22:35:25 info: URL : /main
+undefined | 2022-03-28 22:35:25 info: URL : /api/common/getMyDash
+undefined | 2022-03-28 22:35:25 info: start decryptAll..
+undefined | 2022-03-28 22:35:25 info: callProcedureSync start - SP_MY_DASHBOARD
+undefined | 2022-03-28 22:35:25 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:35:25 info: during time : 9
+undefined | 2022-03-28 22:35:25 info: SP_MY_DASHBOARD callProcedureSync success
+undefined | 2022-03-28 22:35:52 info: URL : /org
+undefined | 2022-03-28 22:35:56 info: URL : /getWebOrg/pgk5034/1/5/0
+undefined | 2022-03-28 22:35:56 info: callProcedureSync start - WEB_ORG
+undefined | 2022-03-28 22:35:56 info: NAME : myuid, VALUE : pgk5034
+undefined | 2022-03-28 22:35:56 info: NAME : gs_IP, VALUE :  
+undefined | 2022-03-28 22:35:56 info: NAME : gs_date1, VALUE :  
+undefined | 2022-03-28 22:35:56 info: NAME : gs_date2, VALUE :  
+undefined | 2022-03-28 22:35:56 info: NAME : gsuid, VALUE : pgk5034
+undefined | 2022-03-28 22:35:56 info: NAME : gs_isSNo, VALUE : 1
+undefined | 2022-03-28 22:35:56 info: NAME : gnlevel, VALUE : 5
+undefined | 2022-03-28 22:35:56 info: during time : 39
+undefined | 2022-03-28 22:35:56 info: WEB_ORG callProcedureSync success
+undefined | 2022-03-28 22:36:09 info: URL : /getWebOrg/pgk5034/1/5/0
+undefined | 2022-03-28 22:36:09 info: callProcedureSync start - WEB_ORG
+undefined | 2022-03-28 22:36:09 info: NAME : myuid, VALUE : pgk5034
+undefined | 2022-03-28 22:36:09 info: NAME : gs_IP, VALUE :  
+undefined | 2022-03-28 22:36:09 info: NAME : gs_date1, VALUE :  
+undefined | 2022-03-28 22:36:09 info: NAME : gs_date2, VALUE :  
+undefined | 2022-03-28 22:36:09 info: NAME : gsuid, VALUE : pgk5034
+undefined | 2022-03-28 22:36:09 info: NAME : gs_isSNo, VALUE : 1
+undefined | 2022-03-28 22:36:09 info: NAME : gnlevel, VALUE : 5
+undefined | 2022-03-28 22:36:10 info: during time : 34
+undefined | 2022-03-28 22:36:10 info: WEB_ORG callProcedureSync success
+undefined | 2022-03-28 22:36:17 info: URL : /info
+undefined | 2022-03-28 22:36:17 info: URL : /api/list/getCountry
+undefined | 2022-03-28 22:36:17 info: start decryptAll..
+undefined | 2022-03-28 22:36:17 info: callProcedureSync start - SP_COUNTRY
+undefined | 2022-03-28 22:36:17 info: during time : 6
+undefined | 2022-03-28 22:36:17 info: SP_COUNTRY callProcedureSync success
+undefined | 2022-03-28 22:36:17 info: URL : /api/list/getBankList
+undefined | 2022-03-28 22:36:17 info: start decryptAll..
+undefined | 2022-03-28 22:36:17 info: callProcedureSync start - SP_BANK_LIST
+undefined | 2022-03-28 22:36:17 info: during time : 7
+undefined | 2022-03-28 22:36:17 info: SP_BANK_LIST callProcedureSync success
+undefined | 2022-03-28 22:36:17 info: URL : /api/common/userinfo
+undefined | 2022-03-28 22:36:17 info: start decryptAll..
+undefined | 2022-03-28 22:36:17 info: callProcedureSync start - SP_MY_INFO
+undefined | 2022-03-28 22:36:17 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:36:17 info: during time : 9
+undefined | 2022-03-28 22:36:17 info: SP_MY_INFO callProcedureSync success
+undefined | 2022-03-28 22:36:17 info: URL : /api/common/getMyDash
+undefined | 2022-03-28 22:36:17 info: start decryptAll..
+undefined | 2022-03-28 22:36:17 info: callProcedureSync start - SP_MY_DASHBOARD
+undefined | 2022-03-28 22:36:17 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:36:17 info: during time : 8
+undefined | 2022-03-28 22:36:17 info: SP_MY_DASHBOARD callProcedureSync success
+undefined | 2022-03-28 22:36:34 info: URL : /org
+undefined | 2022-03-28 22:36:37 info: URL : /getWebOrg/pgk5034/1/5/0
+undefined | 2022-03-28 22:36:37 info: callProcedureSync start - WEB_ORG
+undefined | 2022-03-28 22:36:37 info: NAME : myuid, VALUE : pgk5034
+undefined | 2022-03-28 22:36:37 info: NAME : gs_IP, VALUE :  
+undefined | 2022-03-28 22:36:37 info: NAME : gs_date1, VALUE :  
+undefined | 2022-03-28 22:36:37 info: NAME : gs_date2, VALUE :  
+undefined | 2022-03-28 22:36:37 info: NAME : gsuid, VALUE : pgk5034
+undefined | 2022-03-28 22:36:37 info: NAME : gs_isSNo, VALUE : 1
+undefined | 2022-03-28 22:36:37 info: NAME : gnlevel, VALUE : 5
+undefined | 2022-03-28 22:36:37 info: during time : 31
+undefined | 2022-03-28 22:36:37 info: WEB_ORG callProcedureSync success
+undefined | 2022-03-28 22:36:39 info: URL : /withpass
+undefined | 2022-03-28 22:36:41 info: URL : /info
+undefined | 2022-03-28 22:36:41 info: URL : /api/list/getCountry
+undefined | 2022-03-28 22:36:41 info: start decryptAll..
+undefined | 2022-03-28 22:36:41 info: callProcedureSync start - SP_COUNTRY
+undefined | 2022-03-28 22:36:41 info: during time : 5
+undefined | 2022-03-28 22:36:41 info: SP_COUNTRY callProcedureSync success
+undefined | 2022-03-28 22:36:41 info: URL : /api/list/getBankList
+undefined | 2022-03-28 22:36:41 info: start decryptAll..
+undefined | 2022-03-28 22:36:41 info: callProcedureSync start - SP_BANK_LIST
+undefined | 2022-03-28 22:36:41 info: during time : 4
+undefined | 2022-03-28 22:36:41 info: SP_BANK_LIST callProcedureSync success
+undefined | 2022-03-28 22:36:41 info: URL : /api/common/userinfo
+undefined | 2022-03-28 22:36:41 info: start decryptAll..
+undefined | 2022-03-28 22:36:41 info: callProcedureSync start - SP_MY_INFO
+undefined | 2022-03-28 22:36:41 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:36:41 info: during time : 11
+undefined | 2022-03-28 22:36:41 info: SP_MY_INFO callProcedureSync success
+undefined | 2022-03-28 22:36:42 info: URL : /api/common/getMyDash
+undefined | 2022-03-28 22:36:42 info: start decryptAll..
+undefined | 2022-03-28 22:36:42 info: callProcedureSync start - SP_MY_DASHBOARD
+undefined | 2022-03-28 22:36:42 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:36:42 info: during time : 8
+undefined | 2022-03-28 22:36:42 info: SP_MY_DASHBOARD callProcedureSync success
+undefined | 2022-03-28 22:36:49 info: URL : /stocklist
+undefined | 2022-03-28 22:36:49 info: URL : /api/list/myBS3
+undefined | 2022-03-28 22:36:49 info: start decryptAll..
+undefined | 2022-03-28 22:36:49 info: callProcedureSync start - SP_MY_BS3
+undefined | 2022-03-28 22:36:49 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:36:49 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2022-03-28 22:36:49 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2022-03-28 22:36:49 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2022-03-28 22:36:49 info: URL : /api/common/getMyMainBS3
+undefined | 2022-03-28 22:36:49 info: start decryptAll..
+undefined | 2022-03-28 22:36:49 info: callProcedureSync start - SP_MY_MAIN_BS3
+undefined | 2022-03-28 22:36:49 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:36:49 info: during time : 5
+undefined | 2022-03-28 22:36:49 info: SP_MY_BS3 callProcedureSync success
+undefined | 2022-03-28 22:36:49 info: callProcedureSync start - SP_MY_BS3_CNT
+undefined | 2022-03-28 22:36:49 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:36:49 info: during time : 4
+undefined | 2022-03-28 22:36:49 info: SP_MY_MAIN_BS3 callProcedureSync success
+undefined | 2022-03-28 22:36:49 info: during time : 8
+undefined | 2022-03-28 22:36:49 info: SP_MY_BS3_CNT callProcedureSync success
+undefined | 2022-03-28 22:36:51 info: URL : /ksplist
+undefined | 2022-03-28 22:36:51 info: URL : /api/list/myBS2
+undefined | 2022-03-28 22:36:51 info: start decryptAll..
+undefined | 2022-03-28 22:36:52 info: callProcedureSync start - SP_MY_BS2
+undefined | 2022-03-28 22:36:52 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:36:52 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2022-03-28 22:36:52 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2022-03-28 22:36:52 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2022-03-28 22:36:52 info: URL : /api/common/getMyMainBS2
+undefined | 2022-03-28 22:36:52 info: start decryptAll..
+undefined | 2022-03-28 22:36:52 info: callProcedureSync start - SP_MY_MAIN_BS2
+undefined | 2022-03-28 22:36:52 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:36:52 info: during time : 4
+undefined | 2022-03-28 22:36:52 info: SP_MY_BS2 callProcedureSync success
+undefined | 2022-03-28 22:36:52 info: callProcedureSync start - SP_MY_BS2_CNT
+undefined | 2022-03-28 22:36:52 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:36:52 info: during time : 1
+undefined | 2022-03-28 22:36:52 info: SP_MY_MAIN_BS2 callProcedureSync success
+undefined | 2022-03-28 22:36:52 info: during time : 5
+undefined | 2022-03-28 22:36:52 info: SP_MY_BS2_CNT callProcedureSync success
+undefined | 2022-03-28 22:36:52 info: URL : /krwlist
+undefined | 2022-03-28 22:36:52 info: URL : /api/common/getMyMainBS1
+undefined | 2022-03-28 22:36:52 info: start decryptAll..
+undefined | 2022-03-28 22:36:52 info: callProcedureSync start - SP_MY_MAIN_BS1
+undefined | 2022-03-28 22:36:52 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:36:52 info: URL : /api/list/myBS1
+undefined | 2022-03-28 22:36:52 info: start decryptAll..
+undefined | 2022-03-28 22:36:52 info: callProcedureSync start - SP_MY_BS1
+undefined | 2022-03-28 22:36:52 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:36:52 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2022-03-28 22:36:52 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2022-03-28 22:36:52 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2022-03-28 22:36:52 info: during time : 5
+undefined | 2022-03-28 22:36:52 info: SP_MY_MAIN_BS1 callProcedureSync success
+undefined | 2022-03-28 22:36:52 info: during time : 9
+undefined | 2022-03-28 22:36:52 info: SP_MY_BS1 callProcedureSync success
+undefined | 2022-03-28 22:36:52 info: callProcedureSync start - SP_MY_BS1_CNT
+undefined | 2022-03-28 22:36:52 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:36:52 info: during time : 4
+undefined | 2022-03-28 22:36:52 info: SP_MY_BS1_CNT callProcedureSync success
+undefined | 2022-03-28 22:37:02 info: URL : /lang?num=0
+undefined | 2022-03-28 22:37:02 info: URL : /krwlist
+undefined | 2022-03-28 22:37:02 info: URL : /api/list/myBS1
+undefined | 2022-03-28 22:37:02 info: start decryptAll..
+undefined | 2022-03-28 22:37:02 info: callProcedureSync start - SP_MY_BS1
+undefined | 2022-03-28 22:37:02 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:37:02 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2022-03-28 22:37:02 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2022-03-28 22:37:02 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2022-03-28 22:37:02 info: URL : /api/common/getMyMainBS1
+undefined | 2022-03-28 22:37:02 info: start decryptAll..
+undefined | 2022-03-28 22:37:02 info: callProcedureSync start - SP_MY_MAIN_BS1
+undefined | 2022-03-28 22:37:02 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:37:02 info: during time : 4
+undefined | 2022-03-28 22:37:02 info: SP_MY_BS1 callProcedureSync success
+undefined | 2022-03-28 22:37:02 info: callProcedureSync start - SP_MY_BS1_CNT
+undefined | 2022-03-28 22:37:02 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:37:02 info: during time : 2
+undefined | 2022-03-28 22:37:02 info: SP_MY_MAIN_BS1 callProcedureSync success
+undefined | 2022-03-28 22:37:02 info: during time : 5
+undefined | 2022-03-28 22:37:02 info: SP_MY_BS1_CNT callProcedureSync success
+undefined | 2022-03-28 22:37:26 info: URL : /lang?num=1
+undefined | 2022-03-28 22:37:27 info: URL : /krwlist
+undefined | 2022-03-28 22:37:27 info: URL : /api/list/myBS1
+undefined | 2022-03-28 22:37:27 info: start decryptAll..
+undefined | 2022-03-28 22:37:27 info: callProcedureSync start - SP_MY_BS1
+undefined | 2022-03-28 22:37:27 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:37:27 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2022-03-28 22:37:27 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2022-03-28 22:37:27 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2022-03-28 22:37:27 info: URL : /api/common/getMyMainBS1
+undefined | 2022-03-28 22:37:27 info: start decryptAll..
+undefined | 2022-03-28 22:37:27 info: callProcedureSync start - SP_MY_MAIN_BS1
+undefined | 2022-03-28 22:37:27 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:37:27 info: during time : 4
+undefined | 2022-03-28 22:37:27 info: SP_MY_BS1 callProcedureSync success
+undefined | 2022-03-28 22:37:27 info: callProcedureSync start - SP_MY_BS1_CNT
+undefined | 2022-03-28 22:37:27 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:37:27 info: during time : 1
+undefined | 2022-03-28 22:37:27 info: SP_MY_MAIN_BS1 callProcedureSync success
+undefined | 2022-03-28 22:37:27 info: during time : 4
+undefined | 2022-03-28 22:37:27 info: SP_MY_BS1_CNT callProcedureSync success
+undefined | 2022-03-28 22:38:22 info: URL : /org
+undefined | 2022-03-28 22:38:24 info: URL : /getWebOrg/pgk5034/1/5/0
+undefined | 2022-03-28 22:38:24 info: callProcedureSync start - WEB_ORG
+undefined | 2022-03-28 22:38:24 info: NAME : myuid, VALUE : pgk5034
+undefined | 2022-03-28 22:38:24 info: NAME : gs_IP, VALUE :  
+undefined | 2022-03-28 22:38:24 info: NAME : gs_date1, VALUE :  
+undefined | 2022-03-28 22:38:24 info: NAME : gs_date2, VALUE :  
+undefined | 2022-03-28 22:38:24 info: NAME : gsuid, VALUE : pgk5034
+undefined | 2022-03-28 22:38:24 info: NAME : gs_isSNo, VALUE : 1
+undefined | 2022-03-28 22:38:24 info: NAME : gnlevel, VALUE : 5
+undefined | 2022-03-28 22:38:24 info: during time : 41
+undefined | 2022-03-28 22:38:24 info: WEB_ORG callProcedureSync success
+undefined | 2022-03-28 22:38:54 info: URL : /withdrawal
+undefined | 2022-03-28 22:38:54 info: URL : /api/common/getKRWBalance
+undefined | 2022-03-28 22:38:54 info: start decryptAll..
+undefined | 2022-03-28 22:38:54 info: callProcedureSync start - SP_KRW_BALANCE
+undefined | 2022-03-28 22:38:54 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:38:54 info: during time : 15
+undefined | 2022-03-28 22:38:54 info: SP_KRW_BALANCE callProcedureSync success
+undefined | 2022-03-28 22:39:35 info: URL : /api/common/getMyMainBS1
+undefined | 2022-03-28 22:39:35 info: start decryptAll..
+undefined | 2022-03-28 22:39:35 info: callProcedureSync start - SP_MY_MAIN_BS1
+undefined | 2022-03-28 22:39:35 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:39:35 info: URL : /api/list/myBS1
+undefined | 2022-03-28 22:39:35 info: start decryptAll..
+undefined | 2022-03-28 22:39:35 info: callProcedureSync start - SP_MY_BS1
+undefined | 2022-03-28 22:39:35 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:39:35 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2022-03-28 22:39:35 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2022-03-28 22:39:35 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2022-03-28 22:39:35 info: during time : 12
+undefined | 2022-03-28 22:39:35 info: SP_MY_MAIN_BS1 callProcedureSync success
+undefined | 2022-03-28 22:39:35 info: during time : 14
+undefined | 2022-03-28 22:39:35 info: SP_MY_BS1 callProcedureSync success
+undefined | 2022-03-28 22:39:35 info: callProcedureSync start - SP_MY_BS1_CNT
+undefined | 2022-03-28 22:39:35 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:39:35 info: during time : 3
+undefined | 2022-03-28 22:39:35 info: SP_MY_BS1_CNT callProcedureSync success
+undefined | 2022-03-28 22:40:10 info: URL : /product
+undefined | 2022-03-28 22:40:10 info: URL : /api/list/getProduct
+undefined | 2022-03-28 22:40:10 info: start decryptAll..
+undefined | 2022-03-28 22:40:10 info: callProcedureSync start - SP_PRODUCT
+undefined | 2022-03-28 22:40:10 info: during time : 15
+undefined | 2022-03-28 22:40:10 info: SP_PRODUCT callProcedureSync success
+undefined | 2022-03-28 22:40:15 info: URL : /productlist
+undefined | 2022-03-28 22:40:15 info: URL : /api/list/myList
+undefined | 2022-03-28 22:40:15 info: start decryptAll..
+undefined | 2022-03-28 22:40:15 info: callProcedureSync start - SP_MY_SALE_LIST
+undefined | 2022-03-28 22:40:15 info: NAME : GS_ID, VALUE : pgk5034
+undefined | 2022-03-28 22:40:15 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2022-03-28 22:40:15 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2022-03-28 22:40:15 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2022-03-28 22:40:15 info: during time : 6
+undefined | 2022-03-28 22:40:15 info: SP_MY_SALE_LIST callProcedureSync success
+undefined | 2022-03-28 22:40:15 info: callProcedureSync start - SP_MY_SALE_LIST_CNT
+undefined | 2022-03-28 22:40:15 info: NAME : GS_ID, VALUE : pgk5034
+undefined | 2022-03-28 22:40:15 info: during time : 3
+undefined | 2022-03-28 22:40:15 info: SP_MY_SALE_LIST_CNT callProcedureSync success
+undefined | 2022-03-28 22:40:17 info: URL : /product
+undefined | 2022-03-28 22:40:17 info: URL : /api/list/getProduct
+undefined | 2022-03-28 22:40:17 info: start decryptAll..
+undefined | 2022-03-28 22:40:17 info: callProcedureSync start - SP_PRODUCT
+undefined | 2022-03-28 22:40:17 info: during time : 8
+undefined | 2022-03-28 22:40:17 info: SP_PRODUCT callProcedureSync success
+undefined | 2022-03-28 22:42:54 info: URL : /product
+undefined | 2022-03-28 22:42:54 info: URL : /api/list/getProduct
+undefined | 2022-03-28 22:42:54 info: start decryptAll..
+undefined | 2022-03-28 22:42:54 info: callProcedureSync start - SP_PRODUCT
+undefined | 2022-03-28 22:42:54 info: during time : 18
+undefined | 2022-03-28 22:42:54 info: SP_PRODUCT callProcedureSync success
+undefined | 2022-03-28 22:44:58 info: URL : /productlist
+undefined | 2022-03-28 22:44:58 info: URL : /api/list/myList
+undefined | 2022-03-28 22:44:58 info: start decryptAll..
+undefined | 2022-03-28 22:44:58 info: callProcedureSync start - SP_MY_SALE_LIST
+undefined | 2022-03-28 22:44:58 info: NAME : GS_ID, VALUE : pgk5034
+undefined | 2022-03-28 22:44:58 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2022-03-28 22:44:58 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2022-03-28 22:44:58 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2022-03-28 22:44:58 info: during time : 11
+undefined | 2022-03-28 22:44:58 info: SP_MY_SALE_LIST callProcedureSync success
+undefined | 2022-03-28 22:44:58 info: callProcedureSync start - SP_MY_SALE_LIST_CNT
+undefined | 2022-03-28 22:44:58 info: NAME : GS_ID, VALUE : pgk5034
+undefined | 2022-03-28 22:44:58 info: during time : 3
+undefined | 2022-03-28 22:44:58 info: SP_MY_SALE_LIST_CNT callProcedureSync success
+undefined | 2022-03-28 22:45:03 info: URL : /withdrawal
+undefined | 2022-03-28 22:45:03 info: URL : /api/common/getKRWBalance
+undefined | 2022-03-28 22:45:03 info: start decryptAll..
+undefined | 2022-03-28 22:45:03 info: callProcedureSync start - SP_KRW_BALANCE
+undefined | 2022-03-28 22:45:03 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:45:03 info: during time : 9
+undefined | 2022-03-28 22:45:03 info: SP_KRW_BALANCE callProcedureSync success
+undefined | 2022-03-28 22:45:07 info: URL : /withdrawallist
+undefined | 2022-03-28 22:45:07 info: URL : /api/list/krwwalletList
+undefined | 2022-03-28 22:45:07 info: start decryptAll..
+undefined | 2022-03-28 22:45:07 info: callProcedureSync start - SP_KRW_WALLET_LIST_LIST
+undefined | 2022-03-28 22:45:07 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:45:07 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2022-03-28 22:45:07 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2022-03-28 22:45:07 info: during time : 6
+undefined | 2022-03-28 22:45:07 info: SP_KRW_WALLET_LIST_LIST callProcedureSync success
+undefined | 2022-03-28 22:45:07 info: callProcedureSync start - SP_KRW_WALLET_LIST_LIST_CNT
+undefined | 2022-03-28 22:45:07 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:45:07 info: during time : 3
+undefined | 2022-03-28 22:45:07 info: SP_KRW_WALLET_LIST_LIST_CNT callProcedureSync success
+undefined | 2022-03-28 22:45:08 info: URL : /remittance
+undefined | 2022-03-28 22:45:09 info: URL : /api/common/getKSPBalance
+undefined | 2022-03-28 22:45:09 info: start decryptAll..
+undefined | 2022-03-28 22:45:09 info: callProcedureSync start - SP_KSP_BALANCE
+undefined | 2022-03-28 22:45:09 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:45:09 info: during time : 10
+undefined | 2022-03-28 22:45:09 info: SP_KSP_BALANCE callProcedureSync success
+undefined | 2022-03-28 22:45:58 info: URL : /productlist
+undefined | 2022-03-28 22:45:59 info: URL : /api/list/myList
+undefined | 2022-03-28 22:45:59 info: start decryptAll..
+undefined | 2022-03-28 22:45:59 info: callProcedureSync start - SP_MY_SALE_LIST
+undefined | 2022-03-28 22:45:59 info: NAME : GS_ID, VALUE : pgk5034
+undefined | 2022-03-28 22:45:59 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2022-03-28 22:45:59 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2022-03-28 22:45:59 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2022-03-28 22:45:59 info: during time : 12
+undefined | 2022-03-28 22:45:59 info: SP_MY_SALE_LIST callProcedureSync success
+undefined | 2022-03-28 22:45:59 info: callProcedureSync start - SP_MY_SALE_LIST_CNT
+undefined | 2022-03-28 22:45:59 info: NAME : GS_ID, VALUE : pgk5034
+undefined | 2022-03-28 22:45:59 info: during time : 3
+undefined | 2022-03-28 22:45:59 info: SP_MY_SALE_LIST_CNT callProcedureSync success
+undefined | 2022-03-28 22:46:03 info: URL : /product
+undefined | 2022-03-28 22:46:03 info: URL : /api/list/getProduct
+undefined | 2022-03-28 22:46:03 info: start decryptAll..
+undefined | 2022-03-28 22:46:03 info: callProcedureSync start - SP_PRODUCT
+undefined | 2022-03-28 22:46:03 info: during time : 8
+undefined | 2022-03-28 22:46:03 info: SP_PRODUCT callProcedureSync success
+undefined | 2022-03-28 22:47:58 info: URL : /withpass
+undefined | 2022-03-28 22:48:01 info: URL : /info
+undefined | 2022-03-28 22:48:01 info: URL : /api/list/getCountry
+undefined | 2022-03-28 22:48:01 info: start decryptAll..
+undefined | 2022-03-28 22:48:01 info: callProcedureSync start - SP_COUNTRY
+undefined | 2022-03-28 22:48:01 info: during time : 12
+undefined | 2022-03-28 22:48:01 info: SP_COUNTRY callProcedureSync success
+undefined | 2022-03-28 22:48:01 info: URL : /api/list/getBankList
+undefined | 2022-03-28 22:48:01 info: start decryptAll..
+undefined | 2022-03-28 22:48:01 info: callProcedureSync start - SP_BANK_LIST
+undefined | 2022-03-28 22:48:01 info: during time : 5
+undefined | 2022-03-28 22:48:01 info: SP_BANK_LIST callProcedureSync success
+undefined | 2022-03-28 22:48:01 info: URL : /api/common/userinfo
+undefined | 2022-03-28 22:48:01 info: start decryptAll..
+undefined | 2022-03-28 22:48:01 info: callProcedureSync start - SP_MY_INFO
+undefined | 2022-03-28 22:48:01 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:48:01 info: during time : 10
+undefined | 2022-03-28 22:48:01 info: SP_MY_INFO callProcedureSync success
+undefined | 2022-03-28 22:48:01 info: URL : /api/common/getMyDash
+undefined | 2022-03-28 22:48:01 info: start decryptAll..
+undefined | 2022-03-28 22:48:01 info: callProcedureSync start - SP_MY_DASHBOARD
+undefined | 2022-03-28 22:48:01 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:48:01 info: during time : 7
+undefined | 2022-03-28 22:48:01 info: SP_MY_DASHBOARD callProcedureSync success
+undefined | 2022-03-28 22:48:20 info: URL : /org
+undefined | 2022-03-28 22:48:22 info: URL : /getWebOrg/pgk5034/1/5/0
+undefined | 2022-03-28 22:48:22 info: callProcedureSync start - WEB_ORG
+undefined | 2022-03-28 22:48:22 info: NAME : myuid, VALUE : pgk5034
+undefined | 2022-03-28 22:48:22 info: NAME : gs_IP, VALUE :  
+undefined | 2022-03-28 22:48:22 info: NAME : gs_date1, VALUE :  
+undefined | 2022-03-28 22:48:22 info: NAME : gs_date2, VALUE :  
+undefined | 2022-03-28 22:48:22 info: NAME : gsuid, VALUE : pgk5034
+undefined | 2022-03-28 22:48:22 info: NAME : gs_isSNo, VALUE : 1
+undefined | 2022-03-28 22:48:22 info: NAME : gnlevel, VALUE : 5
+undefined | 2022-03-28 22:48:22 info: during time : 31
+undefined | 2022-03-28 22:48:22 info: WEB_ORG callProcedureSync success
+undefined | 2022-03-28 22:50:50 info: URL : /main
+undefined | 2022-03-28 22:50:51 info: URL : /api/common/getMyDash
+undefined | 2022-03-28 22:50:51 info: start decryptAll..
+undefined | 2022-03-28 22:50:51 info: callProcedureSync start - SP_MY_DASHBOARD
+undefined | 2022-03-28 22:50:51 info: NAME : D_UID, VALUE : pgk5034
+undefined | 2022-03-28 22:50:51 info: during time : 15
+undefined | 2022-03-28 22:50:51 info: SP_MY_DASHBOARD callProcedureSync success

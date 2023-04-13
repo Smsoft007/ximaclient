@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <%include ./include/head%>
+
+  <body>
+    <div class="signwrap">
+      <div class="contents">
+        <div class="signbox">
+          <div class="signcard">
+            <div class="logobox mb-20 pt-20 pb-20">
+              <a href="/"><img src="img/logo.png" alt="" /></a>
+            </div>
+            <div class="inputbox">
+              <select class="select" name="" onchange="langChange(this)">
+                <option value="">언어선택</option>
+                <option value="0">한국어</option>
+                <option value="1">English</option>
+                <option value="2">汉语</option>
+                <option value="3">日本語</option>
+              </select>
+            </div>
+            <div class="inputbox">
+              <input
+                type="text"
+                class="input"
+                name=""
+                value=""
+                id="inUser_ID"
+                placeholder="ID"
+              />
+            </div>
+            <div class="inputbox">
+              <input
+                type="password"
+                class="input"
+                name=""
+                value=""
+                id="inUser_Pwd"
+                placeholder="Password"
+                onkeyup="enterkey()"
+              />
+            </div>
+            <div class="inputbox mt-10 mb-10">
+              <label for=""
+                ><input type="checkbox" class="check" name="" value="" />
+                <%=LANG['LANG01']%></label
+              >
+            </div>
+            <a
+              class="btn btn-block btn-primary btn-radius mb-10"
+              onclick="signin()"
+              ><%=LANG['LANG03']%></a
+            >
+            <!-- <a href="signup" class="btn btn-block btn-white btn-radius mb-10"
+              ><%=LANG['LANG02']%></a
+            > -->
+            <!-- <a
+              href="findpass"
+              class="btn btn-block btn-lightgrey btn-radius mb-10"
+              ><%=LANG['LANG04']%></a
+            > -->
+            <hr class="hr" />
+            <!-- <a class="btn btn-block btn-primary btn-radius mb-10 btn-order">주문서 작성</a> -->
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
+
+<script src="include/js/cur.js"></script>
+<script>
+  function langChange(val) {
+    if ($(val).val()) {
+      api.langChange($(val).val());
+    }
+  }
+  function enterkey() {
+    if (window.event.keyCode == 13) {
+      signin();
+    }
+  }
+  async function signin() {
+    const param = {};
+    param['D_UID'] = $('#inUser_ID').val();
+    param['D_PASS'] = $('#inUser_Pwd').val();
+    param['D_IP'] = ' ';
+    param['D_BROWSER'] = ' ';
+    param['D_OS'] = ' ';
+    param['D_COUNTRY'] = ' ';
+
+    if (commonLib.nullCheck(param)) {a
+      alert("<%=LANG['LANG05']%>");
+      return;
+    }
+
+    const r = await api.userApi('/signin', param);
+     console.log(r);
+    if (r.data.RESULT === 0) {
+      console.table(r);
+      location.href = '/main';
+    } else {
+      alert("<%=LANG['LANG06']%>");
+    }
+  }
+</script>

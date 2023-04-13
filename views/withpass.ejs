@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ko">
+
+<%include ./include/head%>
+
+<body>
+
+<div class="wrap">
+
+  <%include ./include/leftbox%>
+  <div class="rightbox">
+
+    <%include ./include/header%>
+
+    <div class="content">
+
+
+      <div class="card">
+        <div class="title">
+          <h5><%=LANG['LANG113']%></h5>
+          <p><%=LANG['LANG114']%> <b class="tx-red">0000</b> <%=LANG['LANG115']%></p> 
+        </div>
+        <div class="cont">
+          <div class="inputbox">
+            <input type="password" class="input" id="CUR_PW" value="" placeholder="Password">
+          </div>
+          <div class="inputbox">
+            <input type="password" class="input" id="NEW_PW" value="" placeholder="New Password">
+          </div>
+          <div class="inputbox">
+            <input type="password" class="input" id="NEW_PW_CH" value="" onkeyup="watchPwd()" placeholder="Confirm New Password">
+            <p class="tx-error" id= "checkPWD" style="display:none"><%=LANG['LANG11']%></p>
+          </div>
+          <a class="btn btn-block btn-primary btn-radius mb-10" onclick="changePwd()"><%=LANG['LANG47']%></a>
+        </div>
+      </div>
+
+      <%include ./include/footer%>
+
+    </div><!-- content end -->
+
+  </div><!-- rightbox end -->
+
+  </div>
+
+
+  </body>
+
+
+  </html>
+
+<script src="include/js/cur.js"></script>
+<script>
+  const D_UID = "<%=D_UID%>"
+  let passwordCheck = false;
+  async function checkPwd() {
+    const param = {}
+    param['PASS'] = $("#CUR_PW").val()
+    const r = await api.commonApi("/myPass2Result", param)
+    if (r.data.RESULT === 0) {
+      return true
+    } else {
+      alert("<%=LANG['LANG107']%>")
+      return false
+    }
+  }
+
+  async function changePwd() {
+    const param = {}
+    param['CUR_PW'] = $("#CUR_PW").val()
+    param['NEW_PW'] = $("#NEW_PW").val()
+    if (passwordCheck) {
+      alert("<%=LANG['LANG116']%>")
+      return
+    }
+    if (commonLib.nullCheck(param)) {
+      alert("<%=LANG['LANG05']%>")
+      return
+    }
+    const r = await api.commonApi("/myPass1Change", param)
+    if (r.data.RESULT === 0) {
+      alert("<%=LANG['LANG51']%>")
+      location.reload()
+    } else if (r.data.RESULT === 1) {
+      alert("<%=LANG['LANG117']%>")
+    } else {
+      alert("<%=LANG['LANG53']%>")
+    }
+
+  }
+
+  function watchPwd() {
+    passwordCheck = ($("#NEW_PW_CH").val() !== $("#NEW_PW").val())
+    $('#checkPWD').css("display", (passwordCheck) ? "block" : "none");
+  }
+</script>

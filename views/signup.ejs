@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="ko">
+
+<%include ./include/head%>
+
+<body>
+
+<div class="signwrap">
+  <div class="contents">
+    <div class="signbox">
+      <div class="signcard">
+        <div class="mb-20 pt-20 pb-20">
+          <h2 class="tx-c tx-bold"><%=LANG['LANG02']%></h2>
+        </div>
+        <div class="inputbox">
+          <select class="select" id="D_COUNTRY"> 
+             <option value=""><%=LANG['LANG07']%></option> 
+             <option value="82">한국(+82)</option>
+            <option value="86">中国(+86)</option>
+            <option value="81">日本(+81)</option>
+            <option value="1">UNITED STATES(+1)</option> 
+          </select>
+        </div>
+        <div class="inputbox">
+          <input type="text" class="input" id="D_UID" value="" placeholder="ID">
+          <p class="tx-guide"><%=LANG['LANG08']%></p>
+        </div>
+        <!-- <div class="inputbox">
+          <div class="inputbtnbox">
+            <input type="text" class="input" id="D_RID" placeholder="Member Search" readonly>
+            <a class="btn btn-primary btn-memsearch"><%=LANG['LANG09']%></a>
+          </div>
+        </div> -->
+        <div class="inputbox">
+          <input type="password" class="input" id="D_PASS" value="" placeholder="Password">
+          <p class="tx-guide"><%=LANG['LANG10']%></p>
+        </div>
+        <div class="inputbox">
+          <input type="password" class="input" id="D_PASS_CH" onkeyup="watchPwd()" placeholder="Confirm Password">
+          <p class="tx-error" id= "checkPWD" style="display:none"><%=LANG['LANG11']%></p>
+        </div>
+        <div class="inputbox">
+          <input type="text" class="input" id="D_NAME" value="" placeholder="Name">
+        </div>
+         <div class="inputbox">
+          <input type="number" class="input" id="D_HP" value="" placeholder="phone number">
+        </div> 
+        <!-- <div class="inputbox phoneinputbox">
+          <div class="row">
+            <div class="w20p left">
+              <select class="select" id="COUNTRY_CODE">
+                <option value="">국가</option>
+                <option value="82">한국(+82)</option>
+                <option value="86">中国(+86)</option>
+                <option value="81">日本(+81)</option>
+                <option value="1">UNITED STATES(+1)</option>
+              </select>
+            </div>
+            <div class="w80p left">
+              <div class="inputbtnbox">
+                <input type="number" class="input" id="D_HP" value="" placeholder="phone number">
+                <a href="#" class="btn btn-primary">인증</a>
+              </div>
+            </div>
+          </div>
+        </div> -->
+        <!-- <div class="inputbox">
+          <div class="inputbtnbox">
+            <input type="text" class="input" id="idid" value="" placeholder="Authentication number">
+            <p class="tx-red tx-bold">5:00</p>
+          </div>
+        </div> -->
+
+         <div class="inputbox">
+          <input type="email" class="input" id="D_EMAIL" value="" placeholder="Email">
+        </div> 
+        <!-- <div class="inputbox">
+          <select class="select" id="B_CODE">
+            <option value=""><%=LANG['LANG12']%></option>
+          </select>
+        </div>
+        <div class="inputbox">
+          <input type="text" class="input" id="B_OWNER" value="" placeholder="<%=LANG['LANG15']%>">
+        </div>
+        <div class="inputbox">
+          <input type="text" class="input" id="B_IDNO" value="" placeholder="<%=LANG['LANG16']%>">
+        </div> -->
+        <!-- <div class="inputbox">
+          <textarea class="textarea" id="CAREER" placeholder="<%=LANG['LANG17']%>"></textarea>
+        </div> -->
+        <!-- <div class="inputbox inputbtnbox">
+          <input type="number" class="input" placeholder="<%=LANG['LANG18']%>" id="D_POST" readonly>
+          <a href="#" class="btn btn-primary" onclick="getPostCode()"><%=LANG['LANG09']%></a>
+        </div> -->
+        <!-- <div class="inputbox">
+          <input type="text" class="input" id="D_ADDR1" value="" placeholder="" readonly>
+        </div> -->
+        <!-- <div class="inputbox">
+          <input type="text" class="input" id="D_ADDR2" value="" placeholder="<%=LANG['LANG19']%>">
+        </div> -->
+
+        <hr class="hr">
+
+         <div class="inputbox">
+          <select class="select" id="D_CENCODE">
+            <option value=""><%=LANG['LANG13']%></option>
+          </select>
+        </div>
+
+        <!-- <div class="inputbox">
+          <div class="inputbtnbox">
+            <input type="text" class="input" id="D_SID" placeholder="후원인 검색" readonly>
+            <a class="btn btn-primary btn-memsearch" onclick="snoserch()"><%=LANG['LANG09']%></a>
+          </div>
+        </div> -->
+        <div class="inputbox">
+          <div class="inputbtnbox">
+            <input type="text" class="input" id="D_RID" placeholder="
+            Find referrals" readonly>
+            <a class="btn btn-primary btn-memsearch" onclick="pnoserch()"><%=LANG['LANG09']%></a>
+          </div>
+        </div>
+
+        <hr class="hr">
+
+        <a class="btn btn-block btn-primary btn-radius mb-10" onclick="signup()"><%=LANG['LANG02']%></a>
+        <a href="signin" class="btn btn-grey btn-block btn-radius" ><%=LANG['LANG14']%></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="memsearch">
+  <div id="memsearchbox">
+    <div id="memsearchinbox">
+      <div class="appmenutitle">
+        <h4 class="tx-c"><%=LANG['LANG20']%></h4>
+        <a class="close"><i class="fas fa-times"></i></a>
+      </div>
+      <div class="contbox">
+        <!-- <div id ="display_sno">
+        <div class="inputbtnbox mb-30">
+          <input class="input" id="S_UID" value="" placeholder="<%=LANG['LANG21']%>" onkeyup="senterkey()">
+          <a class="btn btn-primary" onclick="getSeconeds()"><%=LANG['LANG09']%></a>
+        </div>
+       </div> -->
+       <div id ="display_pno" >
+        <div class="inputbtnbox mb-30">
+          <input class="input" id="P_UID" value="" placeholder="<%=LANG['LANG21']%>" onkeyup="penterkey()">
+          <a class="btn btn-primary" onclick="getReconeds()"><%=LANG['LANG09']%></a>
+        </div>
+       </div>
+       
+        <div class="tablebox">
+          <div class="theadbox">
+            <div class="d-flex">
+              <div class="th w33p"><%=LANG['LANG22']%></div>
+              <div class="th w33p"><%=LANG['LANG23']%></div>
+              <div class="th w33p"></div>
+            </div>
+          </div>
+          <div class="tbodybox" style="max-height: 300px; overflow: auto;" id="list">
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</body>
+
+
+</html>
+
+<script src="include/js/cur.js"></script>
+<script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+<script>
+  // 인증사용 안함
+  let lsConfirm = true
+  let passwordCheck = false;
+
+  $(document).ready(function () {
+    init();
+  });
+  
+  function pnoserch() {
+    $("#display_pno").show()
+    // $("#display_sno").hide()
+  }
+
+  function snoserch() {
+    $("#display_pno").hide()
+    // $("#display_sno").show()
+  }
+  
+   async function init() {
+    // const countryList = await api.listApi("/getCountry")
+    // countryList.data.forEach(element => {
+    //   $("#D_COUNTRY").append(`<option value="${element.Q_CODE}">${element.Q_KNAME}</option>`)
+    //})
+   // $("#display_sno").attr( 'style', 'display:block' );
+    //$("#display_pno").attr( 'style', 'display:none' );
+
+     const centerList = await api.listApi("/getCenterList")
+     centerList.data.forEach(el => $("#D_CENCODE").append('<option value="' + el.C_CODE + '">' + el.C_NAME + '</option>'))
+  
+    // const bankList = await api.listApi("/getBankList")
+    // bankList.data.forEach(el => $("#B_CODE").append('<option value="' + el.B_CODE + '">' + el.B_NAME + '</option>'))
+
+   }
+//추천인
+  async function getReconeds() {
+
+    //$("#display_sno").attr( 'style', 'display:none' );
+    //$("#display_pno").attr( 'style', 'display:block' );
+    //$("#display_pno").show()
+    //$("#display_sno").hide()
+    const SEARCH_ID = $("#P_UID").val()
+
+    if (SEARCH_ID) {
+      const searchP = await api.listApi("/searchP", { SEARCH_ID: SEARCH_ID })
+      $("#list").empty()
+      searchP.data.forEach(el => {
+        let innerHtml = '';
+        innerHtml += '<div class="d-flex tr">';
+        innerHtml += '<div class="td w33p"><span>'+LANG['LANG22']+'</span><span>' + el.D_UID + '</span></div>';
+        innerHtml += '<div class="td w33p"><span>'+LANG['LANG23']+'</span><span>' + el.D_NAME_H + '</span></div>';
+        innerHtml += '<div class="td w33p"><a class="btn btn-s btn-primary btn-radius" onclick="selectPid(\'' + el.D_UID + '\')">'+LANG['LANG24']+'</a></div>';
+        innerHtml += '</div>';
+        console.log(LANG);
+        $("#list").append(innerHtml)
+      })
+    }
+  }
+
+
+
+  async function getSeconeds() {
+
+//$("#display_pno").attr('style', 'display:none' )
+//$("#display_sno").attr('style', 'display:block' )
+ $("#display_pno").hide()
+//  $("#display_sno").show()
+
+const SEARCH_ID = $("#S_UID").val()
+
+if (SEARCH_ID) {
+  const searchS = await api.listApi("/searchS", { SEARCH_ID: SEARCH_ID })
+  $("#list").empty()
+  searchS.data.forEach(el => {
+    let innerHtml = '';
+    innerHtml += '<div class="d-flex tr">';
+    innerHtml += '<div class="td w33p"><span>'+LANG['LANG22']+'</span><span>' + el.D_UID + '</span></div>';
+    innerHtml += '<div class="td w33p"><span>'+LANG['LANG23']+'</span><span>' + el.D_NAME_H + '</span></div>';
+    innerHtml += '<div class="td w33p"><a class="btn btn-s btn-primary btn-radius" onclick="selectSid(\'' + el.D_UID + '\')">'+LANG['LANG24']+'</a></div>';
+    innerHtml += '</div>';
+    console.log(LANG);
+    $("#list").append(innerHtml)
+  })
+}
+}
+
+  function penterkey() {
+    if (window.event.keyCode == 13) {
+        $("#display_pno").show()
+        // $("#display_sno").hide()
+        getReconeds()
+      }
+  }
+
+  function senterkey() {
+    if (window.event.keyCode == 13) {
+       $("#display_pno").show()
+      //  $("#display_sno").hide()
+        getSeconeds()
+      }
+  }
+
+  function selectPid(val) {
+    $("#D_RID").val(val)
+    $(".overlayblack2").remove();
+    $("body").css("overflow", "auto");
+    $("#memsearch").fadeOut(500);
+  
+  }
+   
+  // function selectSid(val) {
+  //   $("#D_SID").val(val)
+  //   $(".overlayblack2").remove();
+  //   $("body").css("overflow", "auto");
+  //   $("#memsearch").fadeOut(500);
+  // }
+
+  function submit() {
+    if (!$("#countryNumber").val()) {
+      alert("<%=LANG['LANG25']%>")
+      return
+    }
+    const hp = $("#countryNumber").val() + $("#D_HP").val()
+    firbaseAuthPhone(hp)
+  }
+
+  // function confirmNumber() {
+  //   const number = $("#D_RAN_NUM").val()
+  //   firbaseNumberConfirm(number)
+  // }
+
+  function watchPwd() {
+    passwordCheck = ($("#D_PASS_CH").val() !== $("#D_PASS").val())
+    $('#checkPWD').css("display", (passwordCheck) ? "block" : "none");
+  }
+
+  async function signup() {
+
+    const param = {}
+    param["D_COUNTRY"] = $("#D_COUNTRY").val() || ' '
+    param["D_UID"] = $("#D_UID").val()
+    param["D_PASS"] = $("#D_PASS").val()
+    param["D_NAME"] = $("#D_NAME").val()
+    param["D_CENCODE"] = $("#D_CENCODE").val() || ' '
+    param["B_CODE"] = $("#B_CODE").val()  || ' '
+    param["B_IDNO"] = $("#B_IDNO").val()  || ' '
+    param["B_OWNER"] = $("#B_OWNER").val()  || ' '
+    param["D_EMAIL"] = $("#D_EMAIL").val() || ' '
+    param["D_SID"] = $("#D_RID").val()   || ' '
+    param["D_RID"] = $("#D_RID").val() 
+    param["D_HP"] = $("#D_HP").val() || ' '
+    param["D_POST"] = $("#D_POST").val() || ' '
+    param["D_ADDR1"] = $("#D_ADDR1").val() || ' '
+    param["D_ADDR2"] =$("#D_ADDR2").val() || ' '
+    param["CAREER"] =  $ ("#CAREER").val() || ' '
+
+
+    if (commonLib.nullCheck(param)) {
+     alert("<%=LANG['LANG05']%>")
+     return
+    }
+
+    // if (!lsConfirm) {
+    //   alert("<%=LANG['LANG26']%>")
+    //   return
+    // }
+
+    const r = await api.userApi("/signup", param)
+    if (r.data.RESULT === 0) {
+      alert("<%=LANG['LANG27']%>")
+      location.href = "/signin"
+    } else if (r.data.RESULT === 1) {
+      alert("<%=LANG['LANG28']%>")
+    } else if (r.data.RESULT === 2) {
+      alert("<%=LANG['LANG29']%>")
+    } else if (r.data.RESULT === 3) {
+      alert("존재하지 않는 후원입닙니다. ")
+    } else if (r.data.RESULT === 4) {
+      alert("존재하지 않는 추천입니다")
+    } else if (r.data.RESULT === 5) {
+      alert("후원인이 이미 두라인이상 존재합니다. ")
+    }  else {
+      alert("<%=LANG['LANG30']%>")
+    }
+  }
+
+  // function getPostCode() {
+  //   new daum.Postcode({
+  //     oncomplete: function (data) {
+  //       $("#D_POST").val(data.zonecode)
+  //       $("#D_ADDR1").val(data.jibunAddress)
+  //     }
+  //   }).open();
+  // }
+
+</script>

@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="ko">
+
+<%include ./include/head%>
+
+  <body>
+
+    <div class="wrap">
+
+      <%include ./include/leftbox%>
+        <div class="rightbox">
+
+          <%include ./include/header%>
+          <div class="content">
+            <div class="card imgbackcard bg1">
+              <div class="mainprofile tx-w">
+                <p><span> 관리자 ID :</span><b id="D_UID"></b> 님 접속중입니다.</p>
+                
+                
+                
+              </div>
+            </div>
+           <!-- company infor start -->
+              <div class="row mrow infobox">
+                <div class="w50p left">
+                  <div class="card">
+                    <div class="title">
+                      <h5>
+                        회사기본정보
+                      </h5>
+                    </div>
+                    <div class="cont">
+                      <div class="inputbox">
+                        <input type="text" class="input" id="COM_NAME_K" value="" placeholder="한글회사명" >
+                      </div>
+                      <div class="inputbox">
+                        <input type="text" class="input" id="COM_NAME_E" value="" placeholder="영문회사명">
+                      </div>
+                      <div class="inputbox">
+                        <input type="email" class="input" id="COM_BIDNO" value="" placeholder="사업자등록번호">
+                      </div>
+
+                      <div class="inputbox">
+                        <div class="w20p left">
+                        <label for="">우편번호</label>
+                        </div>
+                        <div class="w40p left">
+                          <div class="inputbox">
+                            <input type="text" class="input"  id="COM_POST" value="" placeholder="우편번호" readonly />
+                          </div>
+                        </div>
+                      </div>
+                      
+                    <div class="row mrow mt-20">
+                      <div class="w20p left">
+                        <label for="">주소</label>
+                      </div>
+                      <div class="w80p left">
+                        <div class="inputbtnbox mb-10">
+                          <input type="text" class="input"  value="" id="COM_ADDRESS"
+                            placeholder="주소찾기를 입력하세요!" readonly />
+                          <a href="#" class="btn btn-primary" onclick="getPostCode()">주소찾기</a>
+                        </div>
+                      </div>
+                      <div class="w80p right">
+                        <div class="inputbox">
+                          <input type="text" class="input"  value="" id="COM_ADDRESS2"
+                            placeholder="세부 주소를 입력하세요!" />
+                        </div>
+                      </div>
+                    </div>
+                      <a class="btn btn-block btn-primary btn-radius mb-10" onclick="changeInfo()">
+                        회사기본정보변경
+                      </a>
+                    </div>
+                  </div>
+
+                  <!-- company infor end -->
+                  
+                </div>
+                <div class="w50p left">
+                  
+                  <div class="card">
+                    <div class="inputbox">
+                      <div class="w20p left">
+                      <label for=""></label>
+                      </div>
+                     <div class="row">
+                    <div class="w20p left">
+                      <select class="select" id="TCODE">
+                        <option value="">분류명선택</option>
+                        <option value="">한국(+82)</option>
+                        <option value="">中国(+86)</option>
+                        <option value="">日本(+81)</option>
+                        <option value="">UNITED STATES(+1)</option>
+                      </select>
+                    </div>
+                    <div class="w40p left">
+                      <a href="#" class="btn btn-primary btn-radius " onclick="getCodeSercher()">검색</a>
+                      <a href="#" class="btn btn-primary btn-radius " onclick="getreSet()">초기화</a>
+                    </div>
+                    
+                    <div class="w20p right">
+                      <a href="#" class="btn btn-primary btn-radius " onclick="getCodeSercher()">분류코드등록</a>
+                    </div>
+
+                    </div>
+                    <!-- right code list start -->
+              <div class="card">
+                
+                <div class="cont">
+                  <div class="tablebox">
+                    <div class="theadbox">
+                      <div class="d-flex">
+                        <div class="th w10p">No.</div>
+                        <div class="th w30p">
+                          코드
+                        </div>
+                        <div class="th w30p">
+                          분류명
+                        </div>
+                        <div class="th w40p left">
+                          분류명설명
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tbodybox" id="list"></div>
+                  </div>
+                  <div class="paging">
+                    <ul name="paging"></ul>
+                  </div>
+                </div>
+              </div>
+                  </div>
+                </div>
+                <%include ./include/footer%>
+
+              </div><!-- content end -->
+
+            </div><!-- rightbox end -->
+
+        </div>
+
+
+  </body>
+
+
+</html>
+
+
+<script src="include/js/cur.js"></script>
+<script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+<script>
+  const D_UID = "<%=D_UID%>"
+  let passwordCheck = false;
+  let business_code = false;
+  $(document).ready(function () {
+    init();
+    console.log(D_UID);
+    $("#D_UID").html(D_UID);
+  });
+
+  async function init() {
+    const countryList = await api.listApi("/getCountry")
+    countryList.data.forEach(element => {
+      $("#D_COUNTRY").append(`<option value="${element.Q_CODE}">${element.Q_KNAME}</option>`)
+    })
+
+    
+
+    const bankList = await api.listApi("/getBankList")
+    bankList.data.forEach(el => $("#B_CODE_LIST").append('<option value="' + el.B_CODE + '">' + el.B_NAME + '</option>'))
+
+    const userInfo = await api.commonApi("/userinfo")
+    $("#D_COUNTRY").val(userInfo.data.D_CONTRY_CODE)
+    userInfo.data['D_UID'] = D_UID
+    commonLib.bindValue(userInfo.data)
+
+    const myDash = await api.commonApi("/getMyDash")
+    commonLib.bindValue(myDash.data)
+  }
+	
+
+  async function changeInfo() {
+    const param = {}
+    param['COM_NAME_K'] = $("#COM_NAME_K").val() //한글 회사명 
+    param['COM_NAME_E'] = $("#COM_NAME_E").val() //영문회사명 
+    param['COM_BIDNO'] = $("#COM_BIDNO").val() //사업자등록증
+    param['COM_POST'] = $("#COM_POST").val() //우편번호 
+    param['COM_ADDRESS'] = $("#COM_ADDRESS").val() //회사 주소 
+    param['COM_ADDRESS2'] = $("#COM_ADDRESS2").val() //회사 상세주소 
+
+    if (commonLib.nullCheck(param)) {
+      alert("<%=LANG['LANG05']%>")
+      return
+    }
+    const r = await api.commonApi("/updateUserInfo", param)
+    if (r.data.RESULT === 0) {
+      alert("<%=LANG['LANG51']%>")
+      location.reload()
+    } else if (r.data.RESULT === 1) {
+      alert("<%=LANG['LANG52']%>")
+    } else {
+      alert("<%=LANG['LANG53']%>")
+    }
+  }
+
+  async function changeDIDNO() {
+    const param = {}
+    param['DIDNO'] = $("#D_IDNO").val()
+
+    const r = await api.commonApi("/setDidno", param)
+    if (r.data.RESULT === 0) {
+      alert("<%=LANG['LANG51']%>")
+      location.reload()
+    } else if (r.data.RESULT === 1) {
+      alert("<%=LANG['LANG11']%>")
+    } else {
+      alert("<%=LANG['LANG53']%>")
+    }
+  }
+
+
+  async function changePwd() {
+    const param = {}
+    param['CUR_PW'] = $("#CUR_PW").val()
+    param['NEW_PW'] = $("#NEW_PW").val()
+    const r = await api.commonApi("/updatePass2", param)
+    if (r.data.RESULT === 0) {
+      alert("<%=LANG['LANG51']%>")
+      location.reload()
+    } else if (r.data.RESULT === 1) {
+      alert("<%=LANG['LANG11']%>")
+    } else {
+      alert("<%=LANG['LANG53']%>")
+    }
+  }
+  function watchPwd() {
+    passwordCheck = ($("#NEW_PW_CH").val() !== $("#NEW_PW").val())
+    $('#checkPWD').css("display", (passwordCheck) ? "block" : "none");
+  }
+
+
+  function getPostCode() {
+    new daum.Postcode({
+      oncomplete: function (data) {
+        $("#D_POST").val(data.zonecode)
+        $("#D_ADDR1").val(data.jibunAddress)
+      }
+
+    }).open();
+    storePagePosition();
+  }
+  function storePagePosition() {
+    var page_y = window.pageYOffset;
+    localStorage.setItem("page_y", page_y);
+  }
+
+  window.addEventListener("scroll", storePagePosition);
+  var currentPageY;
+  try {
+    currentPageY = localStorage.getItem("page_y");
+
+    if (currentPageY === undefined) {
+      localStorage.setItem("page_y") = 0;
+    }
+
+    window.scrollTo(0, currentPageY);
+  } catch (e) {
+    // no localStorage available
+  }
+  //사업자등록번호 정규펴현식
+  function checkCorporateRegiNumber(number){
+	var numberMap = number.replace(/-/gi, '').split('').map(function (d){
+		return parseInt(d, 10);
+	});
+	
+	if(numberMap.length == 10){
+		var keyArr = [1, 3, 7, 1, 3, 7, 1, 3, 5];
+		var chk = 0;
+		
+		keyArr.forEach(function(d, i){
+			chk += d * numberMap[i];
+		});
+		
+		chk += parseInt((keyArr[8] * numberMap[8])/ 10, 10);
+		console.log(chk);
+		return Math.floor(numberMap[9]) === ( (10 - (chk % 10) ) % 10);
+	}
+	
+	return false;
+}
+
+</script>

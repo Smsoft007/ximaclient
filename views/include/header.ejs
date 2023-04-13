@@ -1,0 +1,27 @@
+<div class="header">
+  <div class="row">
+    <a href="#" class="btn-bars"><i class="fas fa-bars"></i></a>
+    <a onclick="signout()" class="btn-logout"><i class="fas fa-sign-out-alt"></i></a>
+    <div class="lang">
+      <a href="#" class="langbtn">한국어</a>
+      <ul class="langbox">
+        <li><a onclick="langChange('0')">한국어</a></li>
+        <li><a onclick="langChange('1')">English</a></li>
+        <li><a onclick="langChange('2')">汉语</a></li>
+        <li><a onclick="langChange('3')">日本語</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<script>
+  async function signout(){
+    await api.userApi("/signout")
+    location.reload()
+
+  }
+  function langChange(val){
+    if(val){
+      api.langChange(val)
+    }
+  }
+</script>

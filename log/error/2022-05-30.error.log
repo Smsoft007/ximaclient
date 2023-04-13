@@ -1,0 +1,2 @@
+undefined | 2022-05-30 13:32:44 error: getRequest failed : TypeError: Cannot read properties of null (reading 'request')
+undefined | 2022-05-30 21:56:47 error: create connection pool failed.. : ConnectionError: Login failed for user 'LEHEAR_NODE_USER'.

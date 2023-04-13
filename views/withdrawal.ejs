@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <%include ./include/head%>
+
+  <body>
+    <div class="wrap">
+      <%include ./include/leftbox%>
+      <div class="rightbox">
+        <%include ./include/header%>
+
+        <div class="content">
+          <div class="card">
+            <div class="title">
+              <h5><%=LANG['LANG106']%></h5>
+            </div>
+            <div class="cont">
+              <div class="inputbox pb-0">
+                <div class="inputbtnbox">
+                  <label for=""><%=LANG['LANG55']%></label>
+                  <input
+                    type="number"
+                    class="input"
+                    id="BALANCE"
+                    value=""
+                    placeholder=""
+                  />
+                  <p class="tx-bold">$</p>
+                </div>
+              </div>
+
+              <div class="inputbox pb-0">
+                <div class="inputbtnbox">
+                  <label for="">수수료금액</label>
+                  <input
+                    readonly
+                    type="number"
+                    class="input"
+                    id="FEE"
+                    value=""
+                    placeholder="0.0"
+                  />
+                  <p class="tx-bold">$</p>
+                </div>
+              </div>
+              <hr class="hr" />
+              <div class="inputbox">
+                <div class="inputbtnbox">
+                  <input
+                    type="number"
+                    class="input"
+                    id="D_AMOUNT"
+                    value=""
+                    placeholder="<%=LANG['LANG104']%>"
+                    onkeypress="feecal()"
+                  />
+                  <p class="tx-bold">$</p>
+                </div>
+              </div>
+              <div class="inputbox mr-5">
+                <label for="">출금타입</label>
+                <select class="select" id="isType">
+                  <option value="1">CASH</option>
+                  <option value="2">COIN</option>
+                </select>
+              </div>
+              <div class="inputbox">
+                <input
+                  type="password"
+                  class="input"
+                  id="D_PASS2"
+                  value=""
+                  placeholder="<%=LANG['LANG105']%>"
+                />
+              </div>
+
+              <a
+                class="btn btn-block btn-primary btn-radius mb-10"
+                onclick="witdraw()"
+                ><%=LANG['LANG99']%></a
+              >
+            </div>
+          </div>
+
+          <%include ./include/footer%>
+        </div>
+        <!-- content end -->
+      </div>
+      <!-- rightbox end -->
+    </div>
+  </body>
+</html>
+
+<script src="include/js/cur.js"></script>
+<script>
+  $(document).ready(function () {
+    init();
+  });
+  async function init() {
+    const r = await api.commonApi('/get$Balance');
+    commonLib.bindValue(r.data);
+  }
+  async function witdraw() {
+    const param = {};
+
+    param['D_AMOUNT'] = $('#D_AMOUNT').val();
+    param['D_TYPE'] = $('#isType').val();
+    param['D_PASS2'] = $('#D_PASS2').val();
+    param['D_REMARKS'] = ' ';
+    console.log(param);
+    if (commonLib.nullCheck(param)) {
+      alert("<%=LANG['LANG05']%>");
+      return;
+    }
+    const r = await api.commonApi('/withdrawAmount', param);
+    console.log(r);
+    if (r.data.RESULT === 0) {
+      alert("<%=LANG['LANG85']%>");
+      location.reload();
+    } else if (r.data.RESULT === 1) {
+      alert('잔액이부족합니다. ');
+    } else if (r.data.RESULT === 2) {
+      alert('출금비밀번호가 맞지 않습니다. ');
+    } else if (r.data.RESULT === 3) {
+      alert('수수료가 부족합니다.');
+    } else {
+      alert("<%=LANG['LANG30']%>");
+    }
+  }
+
+  function feecal() {
+    let amount = $('#D_AMOUNT').val();
+    let fee = parseFloat(amount * 0.5);
+    let all_amt = parseFloat(fee);
+    $('#FEE').val(all_amt);
+  }
+</script>

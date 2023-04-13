@@ -1,0 +1,76 @@
+.box {
+  padding:0.1em 1em;
+  margin:0em;
+  border:1px solid black;
+  background:#ffffe6;
+  color:black;
+}
+
+
+/*첫번째 직급*/
+box1 {
+  padding:0.1em 1em;
+  margin:0em;
+  border:1px solid black;
+  background:#D8D7A4;
+  font-size:11px;
+  color:black;
+}
+
+
+/*첫번째 직급*/
+box2 {
+  padding:0.1em 1em;
+  margin:0em;
+  border:1px solid black;
+  background:#A4D5D8;
+  font-size:11px;
+  color:black;
+}
+
+
+
+/*첫번째 직급*/
+box3 {
+  padding:0.1em 1em;
+  margin:0em;
+  border:1px solid black;
+  background:#D8A4A4;
+  font-size:11px;
+  color:black;
+}
+
+
+
+.boxb {
+  padding:0.1em 1em;
+  margin:0em;
+  border-top:1px solid black;
+  border-right:1px solid black;
+  border-left:1px solid black;
+  background:#ffffe6;
+  color:black;
+}
+.boxc {
+  padding:0em 0.3em;
+  text-align:center;
+}
+.boxc TABLE {
+  margin:auto;
+}
+.lineright {
+  border-right:1px solid black;
+  font-size:50%;
+}
+.leftabove {
+  border-right:1px solid black;
+  border-top:1px solid black;
+  font-size:50%;
+}
+.rightabove {
+  border-top:1px solid black;
+  font-size:50%;
+}
+.nolines {
+  font-size:50%;
+}

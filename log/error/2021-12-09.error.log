@@ -1,0 +1,9 @@
+undefined | 2021-12-09 17:35:37 error: executeProcedure failed : RequestError: String or binary data would be truncated.
+undefined | 2021-12-09 17:35:37 error: callProcedureSync failed
+undefined | 2021-12-09 17:35:37 error: Cannot read properties of null (reading 'recordset')
+undefined | 2021-12-09 17:35:48 error: executeProcedure failed : RequestError: String or binary data would be truncated.
+undefined | 2021-12-09 17:35:48 error: callProcedureSync failed
+undefined | 2021-12-09 17:35:48 error: Cannot read properties of null (reading 'recordset')
+undefined | 2021-12-09 17:36:58 error: executeProcedure failed : RequestError: String or binary data would be truncated.
+undefined | 2021-12-09 17:36:58 error: callProcedureSync failed
+undefined | 2021-12-09 17:36:58 error: Cannot read properties of null (reading 'recordset')

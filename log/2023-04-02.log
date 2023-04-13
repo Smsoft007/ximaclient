@@ -1,0 +1,1220 @@
+undefined | 2023-04-02 16:44:15 info: URL : /
+undefined | 2023-04-02 16:44:15 info: Create a key attempt : oDMn0HCtKsY5SYkcDExEwNc2YxRvjvDC
+undefined | 2023-04-02 16:45:05 info: URL : /
+undefined | 2023-04-02 16:45:14 info: URL : /
+undefined | 2023-04-02 17:12:52 info: URL : /
+undefined | 2023-04-02 17:12:52 info: Create a key attempt : vQ6rXoiAeZlbupOgzGMVToSxGxEpGT83
+undefined | 2023-04-02 17:14:10 info: URL : /
+undefined | 2023-04-02 17:22:42 info: URL : /
+undefined | 2023-04-02 17:24:06 info: URL : /api/user/signin
+undefined | 2023-04-02 17:24:06 info: start decryptAll..
+undefined | 2023-04-02 17:24:06 info: callProcedureSync start - SP_MEMBER_LOGIN
+undefined | 2023-04-02 17:24:06 info: NAME : inUser_ID, VALUE : 10002
+undefined | 2023-04-02 17:24:06 info: NAME : inUser_Pwd, VALUE : 0000
+undefined | 2023-04-02 17:24:06 info: NAME : inUser_IP, VALUE : ::1
+undefined | 2023-04-02 17:24:06 info: NAME : sessionID, VALUE : vQ6rXoiAeZlbupOgzGMVToSxGxEpGT83
+undefined | 2023-04-02 17:24:06 info: during time : 144
+undefined | 2023-04-02 17:24:06 info: SP_MEMBER_LOGIN callProcedureSync success
+undefined | 2023-04-02 17:24:06 info: URL : /main
+undefined | 2023-04-02 17:24:07 info: URL : /api/list/my_summry
+undefined | 2023-04-02 17:24:07 info: start decryptAll..
+undefined | 2023-04-02 17:24:07 info: callProcedureSync start - SP_MY_SUMMRY
+undefined | 2023-04-02 17:24:07 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:24:07 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 17:24:07 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 17:24:07 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 17:24:07 info: during time : 36
+undefined | 2023-04-02 17:24:07 info: SP_MY_SUMMRY callProcedureSync success
+undefined | 2023-04-02 17:24:07 info: callProcedureSync start - SP_MY_SUMMRY_CNT
+undefined | 2023-04-02 17:24:07 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:24:07 info: during time : 32
+undefined | 2023-04-02 17:24:07 info: SP_MY_SUMMRY_CNT callProcedureSync success
+undefined | 2023-04-02 17:24:07 info: URL : /api/common/getMyDash
+undefined | 2023-04-02 17:24:07 info: start decryptAll..
+undefined | 2023-04-02 17:24:07 info: callProcedureSync start - SP_MY_DASHBOARD
+undefined | 2023-04-02 17:24:07 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:24:07 info: during time : 167
+undefined | 2023-04-02 17:24:07 info: SP_MY_DASHBOARD callProcedureSync success
+undefined | 2023-04-02 17:27:43 info: URL : /main
+undefined | 2023-04-02 17:27:44 info: URL : /api/list/my_summry
+undefined | 2023-04-02 17:27:44 info: start decryptAll..
+undefined | 2023-04-02 17:27:44 info: callProcedureSync start - SP_MY_SUMMRY
+undefined | 2023-04-02 17:27:44 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:27:44 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 17:27:44 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 17:27:44 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 17:27:44 info: during time : 82
+undefined | 2023-04-02 17:27:44 info: SP_MY_SUMMRY callProcedureSync success
+undefined | 2023-04-02 17:27:44 info: callProcedureSync start - SP_MY_SUMMRY_CNT
+undefined | 2023-04-02 17:27:44 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:27:44 info: during time : 27
+undefined | 2023-04-02 17:27:44 info: SP_MY_SUMMRY_CNT callProcedureSync success
+undefined | 2023-04-02 17:27:44 info: URL : /api/common/getMyDash
+undefined | 2023-04-02 17:27:44 info: start decryptAll..
+undefined | 2023-04-02 17:27:44 info: callProcedureSync start - SP_MY_DASHBOARD
+undefined | 2023-04-02 17:27:44 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:27:44 info: during time : 28
+undefined | 2023-04-02 17:27:44 info: SP_MY_DASHBOARD callProcedureSync success
+undefined | 2023-04-02 17:28:23 info: URL : /main
+undefined | 2023-04-02 17:28:24 info: URL : /api/list/my_summry
+undefined | 2023-04-02 17:28:24 info: start decryptAll..
+undefined | 2023-04-02 17:28:24 info: callProcedureSync start - SP_MY_SUMMRY
+undefined | 2023-04-02 17:28:24 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:28:24 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 17:28:24 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 17:28:24 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 17:28:24 info: URL : /api/common/getMyDash
+undefined | 2023-04-02 17:28:24 info: start decryptAll..
+undefined | 2023-04-02 17:28:24 info: callProcedureSync start - SP_MY_DASHBOARD
+undefined | 2023-04-02 17:28:24 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:28:24 info: during time : 87
+undefined | 2023-04-02 17:28:24 info: SP_MY_SUMMRY callProcedureSync success
+undefined | 2023-04-02 17:28:24 info: callProcedureSync start - SP_MY_SUMMRY_CNT
+undefined | 2023-04-02 17:28:24 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:28:24 info: during time : 3
+undefined | 2023-04-02 17:28:24 info: SP_MY_DASHBOARD callProcedureSync success
+undefined | 2023-04-02 17:28:24 info: during time : 28
+undefined | 2023-04-02 17:28:24 info: SP_MY_SUMMRY_CNT callProcedureSync success
+undefined | 2023-04-02 17:28:43 info: URL : /main
+undefined | 2023-04-02 17:28:44 info: URL : /api/list/my_summry
+undefined | 2023-04-02 17:28:44 info: start decryptAll..
+undefined | 2023-04-02 17:28:44 info: callProcedureSync start - SP_MY_SUMMRY
+undefined | 2023-04-02 17:28:44 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:28:44 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 17:28:44 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 17:28:44 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 17:28:44 info: URL : /api/common/getMyDash
+undefined | 2023-04-02 17:28:44 info: start decryptAll..
+undefined | 2023-04-02 17:28:44 info: callProcedureSync start - SP_MY_DASHBOARD
+undefined | 2023-04-02 17:28:44 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:28:44 info: during time : 23
+undefined | 2023-04-02 17:28:44 info: SP_MY_SUMMRY callProcedureSync success
+undefined | 2023-04-02 17:28:44 info: callProcedureSync start - SP_MY_SUMMRY_CNT
+undefined | 2023-04-02 17:28:44 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:28:44 info: during time : 5
+undefined | 2023-04-02 17:28:44 info: SP_MY_DASHBOARD callProcedureSync success
+undefined | 2023-04-02 17:28:44 info: during time : 29
+undefined | 2023-04-02 17:28:44 info: SP_MY_SUMMRY_CNT callProcedureSync success
+undefined | 2023-04-02 17:28:58 info: URL : /main
+undefined | 2023-04-02 17:28:58 info: Create a key attempt : Dlnpt-J_wdxNvvcIyM0pORz5vIPoPduD
+undefined | 2023-04-02 17:29:08 info: URL : /api/user/signin
+undefined | 2023-04-02 17:29:08 info: start decryptAll..
+undefined | 2023-04-02 17:29:08 info: callProcedureSync start - SP_MEMBER_LOGIN
+undefined | 2023-04-02 17:29:08 info: NAME : inUser_ID, VALUE : 10001
+undefined | 2023-04-02 17:29:08 info: NAME : inUser_Pwd, VALUE : 0000
+undefined | 2023-04-02 17:29:08 info: NAME : inUser_IP, VALUE : 127.0.0.1
+undefined | 2023-04-02 17:29:08 info: NAME : sessionID, VALUE : Dlnpt-J_wdxNvvcIyM0pORz5vIPoPduD
+undefined | 2023-04-02 17:29:08 info: during time : 111
+undefined | 2023-04-02 17:29:08 info: SP_MEMBER_LOGIN callProcedureSync success
+undefined | 2023-04-02 17:29:36 info: URL : /api/user/signin
+undefined | 2023-04-02 17:29:36 info: start decryptAll..
+undefined | 2023-04-02 17:29:36 info: callProcedureSync start - SP_MEMBER_LOGIN
+undefined | 2023-04-02 17:29:36 info: NAME : inUser_ID, VALUE : 10002
+undefined | 2023-04-02 17:29:36 info: NAME : inUser_Pwd, VALUE : 0000
+undefined | 2023-04-02 17:29:36 info: NAME : inUser_IP, VALUE : ::1
+undefined | 2023-04-02 17:29:36 info: NAME : sessionID, VALUE : Dlnpt-J_wdxNvvcIyM0pORz5vIPoPduD
+undefined | 2023-04-02 17:29:36 info: during time : 61
+undefined | 2023-04-02 17:29:36 info: SP_MEMBER_LOGIN callProcedureSync success
+undefined | 2023-04-02 17:29:36 info: URL : /main
+undefined | 2023-04-02 17:29:36 info: URL : /api/list/my_summry
+undefined | 2023-04-02 17:29:36 info: start decryptAll..
+undefined | 2023-04-02 17:29:36 info: callProcedureSync start - SP_MY_SUMMRY
+undefined | 2023-04-02 17:29:36 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:29:36 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 17:29:36 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 17:29:36 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 17:29:36 info: URL : /api/common/getMyDash
+undefined | 2023-04-02 17:29:36 info: start decryptAll..
+undefined | 2023-04-02 17:29:36 info: callProcedureSync start - SP_MY_DASHBOARD
+undefined | 2023-04-02 17:29:36 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:29:36 info: during time : 24
+undefined | 2023-04-02 17:29:36 info: SP_MY_SUMMRY callProcedureSync success
+undefined | 2023-04-02 17:29:36 info: callProcedureSync start - SP_MY_SUMMRY_CNT
+undefined | 2023-04-02 17:29:36 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:29:36 info: during time : 50
+undefined | 2023-04-02 17:29:36 info: SP_MY_DASHBOARD callProcedureSync success
+undefined | 2023-04-02 17:29:36 info: during time : 76
+undefined | 2023-04-02 17:29:36 info: SP_MY_SUMMRY_CNT callProcedureSync success
+undefined | 2023-04-02 17:29:42 info: URL : /product
+undefined | 2023-04-02 17:29:43 info: URL : /api/list/getProduct
+undefined | 2023-04-02 17:29:43 info: start decryptAll..
+undefined | 2023-04-02 17:29:43 info: callProcedureSync start - SP_PRODUCT
+undefined | 2023-04-02 17:29:43 info: during time : 54
+undefined | 2023-04-02 17:29:43 info: SP_PRODUCT callProcedureSync success
+undefined | 2023-04-02 17:30:01 info: URL : /withdrawal
+undefined | 2023-04-02 17:30:02 info: URL : /api/common/getKRWBalance
+undefined | 2023-04-02 17:30:02 info: start decryptAll..
+undefined | 2023-04-02 17:30:02 info: callProcedureSync start - SP_KRW_BALANCE
+undefined | 2023-04-02 17:30:02 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:30:02 info: during time : 30
+undefined | 2023-04-02 17:30:02 info: SP_KRW_BALANCE callProcedureSync success
+undefined | 2023-04-02 17:30:35 info: URL : /withdrawallist
+undefined | 2023-04-02 17:30:36 info: URL : /api/list/krwwalletList
+undefined | 2023-04-02 17:30:36 info: start decryptAll..
+undefined | 2023-04-02 17:30:36 info: callProcedureSync start - SP_KRW_WALLET_LIST_LIST
+undefined | 2023-04-02 17:30:36 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:30:36 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 17:30:36 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 17:30:36 info: during time : 108
+undefined | 2023-04-02 17:30:36 info: SP_KRW_WALLET_LIST_LIST callProcedureSync success
+undefined | 2023-04-02 17:30:36 info: callProcedureSync start - SP_KRW_WALLET_LIST_LIST_CNT
+undefined | 2023-04-02 17:30:36 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:30:36 info: during time : 37
+undefined | 2023-04-02 17:30:36 info: SP_KRW_WALLET_LIST_LIST_CNT callProcedureSync success
+undefined | 2023-04-02 17:30:49 info: URL : /main
+undefined | 2023-04-02 17:30:50 info: URL : /api/list/my_summry
+undefined | 2023-04-02 17:30:50 info: start decryptAll..
+undefined | 2023-04-02 17:30:50 info: callProcedureSync start - SP_MY_SUMMRY
+undefined | 2023-04-02 17:30:50 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:30:50 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 17:30:50 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 17:30:50 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 17:30:50 info: URL : /api/common/getMyDash
+undefined | 2023-04-02 17:30:50 info: start decryptAll..
+undefined | 2023-04-02 17:30:50 info: callProcedureSync start - SP_MY_DASHBOARD
+undefined | 2023-04-02 17:30:50 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:30:50 info: during time : 34
+undefined | 2023-04-02 17:30:50 info: SP_MY_SUMMRY callProcedureSync success
+undefined | 2023-04-02 17:30:50 info: callProcedureSync start - SP_MY_SUMMRY_CNT
+undefined | 2023-04-02 17:30:50 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:30:50 info: during time : 28
+undefined | 2023-04-02 17:30:50 info: SP_MY_DASHBOARD callProcedureSync success
+undefined | 2023-04-02 17:30:50 info: during time : 48
+undefined | 2023-04-02 17:30:50 info: SP_MY_SUMMRY_CNT callProcedureSync success
+undefined | 2023-04-02 17:35:46 info: URL : /org
+undefined | 2023-04-02 17:35:48 info: URL : /getWebOrg/10002/1/5/0
+undefined | 2023-04-02 17:35:48 info: callProcedureSync start - WEB_ORG
+undefined | 2023-04-02 17:35:48 info: NAME : myuid, VALUE : 10002
+undefined | 2023-04-02 17:35:48 info: NAME : gs_IP, VALUE :  
+undefined | 2023-04-02 17:35:48 info: NAME : gs_date1, VALUE :  
+undefined | 2023-04-02 17:35:48 info: NAME : gs_date2, VALUE :  
+undefined | 2023-04-02 17:35:48 info: NAME : gsuid, VALUE : 10002
+undefined | 2023-04-02 17:35:48 info: NAME : gs_isSNo, VALUE : 1
+undefined | 2023-04-02 17:35:48 info: NAME : gnlevel, VALUE : 5
+undefined | 2023-04-02 17:35:48 info: during time : 176
+undefined | 2023-04-02 17:35:48 info: WEB_ORG callProcedureSync success
+undefined | 2023-04-02 17:35:55 info: URL : /stocklist
+undefined | 2023-04-02 17:35:56 info: URL : /api/list/myBS3
+undefined | 2023-04-02 17:35:56 info: start decryptAll..
+undefined | 2023-04-02 17:35:56 info: callProcedureSync start - SP_MY_BS3
+undefined | 2023-04-02 17:35:56 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:35:56 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 17:35:56 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 17:35:56 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 17:35:56 info: URL : /api/common/getMyMainBS3
+undefined | 2023-04-02 17:35:56 info: start decryptAll..
+undefined | 2023-04-02 17:35:56 info: callProcedureSync start - SP_MY_MAIN_BS3
+undefined | 2023-04-02 17:35:56 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:35:56 info: during time : 31
+undefined | 2023-04-02 17:35:56 info: SP_MY_BS3 callProcedureSync success
+undefined | 2023-04-02 17:35:56 info: callProcedureSync start - SP_MY_BS3_CNT
+undefined | 2023-04-02 17:35:56 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:35:56 info: during time : 27
+undefined | 2023-04-02 17:35:56 info: SP_MY_MAIN_BS3 callProcedureSync success
+undefined | 2023-04-02 17:35:56 info: during time : 54
+undefined | 2023-04-02 17:35:56 info: SP_MY_BS3_CNT callProcedureSync success
+undefined | 2023-04-02 17:35:58 info: URL : /stocklist
+undefined | 2023-04-02 17:35:59 info: URL : /api/list/myBS3
+undefined | 2023-04-02 17:35:59 info: start decryptAll..
+undefined | 2023-04-02 17:35:59 info: callProcedureSync start - SP_MY_BS3
+undefined | 2023-04-02 17:35:59 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:35:59 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 17:35:59 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 17:35:59 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 17:35:59 info: URL : /api/common/getMyMainBS3
+undefined | 2023-04-02 17:35:59 info: start decryptAll..
+undefined | 2023-04-02 17:35:59 info: callProcedureSync start - SP_MY_MAIN_BS3
+undefined | 2023-04-02 17:35:59 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:35:59 info: during time : 26
+undefined | 2023-04-02 17:35:59 info: SP_MY_BS3 callProcedureSync success
+undefined | 2023-04-02 17:35:59 info: callProcedureSync start - SP_MY_BS3_CNT
+undefined | 2023-04-02 17:35:59 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:35:59 info: during time : 2
+undefined | 2023-04-02 17:35:59 info: SP_MY_MAIN_BS3 callProcedureSync success
+undefined | 2023-04-02 17:35:59 info: during time : 23
+undefined | 2023-04-02 17:35:59 info: SP_MY_BS3_CNT callProcedureSync success
+undefined | 2023-04-02 17:35:59 info: URL : /stocklist
+undefined | 2023-04-02 17:35:59 info: URL : /api/list/myBS3
+undefined | 2023-04-02 17:35:59 info: start decryptAll..
+undefined | 2023-04-02 17:35:59 info: callProcedureSync start - SP_MY_BS3
+undefined | 2023-04-02 17:35:59 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:35:59 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 17:35:59 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 17:35:59 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 17:35:59 info: URL : /api/common/getMyMainBS3
+undefined | 2023-04-02 17:35:59 info: start decryptAll..
+undefined | 2023-04-02 17:35:59 info: callProcedureSync start - SP_MY_MAIN_BS3
+undefined | 2023-04-02 17:35:59 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:35:59 info: during time : 23
+undefined | 2023-04-02 17:35:59 info: SP_MY_BS3 callProcedureSync success
+undefined | 2023-04-02 17:35:59 info: callProcedureSync start - SP_MY_BS3_CNT
+undefined | 2023-04-02 17:35:59 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:35:59 info: during time : 6
+undefined | 2023-04-02 17:35:59 info: SP_MY_MAIN_BS3 callProcedureSync success
+undefined | 2023-04-02 17:36:00 info: during time : 26
+undefined | 2023-04-02 17:36:00 info: SP_MY_BS3_CNT callProcedureSync success
+undefined | 2023-04-02 17:36:00 info: URL : /stocklist
+undefined | 2023-04-02 17:36:01 info: URL : /api/list/myBS3
+undefined | 2023-04-02 17:36:01 info: start decryptAll..
+undefined | 2023-04-02 17:36:01 info: callProcedureSync start - SP_MY_BS3
+undefined | 2023-04-02 17:36:01 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:36:01 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 17:36:01 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 17:36:01 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 17:36:01 info: during time : 31
+undefined | 2023-04-02 17:36:01 info: SP_MY_BS3 callProcedureSync success
+undefined | 2023-04-02 17:36:01 info: callProcedureSync start - SP_MY_BS3_CNT
+undefined | 2023-04-02 17:36:01 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:36:01 info: during time : 24
+undefined | 2023-04-02 17:36:01 info: SP_MY_BS3_CNT callProcedureSync success
+undefined | 2023-04-02 17:36:01 info: URL : /api/common/getMyMainBS3
+undefined | 2023-04-02 17:36:01 info: start decryptAll..
+undefined | 2023-04-02 17:36:01 info: callProcedureSync start - SP_MY_MAIN_BS3
+undefined | 2023-04-02 17:36:01 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:36:01 info: during time : 24
+undefined | 2023-04-02 17:36:01 info: SP_MY_MAIN_BS3 callProcedureSync success
+undefined | 2023-04-02 17:37:21 info: URL : /stocklist
+undefined | 2023-04-02 17:37:22 info: URL : /api/list/myBS3
+undefined | 2023-04-02 17:37:22 info: start decryptAll..
+undefined | 2023-04-02 17:37:22 info: callProcedureSync start - SP_MY_BS3
+undefined | 2023-04-02 17:37:22 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:37:22 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 17:37:22 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 17:37:22 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 17:37:22 info: URL : /api/common/getMyMainBS3
+undefined | 2023-04-02 17:37:22 info: start decryptAll..
+undefined | 2023-04-02 17:37:22 info: callProcedureSync start - SP_MY_MAIN_BS3
+undefined | 2023-04-02 17:37:22 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:37:22 info: during time : 83
+undefined | 2023-04-02 17:37:22 info: SP_MY_BS3 callProcedureSync success
+undefined | 2023-04-02 17:37:22 info: callProcedureSync start - SP_MY_BS3_CNT
+undefined | 2023-04-02 17:37:22 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:37:22 info: during time : 2
+undefined | 2023-04-02 17:37:22 info: SP_MY_MAIN_BS3 callProcedureSync success
+undefined | 2023-04-02 17:37:22 info: during time : 26
+undefined | 2023-04-02 17:37:22 info: SP_MY_BS3_CNT callProcedureSync success
+undefined | 2023-04-02 17:37:23 info: URL : /stocklist
+undefined | 2023-04-02 17:37:24 info: URL : /api/list/myBS3
+undefined | 2023-04-02 17:37:24 info: start decryptAll..
+undefined | 2023-04-02 17:37:24 info: callProcedureSync start - SP_MY_BS3
+undefined | 2023-04-02 17:37:24 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:37:24 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 17:37:24 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 17:37:24 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 17:37:24 info: URL : /api/common/getMyMainBS3
+undefined | 2023-04-02 17:37:24 info: start decryptAll..
+undefined | 2023-04-02 17:37:24 info: callProcedureSync start - SP_MY_MAIN_BS3
+undefined | 2023-04-02 17:37:24 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:37:24 info: during time : 23
+undefined | 2023-04-02 17:37:24 info: SP_MY_BS3 callProcedureSync success
+undefined | 2023-04-02 17:37:24 info: callProcedureSync start - SP_MY_BS3_CNT
+undefined | 2023-04-02 17:37:24 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:37:24 info: during time : 2
+undefined | 2023-04-02 17:37:24 info: SP_MY_MAIN_BS3 callProcedureSync success
+undefined | 2023-04-02 17:37:24 info: during time : 24
+undefined | 2023-04-02 17:37:24 info: SP_MY_BS3_CNT callProcedureSync success
+undefined | 2023-04-02 17:37:26 info: URL : /ksplist
+undefined | 2023-04-02 17:37:26 info: URL : /api/list/myBS2
+undefined | 2023-04-02 17:37:26 info: start decryptAll..
+undefined | 2023-04-02 17:37:26 info: callProcedureSync start - SP_MY_BS2
+undefined | 2023-04-02 17:37:26 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:37:26 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 17:37:26 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 17:37:26 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 17:37:26 info: URL : /api/common/getMyMainBS2
+undefined | 2023-04-02 17:37:26 info: start decryptAll..
+undefined | 2023-04-02 17:37:26 info: callProcedureSync start - SP_MY_MAIN_BS2
+undefined | 2023-04-02 17:37:26 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:37:26 info: during time : 30
+undefined | 2023-04-02 17:37:26 info: SP_MY_BS2 callProcedureSync success
+undefined | 2023-04-02 17:37:26 info: callProcedureSync start - SP_MY_BS2_CNT
+undefined | 2023-04-02 17:37:26 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:37:26 info: during time : 2
+undefined | 2023-04-02 17:37:26 info: SP_MY_MAIN_BS2 callProcedureSync success
+undefined | 2023-04-02 17:37:26 info: during time : 26
+undefined | 2023-04-02 17:37:26 info: SP_MY_BS2_CNT callProcedureSync success
+undefined | 2023-04-02 17:37:57 info: URL : /product
+undefined | 2023-04-02 17:37:58 info: URL : /api/list/getProduct
+undefined | 2023-04-02 17:37:58 info: start decryptAll..
+undefined | 2023-04-02 17:37:58 info: callProcedureSync start - SP_PRODUCT
+undefined | 2023-04-02 17:37:58 info: during time : 82
+undefined | 2023-04-02 17:37:58 info: SP_PRODUCT callProcedureSync success
+undefined | 2023-04-02 17:38:24 info: URL : /krwlist
+undefined | 2023-04-02 17:38:25 info: URL : /api/common/getMyMainBS1
+undefined | 2023-04-02 17:38:25 info: start decryptAll..
+undefined | 2023-04-02 17:38:25 info: callProcedureSync start - SP_MY_MAIN_BS1
+undefined | 2023-04-02 17:38:25 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:38:25 info: URL : /api/list/myBS1
+undefined | 2023-04-02 17:38:25 info: start decryptAll..
+undefined | 2023-04-02 17:38:25 info: callProcedureSync start - SP_MY_BS1
+undefined | 2023-04-02 17:38:25 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:38:25 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 17:38:25 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 17:38:25 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 17:38:25 info: during time : 25
+undefined | 2023-04-02 17:38:25 info: SP_MY_MAIN_BS1 callProcedureSync success
+undefined | 2023-04-02 17:38:25 info: during time : 61
+undefined | 2023-04-02 17:38:25 info: SP_MY_BS1 callProcedureSync success
+undefined | 2023-04-02 17:38:25 info: callProcedureSync start - SP_MY_BS1_CNT
+undefined | 2023-04-02 17:38:25 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:38:25 info: during time : 33
+undefined | 2023-04-02 17:38:25 info: SP_MY_BS1_CNT callProcedureSync success
+undefined | 2023-04-02 17:38:57 info: URL : /krwlist
+undefined | 2023-04-02 17:38:57 info: URL : /api/common/getMyMainBS1
+undefined | 2023-04-02 17:38:57 info: start decryptAll..
+undefined | 2023-04-02 17:38:57 info: callProcedureSync start - SP_MY_MAIN_BS1
+undefined | 2023-04-02 17:38:57 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:38:57 info: URL : /api/list/myBS1
+undefined | 2023-04-02 17:38:57 info: start decryptAll..
+undefined | 2023-04-02 17:38:57 info: callProcedureSync start - SP_MY_BS1
+undefined | 2023-04-02 17:38:57 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:38:57 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 17:38:57 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 17:38:57 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 17:38:57 info: during time : 75
+undefined | 2023-04-02 17:38:57 info: SP_MY_MAIN_BS1 callProcedureSync success
+undefined | 2023-04-02 17:38:57 info: during time : 94
+undefined | 2023-04-02 17:38:57 info: SP_MY_BS1 callProcedureSync success
+undefined | 2023-04-02 17:38:57 info: callProcedureSync start - SP_MY_BS1_CNT
+undefined | 2023-04-02 17:38:57 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:38:57 info: during time : 24
+undefined | 2023-04-02 17:38:57 info: SP_MY_BS1_CNT callProcedureSync success
+undefined | 2023-04-02 17:39:17 info: URL : /ksplist
+undefined | 2023-04-02 17:39:18 info: URL : /api/list/myBS2
+undefined | 2023-04-02 17:39:18 info: start decryptAll..
+undefined | 2023-04-02 17:39:18 info: callProcedureSync start - SP_MY_BS2
+undefined | 2023-04-02 17:39:18 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:39:18 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 17:39:18 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 17:39:18 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 17:39:18 info: during time : 25
+undefined | 2023-04-02 17:39:18 info: SP_MY_BS2 callProcedureSync success
+undefined | 2023-04-02 17:39:18 info: callProcedureSync start - SP_MY_BS2_CNT
+undefined | 2023-04-02 17:39:18 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:39:18 info: during time : 24
+undefined | 2023-04-02 17:39:18 info: SP_MY_BS2_CNT callProcedureSync success
+undefined | 2023-04-02 17:39:18 info: URL : /api/common/getMyMainBS2
+undefined | 2023-04-02 17:39:18 info: start decryptAll..
+undefined | 2023-04-02 17:39:18 info: callProcedureSync start - SP_MY_MAIN_BS2
+undefined | 2023-04-02 17:39:18 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:39:18 info: during time : 25
+undefined | 2023-04-02 17:39:18 info: SP_MY_MAIN_BS2 callProcedureSync success
+undefined | 2023-04-02 17:39:19 info: URL : /krwlist
+undefined | 2023-04-02 17:39:19 info: URL : /api/common/getMyMainBS1
+undefined | 2023-04-02 17:39:19 info: start decryptAll..
+undefined | 2023-04-02 17:39:19 info: callProcedureSync start - SP_MY_MAIN_BS1
+undefined | 2023-04-02 17:39:19 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:39:19 info: URL : /api/list/myBS1
+undefined | 2023-04-02 17:39:19 info: start decryptAll..
+undefined | 2023-04-02 17:39:20 info: callProcedureSync start - SP_MY_BS1
+undefined | 2023-04-02 17:39:20 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:39:20 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 17:39:20 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 17:39:20 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 17:39:20 info: during time : 15
+undefined | 2023-04-02 17:39:20 info: SP_MY_MAIN_BS1 callProcedureSync success
+undefined | 2023-04-02 17:39:20 info: during time : 31
+undefined | 2023-04-02 17:39:20 info: SP_MY_BS1 callProcedureSync success
+undefined | 2023-04-02 17:39:20 info: callProcedureSync start - SP_MY_BS1_CNT
+undefined | 2023-04-02 17:39:20 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:39:20 info: during time : 27
+undefined | 2023-04-02 17:39:20 info: SP_MY_BS1_CNT callProcedureSync success
+undefined | 2023-04-02 17:40:12 info: URL : /krwlist
+undefined | 2023-04-02 17:40:14 info: URL : /api/common/getMyMainBS1
+undefined | 2023-04-02 17:40:14 info: start decryptAll..
+undefined | 2023-04-02 17:40:14 info: callProcedureSync start - SP_MY_MAIN_BS1
+undefined | 2023-04-02 17:40:14 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:40:14 info: during time : 83
+undefined | 2023-04-02 17:40:14 info: SP_MY_MAIN_BS1 callProcedureSync success
+undefined | 2023-04-02 17:40:14 info: URL : /api/list/myBS1
+undefined | 2023-04-02 17:40:14 info: start decryptAll..
+undefined | 2023-04-02 17:40:14 info: callProcedureSync start - SP_MY_BS1
+undefined | 2023-04-02 17:40:14 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:40:14 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 17:40:14 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 17:40:14 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 17:40:14 info: during time : 25
+undefined | 2023-04-02 17:40:14 info: SP_MY_BS1 callProcedureSync success
+undefined | 2023-04-02 17:40:14 info: callProcedureSync start - SP_MY_BS1_CNT
+undefined | 2023-04-02 17:40:14 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:40:14 info: during time : 30
+undefined | 2023-04-02 17:40:14 info: SP_MY_BS1_CNT callProcedureSync success
+undefined | 2023-04-02 17:40:20 info: URL : /ksplist
+undefined | 2023-04-02 17:40:20 info: URL : /api/list/myBS2
+undefined | 2023-04-02 17:40:20 info: start decryptAll..
+undefined | 2023-04-02 17:40:20 info: callProcedureSync start - SP_MY_BS2
+undefined | 2023-04-02 17:40:20 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:40:20 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 17:40:20 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 17:40:20 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 17:40:20 info: URL : /api/common/getMyMainBS2
+undefined | 2023-04-02 17:40:20 info: start decryptAll..
+undefined | 2023-04-02 17:40:20 info: callProcedureSync start - SP_MY_MAIN_BS2
+undefined | 2023-04-02 17:40:20 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:40:20 info: during time : 25
+undefined | 2023-04-02 17:40:20 info: SP_MY_BS2 callProcedureSync success
+undefined | 2023-04-02 17:40:20 info: callProcedureSync start - SP_MY_BS2_CNT
+undefined | 2023-04-02 17:40:20 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:40:20 info: during time : 21
+undefined | 2023-04-02 17:40:20 info: SP_MY_MAIN_BS2 callProcedureSync success
+undefined | 2023-04-02 17:40:20 info: during time : 47
+undefined | 2023-04-02 17:40:20 info: SP_MY_BS2_CNT callProcedureSync success
+undefined | 2023-04-02 17:42:18 info: URL : /stocklist
+undefined | 2023-04-02 17:42:19 info: URL : /api/list/myBS3
+undefined | 2023-04-02 17:42:19 info: start decryptAll..
+undefined | 2023-04-02 17:42:19 info: callProcedureSync start - SP_MY_BS3
+undefined | 2023-04-02 17:42:19 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:42:19 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 17:42:19 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 17:42:19 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 17:42:19 info: URL : /api/common/getMyMainBS3
+undefined | 2023-04-02 17:42:19 info: start decryptAll..
+undefined | 2023-04-02 17:42:19 info: callProcedureSync start - SP_MY_MAIN_BS3
+undefined | 2023-04-02 17:42:19 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:42:19 info: during time : 72
+undefined | 2023-04-02 17:42:19 info: SP_MY_BS3 callProcedureSync success
+undefined | 2023-04-02 17:42:19 info: callProcedureSync start - SP_MY_BS3_CNT
+undefined | 2023-04-02 17:42:19 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:42:19 info: during time : 2
+undefined | 2023-04-02 17:42:19 info: SP_MY_MAIN_BS3 callProcedureSync success
+undefined | 2023-04-02 17:42:19 info: during time : 24
+undefined | 2023-04-02 17:42:19 info: SP_MY_BS3_CNT callProcedureSync success
+undefined | 2023-04-02 17:46:08 info: URL : /stocklist
+undefined | 2023-04-02 17:46:09 info: URL : /api/list/myBS3
+undefined | 2023-04-02 17:46:09 info: start decryptAll..
+undefined | 2023-04-02 17:46:09 info: callProcedureSync start - SP_MY_BS3
+undefined | 2023-04-02 17:46:09 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:46:09 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 17:46:09 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 17:46:09 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 17:46:09 info: URL : /api/common/getMyMainBS3
+undefined | 2023-04-02 17:46:09 info: start decryptAll..
+undefined | 2023-04-02 17:46:09 info: callProcedureSync start - SP_MY_MAIN_BS3
+undefined | 2023-04-02 17:46:09 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:46:09 info: during time : 87
+undefined | 2023-04-02 17:46:09 info: SP_MY_BS3 callProcedureSync success
+undefined | 2023-04-02 17:46:09 info: callProcedureSync start - SP_MY_BS3_CNT
+undefined | 2023-04-02 17:46:09 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 17:46:09 info: during time : 26
+undefined | 2023-04-02 17:46:09 info: SP_MY_BS3_CNT callProcedureSync success
+undefined | 2023-04-02 17:46:24 error: executeProcedure failed : RequestError: Timeout: Request failed to complete in 15000ms
+undefined | 2023-04-02 17:46:24 error: callProcedureSync failed
+undefined | 2023-04-02 18:00:49 info: URL : /stocklist
+undefined | 2023-04-02 18:00:49 info: Create a key attempt : prkvIy4wfeUCbjQhltd4QSpjcu7mCKti
+undefined | 2023-04-02 18:00:51 info: URL : /api/user/signin
+undefined | 2023-04-02 18:00:51 info: start decryptAll..
+undefined | 2023-04-02 18:00:51 info: callProcedureSync start - SP_MEMBER_LOGIN
+undefined | 2023-04-02 18:00:51 info: NAME : inUser_ID, VALUE : 10002
+undefined | 2023-04-02 18:00:51 info: NAME : inUser_Pwd, VALUE : 0000
+undefined | 2023-04-02 18:00:51 info: NAME : inUser_IP, VALUE : ::1
+undefined | 2023-04-02 18:00:51 info: NAME : sessionID, VALUE : prkvIy4wfeUCbjQhltd4QSpjcu7mCKti
+undefined | 2023-04-02 18:00:51 info: during time : 111
+undefined | 2023-04-02 18:00:51 info: SP_MEMBER_LOGIN callProcedureSync success
+undefined | 2023-04-02 18:01:15 info: URL : /api/user/signin
+undefined | 2023-04-02 18:01:15 info: start decryptAll..
+undefined | 2023-04-02 18:01:15 info: callProcedureSync start - SP_MEMBER_LOGIN
+undefined | 2023-04-02 18:01:15 info: NAME : inUser_ID, VALUE : 10001
+undefined | 2023-04-02 18:01:15 info: NAME : inUser_Pwd, VALUE : 0000
+undefined | 2023-04-02 18:01:15 info: NAME : inUser_IP, VALUE : ::1
+undefined | 2023-04-02 18:01:15 info: NAME : sessionID, VALUE : prkvIy4wfeUCbjQhltd4QSpjcu7mCKti
+undefined | 2023-04-02 18:01:15 info: during time : 61
+undefined | 2023-04-02 18:01:15 info: SP_MEMBER_LOGIN callProcedureSync success
+undefined | 2023-04-02 18:01:15 info: URL : /main
+undefined | 2023-04-02 18:01:16 info: URL : /api/list/my_summry
+undefined | 2023-04-02 18:01:16 info: start decryptAll..
+undefined | 2023-04-02 18:01:16 info: callProcedureSync start - SP_MY_SUMMRY
+undefined | 2023-04-02 18:01:16 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:01:16 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 18:01:16 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 18:01:16 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 18:01:16 info: URL : /api/common/getMyDash
+undefined | 2023-04-02 18:01:16 info: start decryptAll..
+undefined | 2023-04-02 18:01:16 info: callProcedureSync start - SP_MY_DASHBOARD
+undefined | 2023-04-02 18:01:16 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:01:16 info: during time : 27
+undefined | 2023-04-02 18:01:16 info: SP_MY_SUMMRY callProcedureSync success
+undefined | 2023-04-02 18:01:16 info: callProcedureSync start - SP_MY_SUMMRY_CNT
+undefined | 2023-04-02 18:01:16 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:01:16 info: during time : 67
+undefined | 2023-04-02 18:01:16 info: SP_MY_DASHBOARD callProcedureSync success
+undefined | 2023-04-02 18:01:16 info: during time : 95
+undefined | 2023-04-02 18:01:16 info: SP_MY_SUMMRY_CNT callProcedureSync success
+undefined | 2023-04-02 18:01:22 info: URL : /bonus1
+undefined | 2023-04-02 18:01:22 info: URL : /api/list/myBS1
+undefined | 2023-04-02 18:01:22 info: start decryptAll..
+undefined | 2023-04-02 18:01:22 info: callProcedureSync start - SP_MY_BS1
+undefined | 2023-04-02 18:01:22 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:01:22 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 18:01:22 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 18:01:22 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 18:01:22 info: URL : /api/common/getMyMainBS1
+undefined | 2023-04-02 18:01:22 info: start decryptAll..
+undefined | 2023-04-02 18:01:22 info: callProcedureSync start - SP_MY_MAIN_BS1
+undefined | 2023-04-02 18:01:22 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:01:22 info: during time : 22
+undefined | 2023-04-02 18:01:22 info: SP_MY_BS1 callProcedureSync success
+undefined | 2023-04-02 18:01:22 info: callProcedureSync start - SP_MY_BS1_CNT
+undefined | 2023-04-02 18:01:22 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:01:22 info: during time : 4
+undefined | 2023-04-02 18:01:22 info: SP_MY_MAIN_BS1 callProcedureSync success
+undefined | 2023-04-02 18:01:22 info: during time : 25
+undefined | 2023-04-02 18:01:22 info: SP_MY_BS1_CNT callProcedureSync success
+undefined | 2023-04-02 18:01:23 info: URL : /bonus2
+undefined | 2023-04-02 18:01:23 info: URL : /api/list/myBS2
+undefined | 2023-04-02 18:01:23 info: start decryptAll..
+undefined | 2023-04-02 18:01:23 info: callProcedureSync start - SP_MY_BS2
+undefined | 2023-04-02 18:01:23 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:01:23 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 18:01:23 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 18:01:23 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 18:01:23 info: URL : /api/common/getMyMainBS2
+undefined | 2023-04-02 18:01:23 info: start decryptAll..
+undefined | 2023-04-02 18:01:23 info: callProcedureSync start - SP_MY_MAIN_BS2
+undefined | 2023-04-02 18:01:23 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:01:23 info: during time : 19
+undefined | 2023-04-02 18:01:23 info: SP_MY_BS2 callProcedureSync success
+undefined | 2023-04-02 18:01:23 info: callProcedureSync start - SP_MY_BS2_CNT
+undefined | 2023-04-02 18:01:23 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:01:23 info: during time : 5
+undefined | 2023-04-02 18:01:23 info: SP_MY_MAIN_BS2 callProcedureSync success
+undefined | 2023-04-02 18:01:23 info: during time : 25
+undefined | 2023-04-02 18:01:23 info: SP_MY_BS2_CNT callProcedureSync success
+undefined | 2023-04-02 18:01:24 info: URL : /bonus3
+undefined | 2023-04-02 18:01:25 info: URL : /api/list/myBS2
+undefined | 2023-04-02 18:01:25 info: start decryptAll..
+undefined | 2023-04-02 18:01:25 info: callProcedureSync start - SP_MY_BS2
+undefined | 2023-04-02 18:01:25 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:01:25 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 18:01:25 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 18:01:25 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 18:01:25 info: URL : /api/common/getMyMainBS2
+undefined | 2023-04-02 18:01:25 info: start decryptAll..
+undefined | 2023-04-02 18:01:25 info: callProcedureSync start - SP_MY_MAIN_BS2
+undefined | 2023-04-02 18:01:25 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:01:25 info: during time : 23
+undefined | 2023-04-02 18:01:25 info: SP_MY_BS2 callProcedureSync success
+undefined | 2023-04-02 18:01:25 info: callProcedureSync start - SP_MY_BS2_CNT
+undefined | 2023-04-02 18:01:25 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:01:25 info: during time : 16
+undefined | 2023-04-02 18:01:25 info: SP_MY_MAIN_BS2 callProcedureSync success
+undefined | 2023-04-02 18:01:25 info: during time : 25
+undefined | 2023-04-02 18:01:25 info: SP_MY_BS2_CNT callProcedureSync success
+undefined | 2023-04-02 18:01:25 info: URL : /bonus4
+undefined | 2023-04-02 18:01:26 info: URL : /api/list/myBS2
+undefined | 2023-04-02 18:01:26 info: start decryptAll..
+undefined | 2023-04-02 18:01:26 info: callProcedureSync start - SP_MY_BS2
+undefined | 2023-04-02 18:01:26 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:01:26 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 18:01:26 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 18:01:26 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 18:01:26 info: URL : /api/common/getMyMainBS2
+undefined | 2023-04-02 18:01:26 info: start decryptAll..
+undefined | 2023-04-02 18:01:26 info: callProcedureSync start - SP_MY_MAIN_BS2
+undefined | 2023-04-02 18:01:26 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:01:26 info: during time : 23
+undefined | 2023-04-02 18:01:26 info: SP_MY_BS2 callProcedureSync success
+undefined | 2023-04-02 18:01:26 info: callProcedureSync start - SP_MY_BS2_CNT
+undefined | 2023-04-02 18:01:26 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:01:26 info: during time : 2
+undefined | 2023-04-02 18:01:26 info: SP_MY_MAIN_BS2 callProcedureSync success
+undefined | 2023-04-02 18:01:26 info: during time : 27
+undefined | 2023-04-02 18:01:26 info: SP_MY_BS2_CNT callProcedureSync success
+undefined | 2023-04-02 18:01:27 info: URL : /bonus5
+undefined | 2023-04-02 18:01:27 info: URL : /api/list/myBS2
+undefined | 2023-04-02 18:01:27 info: start decryptAll..
+undefined | 2023-04-02 18:01:27 info: callProcedureSync start - SP_MY_BS2
+undefined | 2023-04-02 18:01:27 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:01:27 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 18:01:27 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 18:01:27 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 18:01:27 info: URL : /api/common/getMyMainBS2
+undefined | 2023-04-02 18:01:27 info: start decryptAll..
+undefined | 2023-04-02 18:01:27 info: callProcedureSync start - SP_MY_MAIN_BS2
+undefined | 2023-04-02 18:01:27 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:01:27 info: during time : 22
+undefined | 2023-04-02 18:01:27 info: SP_MY_BS2 callProcedureSync success
+undefined | 2023-04-02 18:01:27 info: callProcedureSync start - SP_MY_BS2_CNT
+undefined | 2023-04-02 18:01:27 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:01:27 info: during time : 3
+undefined | 2023-04-02 18:01:27 info: SP_MY_MAIN_BS2 callProcedureSync success
+undefined | 2023-04-02 18:01:27 info: during time : 23
+undefined | 2023-04-02 18:01:27 info: SP_MY_BS2_CNT callProcedureSync success
+undefined | 2023-04-02 18:01:28 info: URL : /bonus6
+undefined | 2023-04-02 18:01:28 info: URL : /api/list/myBS2
+undefined | 2023-04-02 18:01:28 info: start decryptAll..
+undefined | 2023-04-02 18:01:28 info: callProcedureSync start - SP_MY_BS2
+undefined | 2023-04-02 18:01:28 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:01:28 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 18:01:28 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 18:01:28 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 18:01:28 info: URL : /api/common/getMyMainBS2
+undefined | 2023-04-02 18:01:28 info: start decryptAll..
+undefined | 2023-04-02 18:01:28 info: callProcedureSync start - SP_MY_MAIN_BS2
+undefined | 2023-04-02 18:01:28 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:01:28 info: during time : 13
+undefined | 2023-04-02 18:01:28 info: SP_MY_BS2 callProcedureSync success
+undefined | 2023-04-02 18:01:28 info: callProcedureSync start - SP_MY_BS2_CNT
+undefined | 2023-04-02 18:01:28 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:01:28 info: during time : 11
+undefined | 2023-04-02 18:01:28 info: SP_MY_MAIN_BS2 callProcedureSync success
+undefined | 2023-04-02 18:01:28 info: during time : 24
+undefined | 2023-04-02 18:01:28 info: SP_MY_BS2_CNT callProcedureSync success
+undefined | 2023-04-02 18:01:28 info: URL : /bonus7
+undefined | 2023-04-02 18:01:29 info: URL : /api/list/myBS2
+undefined | 2023-04-02 18:01:29 info: start decryptAll..
+undefined | 2023-04-02 18:01:29 info: callProcedureSync start - SP_MY_BS2
+undefined | 2023-04-02 18:01:29 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:01:29 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 18:01:29 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 18:01:29 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 18:01:29 info: URL : /api/common/getMyMainBS2
+undefined | 2023-04-02 18:01:29 info: start decryptAll..
+undefined | 2023-04-02 18:01:29 info: callProcedureSync start - SP_MY_MAIN_BS2
+undefined | 2023-04-02 18:01:29 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:01:29 info: during time : 22
+undefined | 2023-04-02 18:01:29 info: SP_MY_BS2 callProcedureSync success
+undefined | 2023-04-02 18:01:29 info: callProcedureSync start - SP_MY_BS2_CNT
+undefined | 2023-04-02 18:01:29 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:01:29 info: during time : 2
+undefined | 2023-04-02 18:01:29 info: SP_MY_MAIN_BS2 callProcedureSync success
+undefined | 2023-04-02 18:01:29 info: during time : 24
+undefined | 2023-04-02 18:01:29 info: SP_MY_BS2_CNT callProcedureSync success
+undefined | 2023-04-02 18:01:30 info: URL : /org
+undefined | 2023-04-02 18:01:31 info: URL : /getWebOrg/10001/1/5/0
+undefined | 2023-04-02 18:01:31 info: callProcedureSync start - WEB_ORG
+undefined | 2023-04-02 18:01:31 info: NAME : myuid, VALUE : 10001
+undefined | 2023-04-02 18:01:31 info: NAME : gs_IP, VALUE :  
+undefined | 2023-04-02 18:01:31 info: NAME : gs_date1, VALUE :  
+undefined | 2023-04-02 18:01:31 info: NAME : gs_date2, VALUE :  
+undefined | 2023-04-02 18:01:31 info: NAME : gsuid, VALUE : 10001
+undefined | 2023-04-02 18:01:31 info: NAME : gs_isSNo, VALUE : 1
+undefined | 2023-04-02 18:01:31 info: NAME : gnlevel, VALUE : 5
+undefined | 2023-04-02 18:01:31 info: during time : 107
+undefined | 2023-04-02 18:01:31 info: WEB_ORG callProcedureSync success
+undefined | 2023-04-02 18:02:51 info: URL : /bonus5
+undefined | 2023-04-02 18:02:52 info: URL : /api/list/myBS2
+undefined | 2023-04-02 18:02:52 info: start decryptAll..
+undefined | 2023-04-02 18:02:52 info: callProcedureSync start - SP_MY_BS2
+undefined | 2023-04-02 18:02:52 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:02:52 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 18:02:52 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 18:02:52 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 18:02:52 info: URL : /api/common/getMyMainBS2
+undefined | 2023-04-02 18:02:52 info: start decryptAll..
+undefined | 2023-04-02 18:02:52 info: callProcedureSync start - SP_MY_MAIN_BS2
+undefined | 2023-04-02 18:02:52 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:02:52 info: during time : 83
+undefined | 2023-04-02 18:02:52 info: SP_MY_BS2 callProcedureSync success
+undefined | 2023-04-02 18:02:52 info: callProcedureSync start - SP_MY_BS2_CNT
+undefined | 2023-04-02 18:02:52 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:02:52 info: during time : 6
+undefined | 2023-04-02 18:02:52 info: SP_MY_MAIN_BS2 callProcedureSync success
+undefined | 2023-04-02 18:02:52 info: during time : 33
+undefined | 2023-04-02 18:02:52 info: SP_MY_BS2_CNT callProcedureSync success
+undefined | 2023-04-02 18:02:57 info: URL : /product
+undefined | 2023-04-02 18:02:57 info: URL : /api/list/getProduct
+undefined | 2023-04-02 18:02:57 info: start decryptAll..
+undefined | 2023-04-02 18:02:57 info: callProcedureSync start - SP_PRODUCT
+undefined | 2023-04-02 18:02:57 info: during time : 23
+undefined | 2023-04-02 18:02:57 info: SP_PRODUCT callProcedureSync success
+undefined | 2023-04-02 18:03:24 info: URL : /product
+undefined | 2023-04-02 18:03:24 info: URL : /api/list/getProduct
+undefined | 2023-04-02 18:03:24 info: start decryptAll..
+undefined | 2023-04-02 18:03:24 info: callProcedureSync start - SP_PRODUCT
+undefined | 2023-04-02 18:03:24 info: during time : 28
+undefined | 2023-04-02 18:03:24 info: SP_PRODUCT callProcedureSync success
+undefined | 2023-04-02 18:03:52 info: URL : /main
+undefined | 2023-04-02 18:03:53 info: URL : /api/list/my_summry
+undefined | 2023-04-02 18:03:53 info: start decryptAll..
+undefined | 2023-04-02 18:03:53 info: callProcedureSync start - SP_MY_SUMMRY
+undefined | 2023-04-02 18:03:53 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:03:53 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 18:03:53 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 18:03:53 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 18:03:53 info: URL : /api/common/getMyDash
+undefined | 2023-04-02 18:03:53 info: start decryptAll..
+undefined | 2023-04-02 18:03:53 info: callProcedureSync start - SP_MY_DASHBOARD
+undefined | 2023-04-02 18:03:53 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:03:53 info: during time : 15
+undefined | 2023-04-02 18:03:53 info: SP_MY_SUMMRY callProcedureSync success
+undefined | 2023-04-02 18:03:53 info: callProcedureSync start - SP_MY_SUMMRY_CNT
+undefined | 2023-04-02 18:03:53 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:03:53 info: during time : 24
+undefined | 2023-04-02 18:03:53 info: SP_MY_DASHBOARD callProcedureSync success
+undefined | 2023-04-02 18:03:53 info: during time : 46
+undefined | 2023-04-02 18:03:53 info: SP_MY_SUMMRY_CNT callProcedureSync success
+undefined | 2023-04-02 18:18:22 info: URL : /bonus5
+undefined | 2023-04-02 18:18:23 info: URL : /api/list/myBS2
+undefined | 2023-04-02 18:18:23 info: start decryptAll..
+undefined | 2023-04-02 18:18:23 info: callProcedureSync start - SP_MY_BS2
+undefined | 2023-04-02 18:18:23 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:18:23 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 18:18:23 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 18:18:23 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 18:18:23 info: URL : /api/common/getMyMainBS2
+undefined | 2023-04-02 18:18:23 info: start decryptAll..
+undefined | 2023-04-02 18:18:23 info: callProcedureSync start - SP_MY_MAIN_BS2
+undefined | 2023-04-02 18:18:23 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:18:23 info: during time : 74
+undefined | 2023-04-02 18:18:23 info: SP_MY_BS2 callProcedureSync success
+undefined | 2023-04-02 18:18:23 info: callProcedureSync start - SP_MY_BS2_CNT
+undefined | 2023-04-02 18:18:23 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:18:23 info: during time : 15
+undefined | 2023-04-02 18:18:23 info: SP_MY_MAIN_BS2 callProcedureSync success
+undefined | 2023-04-02 18:18:23 info: during time : 26
+undefined | 2023-04-02 18:18:23 info: SP_MY_BS2_CNT callProcedureSync success
+undefined | 2023-04-02 18:18:25 info: URL : /main
+undefined | 2023-04-02 18:18:25 info: URL : /api/list/my_summry
+undefined | 2023-04-02 18:18:25 info: start decryptAll..
+undefined | 2023-04-02 18:18:25 info: callProcedureSync start - SP_MY_SUMMRY
+undefined | 2023-04-02 18:18:25 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:18:25 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 18:18:25 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 18:18:25 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 18:18:25 info: URL : /api/common/getMyDash
+undefined | 2023-04-02 18:18:25 info: start decryptAll..
+undefined | 2023-04-02 18:18:25 info: callProcedureSync start - SP_MY_DASHBOARD
+undefined | 2023-04-02 18:18:25 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:18:25 info: during time : 20
+undefined | 2023-04-02 18:18:25 info: SP_MY_SUMMRY callProcedureSync success
+undefined | 2023-04-02 18:18:25 info: callProcedureSync start - SP_MY_SUMMRY_CNT
+undefined | 2023-04-02 18:18:25 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:18:25 info: during time : 7
+undefined | 2023-04-02 18:18:25 info: SP_MY_DASHBOARD callProcedureSync success
+undefined | 2023-04-02 18:18:25 info: during time : 25
+undefined | 2023-04-02 18:18:25 info: SP_MY_SUMMRY_CNT callProcedureSync success
+undefined | 2023-04-02 18:18:38 info: URL : /main
+undefined | 2023-04-02 18:18:39 info: URL : /api/list/my_summry
+undefined | 2023-04-02 18:18:39 info: start decryptAll..
+undefined | 2023-04-02 18:18:39 info: callProcedureSync start - SP_MY_SUMMRY
+undefined | 2023-04-02 18:18:39 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:18:39 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 18:18:39 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 18:18:39 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 18:18:39 info: URL : /api/common/getMyDash
+undefined | 2023-04-02 18:18:39 info: start decryptAll..
+undefined | 2023-04-02 18:18:39 info: callProcedureSync start - SP_MY_DASHBOARD
+undefined | 2023-04-02 18:18:39 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:18:39 info: during time : 23
+undefined | 2023-04-02 18:18:39 info: SP_MY_SUMMRY callProcedureSync success
+undefined | 2023-04-02 18:18:39 info: callProcedureSync start - SP_MY_SUMMRY_CNT
+undefined | 2023-04-02 18:18:39 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:18:39 info: during time : 6
+undefined | 2023-04-02 18:18:39 info: SP_MY_DASHBOARD callProcedureSync success
+undefined | 2023-04-02 18:18:39 info: during time : 35
+undefined | 2023-04-02 18:18:39 info: SP_MY_SUMMRY_CNT callProcedureSync success
+undefined | 2023-04-02 18:38:42 info: URL : /main
+undefined | 2023-04-02 18:38:42 info: URL : /api/list/my_summry
+undefined | 2023-04-02 18:38:42 info: start decryptAll..
+undefined | 2023-04-02 18:38:42 info: callProcedureSync start - SP_MY_SUMMRY
+undefined | 2023-04-02 18:38:42 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:38:42 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 18:38:42 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 18:38:42 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 18:38:42 info: URL : /api/common/getMyDash
+undefined | 2023-04-02 18:38:42 info: start decryptAll..
+undefined | 2023-04-02 18:38:42 info: callProcedureSync start - SP_MY_DASHBOARD
+undefined | 2023-04-02 18:38:42 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:38:42 info: during time : 78
+undefined | 2023-04-02 18:38:42 info: SP_MY_SUMMRY callProcedureSync success
+undefined | 2023-04-02 18:38:42 info: callProcedureSync start - SP_MY_SUMMRY_CNT
+undefined | 2023-04-02 18:38:42 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:38:42 info: during time : 15
+undefined | 2023-04-02 18:38:42 info: SP_MY_DASHBOARD callProcedureSync success
+undefined | 2023-04-02 18:38:42 info: during time : 30
+undefined | 2023-04-02 18:38:42 info: SP_MY_SUMMRY_CNT callProcedureSync success
+undefined | 2023-04-02 18:39:41 info: URL : /main
+undefined | 2023-04-02 18:39:41 info: URL : /api/list/my_summry
+undefined | 2023-04-02 18:39:41 info: start decryptAll..
+undefined | 2023-04-02 18:39:41 info: callProcedureSync start - SP_MY_SUMMRY
+undefined | 2023-04-02 18:39:41 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:39:41 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 18:39:41 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 18:39:41 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 18:39:41 info: URL : /api/common/getMyDash
+undefined | 2023-04-02 18:39:41 info: start decryptAll..
+undefined | 2023-04-02 18:39:41 info: callProcedureSync start - SP_MY_DASHBOARD
+undefined | 2023-04-02 18:39:41 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:39:41 info: during time : 78
+undefined | 2023-04-02 18:39:41 info: SP_MY_SUMMRY callProcedureSync success
+undefined | 2023-04-02 18:39:41 info: callProcedureSync start - SP_MY_SUMMRY_CNT
+undefined | 2023-04-02 18:39:41 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:39:41 info: during time : 3
+undefined | 2023-04-02 18:39:41 info: SP_MY_DASHBOARD callProcedureSync success
+undefined | 2023-04-02 18:39:41 info: during time : 29
+undefined | 2023-04-02 18:39:41 info: SP_MY_SUMMRY_CNT callProcedureSync success
+undefined | 2023-04-02 18:40:23 info: URL : /main
+undefined | 2023-04-02 18:40:24 info: URL : /api/list/my_summry
+undefined | 2023-04-02 18:40:24 info: start decryptAll..
+undefined | 2023-04-02 18:40:24 info: callProcedureSync start - SP_MY_SUMMRY
+undefined | 2023-04-02 18:40:24 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:40:24 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 18:40:24 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 18:40:24 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 18:40:24 info: URL : /api/common/getMyDash
+undefined | 2023-04-02 18:40:24 info: start decryptAll..
+undefined | 2023-04-02 18:40:24 info: callProcedureSync start - SP_MY_DASHBOARD
+undefined | 2023-04-02 18:40:24 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:40:24 info: during time : 88
+undefined | 2023-04-02 18:40:24 info: SP_MY_SUMMRY callProcedureSync success
+undefined | 2023-04-02 18:40:24 info: callProcedureSync start - SP_MY_SUMMRY_CNT
+undefined | 2023-04-02 18:40:24 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:40:24 info: during time : 5
+undefined | 2023-04-02 18:40:24 info: SP_MY_DASHBOARD callProcedureSync success
+undefined | 2023-04-02 18:40:24 info: during time : 29
+undefined | 2023-04-02 18:40:24 info: SP_MY_SUMMRY_CNT callProcedureSync success
+undefined | 2023-04-02 18:42:24 info: URL : /main
+undefined | 2023-04-02 18:42:25 info: URL : /api/list/my_summry
+undefined | 2023-04-02 18:42:25 info: start decryptAll..
+undefined | 2023-04-02 18:42:25 info: callProcedureSync start - SP_MY_SUMMRY
+undefined | 2023-04-02 18:42:25 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:42:25 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 18:42:25 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 18:42:25 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 18:42:25 info: URL : /api/common/getMyDash
+undefined | 2023-04-02 18:42:25 info: start decryptAll..
+undefined | 2023-04-02 18:42:25 info: callProcedureSync start - SP_MY_DASHBOARD
+undefined | 2023-04-02 18:42:25 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:42:25 info: during time : 75
+undefined | 2023-04-02 18:42:25 info: SP_MY_SUMMRY callProcedureSync success
+undefined | 2023-04-02 18:42:25 info: callProcedureSync start - SP_MY_SUMMRY_CNT
+undefined | 2023-04-02 18:42:25 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:42:25 info: during time : 21
+undefined | 2023-04-02 18:42:25 info: SP_MY_DASHBOARD callProcedureSync success
+undefined | 2023-04-02 18:42:25 info: during time : 49
+undefined | 2023-04-02 18:42:25 info: SP_MY_SUMMRY_CNT callProcedureSync success
+undefined | 2023-04-02 18:43:03 info: URL : /bonus5
+undefined | 2023-04-02 18:43:03 info: URL : /api/list/myBS2
+undefined | 2023-04-02 18:43:03 info: start decryptAll..
+undefined | 2023-04-02 18:43:04 info: callProcedureSync start - SP_MY_BS2
+undefined | 2023-04-02 18:43:04 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:43:04 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 18:43:04 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 18:43:04 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 18:43:04 info: URL : /api/common/getMyMainBS2
+undefined | 2023-04-02 18:43:04 info: start decryptAll..
+undefined | 2023-04-02 18:43:04 info: callProcedureSync start - SP_MY_MAIN_BS2
+undefined | 2023-04-02 18:43:04 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:43:04 info: during time : 79
+undefined | 2023-04-02 18:43:04 info: SP_MY_BS2 callProcedureSync success
+undefined | 2023-04-02 18:43:04 info: callProcedureSync start - SP_MY_BS2_CNT
+undefined | 2023-04-02 18:43:04 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:43:04 info: during time : 2
+undefined | 2023-04-02 18:43:04 info: SP_MY_MAIN_BS2 callProcedureSync success
+undefined | 2023-04-02 18:43:04 info: during time : 28
+undefined | 2023-04-02 18:43:04 info: SP_MY_BS2_CNT callProcedureSync success
+undefined | 2023-04-02 18:43:06 info: URL : /bonus1
+undefined | 2023-04-02 18:43:06 info: URL : /api/list/myBS1
+undefined | 2023-04-02 18:43:06 info: start decryptAll..
+undefined | 2023-04-02 18:43:06 info: callProcedureSync start - SP_MY_BS1
+undefined | 2023-04-02 18:43:06 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:43:06 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 18:43:06 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 18:43:06 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 18:43:06 info: URL : /api/common/getMyMainBS1
+undefined | 2023-04-02 18:43:06 info: start decryptAll..
+undefined | 2023-04-02 18:43:06 info: callProcedureSync start - SP_MY_MAIN_BS1
+undefined | 2023-04-02 18:43:06 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:43:06 info: during time : 33
+undefined | 2023-04-02 18:43:06 info: SP_MY_BS1 callProcedureSync success
+undefined | 2023-04-02 18:43:06 info: callProcedureSync start - SP_MY_BS1_CNT
+undefined | 2023-04-02 18:43:06 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:43:06 info: during time : 2
+undefined | 2023-04-02 18:43:06 info: SP_MY_MAIN_BS1 callProcedureSync success
+undefined | 2023-04-02 18:43:07 info: during time : 26
+undefined | 2023-04-02 18:43:07 info: SP_MY_BS1_CNT callProcedureSync success
+undefined | 2023-04-02 18:43:07 info: URL : /bonus2
+undefined | 2023-04-02 18:43:07 info: URL : /api/list/myBS2
+undefined | 2023-04-02 18:43:07 info: start decryptAll..
+undefined | 2023-04-02 18:43:07 info: callProcedureSync start - SP_MY_BS2
+undefined | 2023-04-02 18:43:07 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:43:07 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 18:43:07 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 18:43:07 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 18:43:07 info: URL : /api/common/getMyMainBS2
+undefined | 2023-04-02 18:43:07 info: start decryptAll..
+undefined | 2023-04-02 18:43:07 info: callProcedureSync start - SP_MY_MAIN_BS2
+undefined | 2023-04-02 18:43:07 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:43:07 info: during time : 22
+undefined | 2023-04-02 18:43:07 info: SP_MY_BS2 callProcedureSync success
+undefined | 2023-04-02 18:43:07 info: callProcedureSync start - SP_MY_BS2_CNT
+undefined | 2023-04-02 18:43:07 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:43:07 info: during time : 2
+undefined | 2023-04-02 18:43:07 info: SP_MY_MAIN_BS2 callProcedureSync success
+undefined | 2023-04-02 18:43:07 info: during time : 27
+undefined | 2023-04-02 18:43:07 info: SP_MY_BS2_CNT callProcedureSync success
+undefined | 2023-04-02 18:43:08 info: URL : /bonus3
+undefined | 2023-04-02 18:43:08 info: URL : /api/list/myBS2
+undefined | 2023-04-02 18:43:08 info: start decryptAll..
+undefined | 2023-04-02 18:43:08 info: callProcedureSync start - SP_MY_BS2
+undefined | 2023-04-02 18:43:08 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:43:08 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 18:43:08 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 18:43:08 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 18:43:08 info: URL : /api/common/getMyMainBS2
+undefined | 2023-04-02 18:43:08 info: start decryptAll..
+undefined | 2023-04-02 18:43:08 info: callProcedureSync start - SP_MY_MAIN_BS2
+undefined | 2023-04-02 18:43:08 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:43:08 info: during time : 22
+undefined | 2023-04-02 18:43:08 info: SP_MY_BS2 callProcedureSync success
+undefined | 2023-04-02 18:43:08 info: callProcedureSync start - SP_MY_BS2_CNT
+undefined | 2023-04-02 18:43:08 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:43:08 info: during time : 1
+undefined | 2023-04-02 18:43:08 info: SP_MY_MAIN_BS2 callProcedureSync success
+undefined | 2023-04-02 18:43:08 info: during time : 29
+undefined | 2023-04-02 18:43:08 info: SP_MY_BS2_CNT callProcedureSync success
+undefined | 2023-04-02 18:43:59 info: URL : /bonus3
+undefined | 2023-04-02 18:43:59 info: URL : /api/list/myBS2
+undefined | 2023-04-02 18:43:59 info: start decryptAll..
+undefined | 2023-04-02 18:43:59 info: callProcedureSync start - SP_MY_BS2
+undefined | 2023-04-02 18:43:59 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:43:59 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 18:43:59 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 18:43:59 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 18:43:59 info: URL : /api/common/getMyMainBS2
+undefined | 2023-04-02 18:43:59 info: start decryptAll..
+undefined | 2023-04-02 18:43:59 info: callProcedureSync start - SP_MY_MAIN_BS2
+undefined | 2023-04-02 18:43:59 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:43:59 info: during time : 72
+undefined | 2023-04-02 18:43:59 info: SP_MY_BS2 callProcedureSync success
+undefined | 2023-04-02 18:43:59 info: callProcedureSync start - SP_MY_BS2_CNT
+undefined | 2023-04-02 18:43:59 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:43:59 info: during time : 8
+undefined | 2023-04-02 18:43:59 info: SP_MY_MAIN_BS2 callProcedureSync success
+undefined | 2023-04-02 18:43:59 info: during time : 24
+undefined | 2023-04-02 18:43:59 info: SP_MY_BS2_CNT callProcedureSync success
+undefined | 2023-04-02 18:44:15 info: URL : /bonus2
+undefined | 2023-04-02 18:44:16 info: URL : /api/list/myBS2
+undefined | 2023-04-02 18:44:16 info: start decryptAll..
+undefined | 2023-04-02 18:44:16 info: callProcedureSync start - SP_MY_BS2
+undefined | 2023-04-02 18:44:16 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:44:16 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 18:44:16 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 18:44:16 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 18:44:16 info: URL : /api/common/getMyMainBS2
+undefined | 2023-04-02 18:44:16 info: start decryptAll..
+undefined | 2023-04-02 18:44:16 info: callProcedureSync start - SP_MY_MAIN_BS2
+undefined | 2023-04-02 18:44:16 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:44:16 info: during time : 20
+undefined | 2023-04-02 18:44:16 info: SP_MY_BS2 callProcedureSync success
+undefined | 2023-04-02 18:44:16 info: callProcedureSync start - SP_MY_BS2_CNT
+undefined | 2023-04-02 18:44:16 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:44:16 info: during time : 11
+undefined | 2023-04-02 18:44:16 info: SP_MY_MAIN_BS2 callProcedureSync success
+undefined | 2023-04-02 18:44:16 info: during time : 25
+undefined | 2023-04-02 18:44:16 info: SP_MY_BS2_CNT callProcedureSync success
+undefined | 2023-04-02 18:44:18 info: URL : /bonus2
+undefined | 2023-04-02 18:44:18 info: URL : /api/list/myBS2
+undefined | 2023-04-02 18:44:18 info: start decryptAll..
+undefined | 2023-04-02 18:44:18 info: callProcedureSync start - SP_MY_BS2
+undefined | 2023-04-02 18:44:18 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:44:18 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 18:44:18 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 18:44:18 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 18:44:18 info: URL : /api/common/getMyMainBS2
+undefined | 2023-04-02 18:44:18 info: start decryptAll..
+undefined | 2023-04-02 18:44:18 info: callProcedureSync start - SP_MY_MAIN_BS2
+undefined | 2023-04-02 18:44:18 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:44:18 info: during time : 23
+undefined | 2023-04-02 18:44:18 info: SP_MY_BS2 callProcedureSync success
+undefined | 2023-04-02 18:44:18 info: callProcedureSync start - SP_MY_BS2_CNT
+undefined | 2023-04-02 18:44:18 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:44:18 info: during time : 2
+undefined | 2023-04-02 18:44:18 info: SP_MY_MAIN_BS2 callProcedureSync success
+undefined | 2023-04-02 18:44:18 info: during time : 26
+undefined | 2023-04-02 18:44:18 info: SP_MY_BS2_CNT callProcedureSync success
+undefined | 2023-04-02 18:44:20 info: URL : /bonus1
+undefined | 2023-04-02 18:44:20 info: URL : /api/list/myBS1
+undefined | 2023-04-02 18:44:20 info: start decryptAll..
+undefined | 2023-04-02 18:44:20 info: callProcedureSync start - SP_MY_BS1
+undefined | 2023-04-02 18:44:20 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:44:20 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 18:44:20 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 18:44:20 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 18:44:20 info: URL : /api/common/getMyMainBS1
+undefined | 2023-04-02 18:44:20 info: start decryptAll..
+undefined | 2023-04-02 18:44:20 info: callProcedureSync start - SP_MY_MAIN_BS1
+undefined | 2023-04-02 18:44:20 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:44:20 info: during time : 20
+undefined | 2023-04-02 18:44:20 info: SP_MY_BS1 callProcedureSync success
+undefined | 2023-04-02 18:44:20 info: callProcedureSync start - SP_MY_BS1_CNT
+undefined | 2023-04-02 18:44:20 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:44:20 info: during time : 5
+undefined | 2023-04-02 18:44:20 info: SP_MY_MAIN_BS1 callProcedureSync success
+undefined | 2023-04-02 18:44:20 info: during time : 26
+undefined | 2023-04-02 18:44:20 info: SP_MY_BS1_CNT callProcedureSync success
+undefined | 2023-04-02 18:44:22 info: URL : /bonus2
+undefined | 2023-04-02 18:44:22 info: URL : /api/list/myBS2
+undefined | 2023-04-02 18:44:22 info: start decryptAll..
+undefined | 2023-04-02 18:44:22 info: callProcedureSync start - SP_MY_BS2
+undefined | 2023-04-02 18:44:22 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:44:22 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 18:44:22 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 18:44:22 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 18:44:22 info: URL : /api/common/getMyMainBS2
+undefined | 2023-04-02 18:44:22 info: start decryptAll..
+undefined | 2023-04-02 18:44:22 info: callProcedureSync start - SP_MY_MAIN_BS2
+undefined | 2023-04-02 18:44:22 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:44:22 info: during time : 21
+undefined | 2023-04-02 18:44:22 info: SP_MY_BS2 callProcedureSync success
+undefined | 2023-04-02 18:44:22 info: callProcedureSync start - SP_MY_BS2_CNT
+undefined | 2023-04-02 18:44:22 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 18:44:22 info: during time : 4
+undefined | 2023-04-02 18:44:22 info: SP_MY_MAIN_BS2 callProcedureSync success
+undefined | 2023-04-02 18:44:22 info: during time : 26
+undefined | 2023-04-02 18:44:22 info: SP_MY_BS2_CNT callProcedureSync success
+undefined | 2023-04-02 19:00:28 info: URL : /main
+undefined | 2023-04-02 19:00:29 info: URL : /api/list/my_summry
+undefined | 2023-04-02 19:00:29 info: start decryptAll..
+undefined | 2023-04-02 19:00:29 info: callProcedureSync start - SP_MY_SUMMRY
+undefined | 2023-04-02 19:00:29 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 19:00:29 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 19:00:29 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 19:00:29 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 19:00:29 info: URL : /api/common/getMyDash
+undefined | 2023-04-02 19:00:29 info: start decryptAll..
+undefined | 2023-04-02 19:00:29 info: callProcedureSync start - SP_MY_DASHBOARD
+undefined | 2023-04-02 19:00:29 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 19:00:29 info: during time : 75
+undefined | 2023-04-02 19:00:29 info: SP_MY_SUMMRY callProcedureSync success
+undefined | 2023-04-02 19:00:29 info: callProcedureSync start - SP_MY_SUMMRY_CNT
+undefined | 2023-04-02 19:00:29 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 19:00:29 info: during time : 8
+undefined | 2023-04-02 19:00:29 info: SP_MY_DASHBOARD callProcedureSync success
+undefined | 2023-04-02 19:00:29 info: during time : 27
+undefined | 2023-04-02 19:00:29 info: SP_MY_SUMMRY_CNT callProcedureSync success
+undefined | 2023-04-02 19:00:44 info: URL : /notice
+undefined | 2023-04-02 19:02:09 info: URL : /withpass
+undefined | 2023-04-02 19:02:10 info: URL : /info
+undefined | 2023-04-02 19:02:11 info: URL : /api/list/getCountry
+undefined | 2023-04-02 19:02:11 info: start decryptAll..
+undefined | 2023-04-02 19:02:11 info: callProcedureSync start - SP_COUNTRY
+undefined | 2023-04-02 19:02:11 info: during time : 93
+undefined | 2023-04-02 19:02:11 info: SP_COUNTRY callProcedureSync success
+undefined | 2023-04-02 19:02:11 info: URL : /api/list/getBankList
+undefined | 2023-04-02 19:02:11 info: start decryptAll..
+undefined | 2023-04-02 19:02:11 info: callProcedureSync start - SP_BANK_LIST
+undefined | 2023-04-02 19:02:11 info: during time : 55
+undefined | 2023-04-02 19:02:11 info: SP_BANK_LIST callProcedureSync success
+undefined | 2023-04-02 19:02:11 info: URL : /api/common/userinfo
+undefined | 2023-04-02 19:02:11 info: start decryptAll..
+undefined | 2023-04-02 19:02:11 info: callProcedureSync start - SP_MY_INFO
+undefined | 2023-04-02 19:02:11 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 19:02:11 error: executeProcedure failed : RequestError: Could not find stored procedure 'SP_MY_INFO'.
+undefined | 2023-04-02 19:02:11 error: callProcedureSync failed
+undefined | 2023-04-02 19:02:54 info: URL : /info
+undefined | 2023-04-02 19:02:55 info: URL : /api/list/getCountry
+undefined | 2023-04-02 19:02:55 info: start decryptAll..
+undefined | 2023-04-02 19:02:55 info: callProcedureSync start - SP_COUNTRY
+undefined | 2023-04-02 19:02:55 info: during time : 83
+undefined | 2023-04-02 19:02:55 info: SP_COUNTRY callProcedureSync success
+undefined | 2023-04-02 19:02:55 info: URL : /api/list/getBankList
+undefined | 2023-04-02 19:02:55 info: start decryptAll..
+undefined | 2023-04-02 19:02:55 info: callProcedureSync start - SP_BANK_LIST
+undefined | 2023-04-02 19:02:55 info: during time : 30
+undefined | 2023-04-02 19:02:55 info: SP_BANK_LIST callProcedureSync success
+undefined | 2023-04-02 19:02:55 info: URL : /api/common/userinfo
+undefined | 2023-04-02 19:02:55 info: start decryptAll..
+undefined | 2023-04-02 19:02:55 info: callProcedureSync start - SP_MY_INFO
+undefined | 2023-04-02 19:02:55 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 19:02:55 error: executeProcedure failed : RequestError: Could not find stored procedure 'SP_MY_INFO'.
+undefined | 2023-04-02 19:02:55 error: callProcedureSync failed
+undefined | 2023-04-02 19:02:59 info: URL : /info
+undefined | 2023-04-02 19:02:59 info: URL : /api/list/getCountry
+undefined | 2023-04-02 19:02:59 info: start decryptAll..
+undefined | 2023-04-02 19:02:59 info: callProcedureSync start - SP_COUNTRY
+undefined | 2023-04-02 19:02:59 info: during time : 30
+undefined | 2023-04-02 19:02:59 info: SP_COUNTRY callProcedureSync success
+undefined | 2023-04-02 19:02:59 info: URL : /api/list/getBankList
+undefined | 2023-04-02 19:02:59 info: start decryptAll..
+undefined | 2023-04-02 19:02:59 info: callProcedureSync start - SP_BANK_LIST
+undefined | 2023-04-02 19:02:59 info: during time : 24
+undefined | 2023-04-02 19:02:59 info: SP_BANK_LIST callProcedureSync success
+undefined | 2023-04-02 19:03:00 info: URL : /api/common/userinfo
+undefined | 2023-04-02 19:03:00 info: start decryptAll..
+undefined | 2023-04-02 19:03:00 info: callProcedureSync start - SP_MY_INFO
+undefined | 2023-04-02 19:03:00 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 19:03:00 error: executeProcedure failed : RequestError: Could not find stored procedure 'SP_MY_INFO'.
+undefined | 2023-04-02 19:03:00 error: callProcedureSync failed
+undefined | 2023-04-02 19:04:13 info: URL : /info
+undefined | 2023-04-02 19:04:13 info: URL : /api/list/getCountry
+undefined | 2023-04-02 19:04:13 info: start decryptAll..
+undefined | 2023-04-02 19:04:13 info: callProcedureSync start - SP_COUNTRY
+undefined | 2023-04-02 19:04:13 info: during time : 93
+undefined | 2023-04-02 19:04:13 info: SP_COUNTRY callProcedureSync success
+undefined | 2023-04-02 19:04:13 info: URL : /api/list/getBankList
+undefined | 2023-04-02 19:04:13 info: start decryptAll..
+undefined | 2023-04-02 19:04:13 info: callProcedureSync start - SP_BANK_LIST
+undefined | 2023-04-02 19:04:13 info: during time : 36
+undefined | 2023-04-02 19:04:13 info: SP_BANK_LIST callProcedureSync success
+undefined | 2023-04-02 19:04:14 info: URL : /api/common/userinfo
+undefined | 2023-04-02 19:04:14 info: start decryptAll..
+undefined | 2023-04-02 19:04:14 info: callProcedureSync start - SP_MY_INFO
+undefined | 2023-04-02 19:04:14 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 19:04:14 error: executeProcedure failed : RequestError: Could not find stored procedure 'SP_MY_INFO'.
+undefined | 2023-04-02 19:04:14 error: callProcedureSync failed
+undefined | 2023-04-02 19:04:33 info: URL : /info
+undefined | 2023-04-02 19:04:33 info: URL : /api/list/getCountry
+undefined | 2023-04-02 19:04:33 info: start decryptAll..
+undefined | 2023-04-02 19:04:33 info: callProcedureSync start - SP_COUNTRY
+undefined | 2023-04-02 19:04:33 info: during time : 36
+undefined | 2023-04-02 19:04:33 info: SP_COUNTRY callProcedureSync success
+undefined | 2023-04-02 19:04:33 info: URL : /api/list/getBankList
+undefined | 2023-04-02 19:04:33 info: start decryptAll..
+undefined | 2023-04-02 19:04:33 info: callProcedureSync start - SP_BANK_LIST
+undefined | 2023-04-02 19:04:33 info: during time : 31
+undefined | 2023-04-02 19:04:33 info: SP_BANK_LIST callProcedureSync success
+undefined | 2023-04-02 19:04:33 info: URL : /api/common/userinfo
+undefined | 2023-04-02 19:04:33 info: start decryptAll..
+undefined | 2023-04-02 19:04:33 info: callProcedureSync start - SP_MY_INFO
+undefined | 2023-04-02 19:04:33 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 19:04:33 error: executeProcedure failed : RequestError: Could not find stored procedure 'SP_MY_INFO'.
+undefined | 2023-04-02 19:04:33 error: callProcedureSync failed
+undefined | 2023-04-02 19:05:41 info: URL : /info
+undefined | 2023-04-02 19:05:41 info: URL : /api/list/getCountry
+undefined | 2023-04-02 19:05:41 info: start decryptAll..
+undefined | 2023-04-02 19:05:41 info: callProcedureSync start - SP_COUNTRY
+undefined | 2023-04-02 19:05:41 info: during time : 104
+undefined | 2023-04-02 19:05:41 info: SP_COUNTRY callProcedureSync success
+undefined | 2023-04-02 19:05:41 info: URL : /api/list/getBankList
+undefined | 2023-04-02 19:05:41 info: start decryptAll..
+undefined | 2023-04-02 19:05:41 info: callProcedureSync start - SP_BANK_LIST
+undefined | 2023-04-02 19:05:41 info: during time : 32
+undefined | 2023-04-02 19:05:41 info: SP_BANK_LIST callProcedureSync success
+undefined | 2023-04-02 19:05:41 info: URL : /api/common/userinfo
+undefined | 2023-04-02 19:05:41 info: start decryptAll..
+undefined | 2023-04-02 19:05:41 info: callProcedureSync start - SP_MY_INFO
+undefined | 2023-04-02 19:05:41 info: NAME : D_UID, VALUE : 10001
+undefined | 2023-04-02 19:05:42 error: executeProcedure failed : RequestError: Could not find stored procedure 'SP_MY_INFO'.
+undefined | 2023-04-02 19:05:42 error: callProcedureSync failed
+undefined | 2023-04-02 19:15:43 info: URL : /info
+undefined | 2023-04-02 19:15:43 info: Create a key attempt : EBXlOh6MPWmwCGL7sUhqojza-kH7tlGa
+undefined | 2023-04-02 19:15:45 info: URL : /api/user/signin
+undefined | 2023-04-02 19:15:45 info: start decryptAll..
+undefined | 2023-04-02 19:15:45 info: callProcedureSync start - SP_MEMBER_LOGIN
+undefined | 2023-04-02 19:15:45 info: NAME : inUser_ID, VALUE : 10002
+undefined | 2023-04-02 19:15:45 info: NAME : inUser_Pwd, VALUE : 0000
+undefined | 2023-04-02 19:15:45 info: NAME : inUser_IP, VALUE : ::1
+undefined | 2023-04-02 19:15:45 info: NAME : sessionID, VALUE : EBXlOh6MPWmwCGL7sUhqojza-kH7tlGa
+undefined | 2023-04-02 19:15:46 info: during time : 157
+undefined | 2023-04-02 19:15:46 info: SP_MEMBER_LOGIN callProcedureSync success
+undefined | 2023-04-02 19:15:46 info: URL : /main
+undefined | 2023-04-02 19:15:46 info: URL : /api/list/my_summry
+undefined | 2023-04-02 19:15:46 info: start decryptAll..
+undefined | 2023-04-02 19:15:46 info: callProcedureSync start - SP_MY_SUMMRY
+undefined | 2023-04-02 19:15:46 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 19:15:46 info: NAME : ALL_PAGING, VALUE : 100
+undefined | 2023-04-02 19:15:46 info: NAME : CUR_PAGING, VALUE : 1
+undefined | 2023-04-02 19:15:46 info: NAME : PAGING_NO, VALUE : 10
+undefined | 2023-04-02 19:15:46 info: URL : /api/common/getMyDash
+undefined | 2023-04-02 19:15:46 info: start decryptAll..
+undefined | 2023-04-02 19:15:46 info: callProcedureSync start - SP_MY_DASHBOARD
+undefined | 2023-04-02 19:15:46 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 19:15:46 info: during time : 26
+undefined | 2023-04-02 19:15:46 info: SP_MY_SUMMRY callProcedureSync success
+undefined | 2023-04-02 19:15:46 info: callProcedureSync start - SP_MY_SUMMRY_CNT
+undefined | 2023-04-02 19:15:46 info: NAME : D_UID, VALUE : 10002
+undefined | 2023-04-02 19:15:46 info: during time : 50
+undefined | 2023-04-02 19:15:46 info: SP_MY_DASHBOARD callProcedureSync success
+undefined | 2023-04-02 19:15:46 info: during time : 77
+undefined | 2023-04-02 19:15:46 info: SP_MY_SUMMRY_CNT callProcedureSync success

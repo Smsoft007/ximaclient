@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ko">
+<%include ./include/head%>
+
+  <body>
+    <div class="wrap">
+      <%include ./include/leftbox%>
+        <div class="rightbox">
+          <%include ./include/header%>
+
+            <div class="content">
+              <!-- <div class="row">
+        <div class="card gradientbg3">
+          <div class="w50p left">
+          <p>추천 (<%=LANG['LANG61']%>)</p>
+          <h3 class="tx-r mt-20" id="MS_BS1_TEXT"><span>KRW</span></h3>
+        </div>
+        </div>
+      </div> -->
+
+              <div class="row mrow krwlistgcard">
+                <div class="w50p left">
+                  <div class="card gradientbg3">
+                    <p>괸리배당금</p>
+                    <h3 class="tx-r mt-20" id="MS_BS1_TEXT"><span>KRW</span></h3>
+                  </div>
+                </div>
+                <div class="w50p left">
+                  <div class="card gradientbg2">
+                    <p>비율%</p>
+                    <h3 class="tx-r mt-20" id="MS_BS2_TEXT"><span>%</span></h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="title">
+                  <h5>관리배당금</h5>
+                </div>
+                <div class="cont">
+                  <div class="tablebox">
+                    <div class="theadbox">
+                      <div class="d-flex">
+                        <div class="th w05p">No.</div>
+                        <div class="th w25p">
+                          <%=LANG['LANG57']%>
+                        </div>
+                        <div class="th w30p">
+                          <%=LANG['LANG58']%>
+                        </div>
+                        <div class="th w20p">
+                          <%=LANG['LANG59']%>
+                        </div>
+                        <!-- <div class="th w20p">수당자ID</div> -->
+                        <div class="th w20p">매출자ID</div>
+                        <div class="th w20p">매출PV</div>
+                        <div class="th w20p">누적수당</div>
+                      </div>
+                    </div>
+                    <div class="tbodybox" id="list"></div>
+                  </div>
+                  <div class="paging">
+                    <ul name="paging"></ul>
+                  </div>
+                </div>
+              </div>
+
+              <%include ./include/footer%>
+            </div>
+            <!-- content end -->
+        </div>
+        <!-- rightbox end -->
+    </div>
+  </body>
+
+</html>
+
+<script src="include/js/cur.js"></script>
+<script>
+  let nowPages = 1;
+  let pageRange = 5;
+  let currentPage = 1;
+  let pageLevel = 0;
+  let totalPage = 0;
+
+  $(document).ready(function () {
+    getList();
+    init();
+  });
+  async function init() {
+    const r = await api.commonApi('/getMyMainBS3');
+    $('#MS_BS1_TEXT').prepend(commonLib.comma(r.data.BS1));
+    $('#MS_BS2_TEXT').prepend(r.data.BS2.toFixed(2));
+    console.log(r);
+  }
+  function getList() {
+    const param = {};
+    param['ALL_PAGING'] = '100';
+    param['CNT'] = 'true';
+    param['CUR_PAGING'] = currentPage + '';
+    param['PAGING_NO'] = '10';
+    param['MY_NOTICE'] = '0';
+    api.listApi('/myBS3', param).then(r => {
+      for (let i = 0; i < r.data.length; i++) {
+        const board = r.data[i];
+        console.log(board);
+        let innerHtml = '';
+        innerHtml += '<div class="d-flex tr">';
+        innerHtml +=
+          '<div class="td w05p"><span>No.</span><span>' +
+          board.ROWNUMBER +
+          '</span></div>';
+        innerHtml +=
+          '<div class="td w25p"><span>' +
+          LANG['LANG57'] +
+          '</span><span>' +
+          board.D_DATE +
+          '</span></div>';
+        innerHtml +=
+          '<div class="td w30p"><span>' +
+          LANG['LANG58'] +
+          '</span><span>' +
+          board.PAY_NAME +
+          '</span></div>';
+        innerHtml +=
+          '<div class="td w20p"><span>' +
+          LANG['LANG59'] +
+          '</span><span>' +
+          commonLib.comma(board.SH_AMT) +
+          ' KRW</span></div>';
+        // innerHtml +=
+        //   '<div class="td w20p"><span>' +
+        //   LANG['LANG60'] +
+        //   '</span><span>' +
+        //   board.SH_SID +
+        //   ' </span></div>';
+        innerHtml +=
+          '<div class="td w20p"><span>' +
+          LANG['LANG60'] +
+          '</span><span>' +
+          board.SH_DID +
+          ' </span></div>';
+        innerHtml +=
+          '<div class="td w20p"><span>' +
+          LANG['LANG60'] +
+          '</span><span>' +
+          commonLib.comma(board.SH_BV) +
+          ' </span></div>';
+        innerHtml +=
+          '<div class="td w20p"><span>' +
+          LANG['LANG60'] +
+          '</span><span>' +
+          commonLib.comma(board.NUJUK_AMT) +
+          ' </span></div>';
+        innerHtml += '</div>';
+        $('#list').append(innerHtml);
+      }
+      let innerHtml = '';
+      innerHtml += '<li onclick="btnPage(\'bef\')"><a><</a></li>';
+      $('ul[name=paging]').empty();
+      for (var i = 1; i <= nowPages; i++) {
+        if (currentPage == i) {
+          innerHtml +=
+            '<li onclick="movePage(' +
+            i +
+            ')"> <a class="active">' +
+            (pageLevel * 5 + i) +
+            '</a> </li>';
+        } else {
+          innerHtml +=
+            '<li onclick="movePage(' +
+            i +
+            ')"> <a>' +
+            (pageLevel * 5 + i) +
+            '</a> </li>';
+        }
+      }
+      innerHtml += ' <li onclick="btnPage(\'next\')"><a>></a></li>';
+      $('ul[name=paging]').append(innerHtml);
+    });
+  }
+
+  function movePage(page) {
+    currentPage = pageLevel * 5 + page;
+    getList();
+  }
+
+  function btnPage(pos) {
+    if (pos == 'bef' && currentPage > 1) {
+      currentPage--;
+    } else if (pos == 'next' && currentPage < totalPage) {
+      currentPage++;
+    }
+    getList();
+  }
+</script>
